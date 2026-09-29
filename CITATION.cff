@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "AffordCraft: Scalable Construction of Task-Ready Simulation Assets from Single Images"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Haoyun
+    affiliation: "College of AI, Tsinghua University; School of Computer Science, Chongqing University"
+  - family-names: Zhou
+    given-names: Xueyang
+    affiliation: "College of AI, Tsinghua University; School of Cyber Science and Engineering, Huazhong University of Science and Technology"
+  - family-names: Xie
+    given-names: Ziyi
+    affiliation: "College of AI, Tsinghua University; College of Design and Engineering, National University of Singapore"
+  - family-names: Chen
+    given-names: Yongchao
+    affiliation: "College of AI, Tsinghua University"
+    email: yongchaochen12@gmail.com
+repository-code: "https://github.com/AffordCraft/AffordCraft"
+url: "https://affordcraft.github.io/"
+license: MIT
+date-released: "2026-09-29"
+keywords:
+  - simulation assets
+  - articulated objects
+  - asset retrieval
+  - robot learning
+  - Isaac Sim
+abstract: >-
+  AffordCraft builds a physically valid simulation asset from a single RGB image
+  and a task instruction by retrieval instead of generation: it locates the object
+  and the part to operate, selects a matching entry from a library of articulated
+  assets, and fits it to the image while keeping its parts and joints intact.
+preferred-citation:
+  type: generic
+  title: "AffordCraft: Scalable Construction of Task-Ready Simulation Assets from Single Images"
+  authors:
+    - family-names: Yang
+      given-names: Haoyun
+    - family-names: Zhou
+      given-names: Xueyang
+    - family-names: Xie
+      given-names: Ziyi
+    - family-names: Chen
+      given-names: Yongchao
+  year: 2026
+  url: "https://affordcraft.github.io/"
