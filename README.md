@@ -22,7 +22,7 @@
 <h3 align="center">
   <a href="https://affordcraft.github.io/">Project Page</a> |
   <a href="https://affordcraft.github.io/static/paper/AffordCraft.pdf">Paper</a> |
-  <a href="https://affordcraft.github.io/#video">Video</a> |
+  <a href="https://affordcraft.github.io/#film">Film</a> |
   <a href="https://affordcraft.github.io/#library">Library Explorer</a>
 </h3>
 
@@ -42,7 +42,7 @@
 ## ✨ Highlights
 
 <p align="center">
-  <img src="assets/teaser.png" alt="AffordCraft overview" width="100%">
+  <img src="assets/teaser.jpg" alt="AffordCraft overview" width="100%">
 </p>
 
 <p align="center"><em>AffordCraft builds a task-ready simulation asset from one RGB image and a task instruction by retrieval instead of generation: it locates the object and the part to operate, selects a matching entry from a library of articulated assets, fits it to the image while keeping its parts and joints intact, and accepts the result only if it passes a physical test in simulation.</em></p>
