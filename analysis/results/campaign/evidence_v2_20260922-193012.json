@@ -1,0 +1,7955 @@
+{
+ "schema": "affordcraft.paper.evidence.v2",
+ "captured_utc": "2026-09-22T11:30:36Z",
+ "main_campaign": {
+  "path": "${AFFORDCRAFT_RUNS}/main_campaign",
+  "method_version": "formal-code-009",
+  "complete": true,
+  "verifier_summary": {
+   "method_version": "formal-code-009",
+   "complete": true,
+   "exp1": {
+    "total_denominator": 2000,
+    "status_counts": {
+     "physical_pass": 1703,
+     "construction_failed": 297
+    },
+    "physical_pass": 1703,
+    "raw_observed_success_fraction": 0.8515,
+    "complete_formal_success_rate": 0.8515,
+    "wilson95": [
+     0.8352421796157717,
+     0.8664101361455075
+    ],
+    "task_match": "not_evaluated",
+    "scripted_success": "not_evaluated"
+   },
+   "exp2": {
+    "reference_image_denominator": 50,
+    "reference_object_denominator": 237,
+    "prediction_records": 289,
+    "relation_evaluation": "not_in_scope",
+    "complete": true,
+    "reference_images": 50,
+    "reference_objects": 237,
+    "localized": 105,
+    "physical_passes": 100,
+    "all_object_images": 13,
+    "scene_relation_success": null,
+    "matching": "same_category_hungarian_IoU_at_least_0.5",
+    "scenes": [
+     {
+      "scene_id": "scene_001_coco_000000555009",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_001_coco_000000555009__det_004",
+        "iou": 0.9224451128739073,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_001_coco_000000555009__det_003",
+        "iou": 0.8938487783133161,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_001_coco_000000555009__det_007",
+        "iou": 0.9589618524642863,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_001_coco_000000555009__det_006",
+        "iou": 0.8770197406361593,
+        "physical_pass": true
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "6",
+        "localized": true,
+        "matched_input": "scene_001_coco_000000555009__det_000",
+        "iou": 0.8784947040670589,
+        "physical_pass": true
+       },
+       {
+        "object_id": "7",
+        "localized": true,
+        "matched_input": "scene_001_coco_000000555009__det_008",
+        "iou": 0.9213458560188796,
+        "physical_pass": true
+       },
+       {
+        "object_id": "8",
+        "localized": true,
+        "matched_input": "scene_001_coco_000000555009__det_001",
+        "iou": 0.709797558314103,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 4
+     },
+     {
+      "scene_id": "scene_002_coco_000000030213",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_003_coco_000000172595",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "6",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_004_coco_000000348481",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_005_coco_000000121506",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_005_coco_000000121506__det_001",
+        "iou": 0.9596668069111556,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_005_coco_000000121506__det_003",
+        "iou": 0.810138610089391,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 4
+     },
+     {
+      "scene_id": "scene_006_coco_000000026564",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_006_coco_000000026564__det_005",
+        "iou": 0.6845895793670351,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_006_coco_000000026564__det_007",
+        "iou": 0.9255056106314813,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_006_coco_000000026564__det_006",
+        "iou": 0.925102625699633,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_006_coco_000000026564__det_000",
+        "iou": 0.922309881164913,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_006_coco_000000026564__det_001",
+        "iou": 0.8062335027530315,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 6
+     },
+     {
+      "scene_id": "scene_007_coco_000000516916",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "6",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_008_coco_000000370478",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_009_coco_000000371677",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_009_coco_000000371677__det_003",
+        "iou": 0.9329563950693927,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_009_coco_000000371677__det_004",
+        "iou": 0.8877845213126886,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_009_coco_000000371677__det_005",
+        "iou": 0.5961258014694188,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_009_coco_000000371677__det_001",
+        "iou": 0.7574403501152093,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "6",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 7
+     },
+     {
+      "scene_id": "scene_010_coco_000000226171",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_010_coco_000000226171__det_004",
+        "iou": 0.9632454504245525,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_010_coco_000000226171__det_005",
+        "iou": 0.5853745128193196,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_010_coco_000000226171__det_006",
+        "iou": 0.843997017081936,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_010_coco_000000226171__det_002",
+        "iou": 0.9470428238643063,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_010_coco_000000226171__det_000",
+        "iou": 0.9670028413850796,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 6
+     },
+     {
+      "scene_id": "scene_011_coco_000000091615",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_011_coco_000000091615__det_006",
+        "iou": 0.9704961313207336,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_011_coco_000000091615__det_005",
+        "iou": 0.970359983808614,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_011_coco_000000091615__det_007",
+        "iou": 0.9582203715758605,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 6
+     },
+     {
+      "scene_id": "scene_012_coco_000000182202",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_012_coco_000000182202__det_001",
+        "iou": 0.987455488605083,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_012_coco_000000182202__det_000",
+        "iou": 0.9764052680810128,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_013_coco_000000435003",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_013_coco_000000435003__det_000",
+        "iou": 0.977868607710927,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_013_coco_000000435003__det_002",
+        "iou": 0.9639528280160533,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_013_coco_000000435003__det_003",
+        "iou": 0.7164722960450582,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_013_coco_000000435003__det_004",
+        "iou": 0.6396330151480645,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_013_coco_000000435003__det_005",
+        "iou": 0.8176919062489375,
+        "physical_pass": true
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 10
+     },
+     {
+      "scene_id": "scene_014_coco_000000442323",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_014_coco_000000442323__det_000",
+        "iou": 0.9389891070940367,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_014_coco_000000442323__det_001",
+        "iou": 0.9323898916792592,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_014_coco_000000442323__det_010",
+        "iou": 0.5203402937279388,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 8
+     },
+     {
+      "scene_id": "scene_015_coco_000000301421",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_015_coco_000000301421__det_003",
+        "iou": 0.9627807112069903,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_015_coco_000000301421__det_002",
+        "iou": 0.8202857373610714,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_015_coco_000000301421__det_007",
+        "iou": 0.882599353462678,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 9
+     },
+     {
+      "scene_id": "scene_016_coco_000000387098",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_016_coco_000000387098__det_006",
+        "iou": 0.9069398726943005,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_016_coco_000000387098__det_007",
+        "iou": 0.807372884325612,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_016_coco_000000387098__det_005",
+        "iou": 0.896343625874179,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_016_coco_000000387098__det_011",
+        "iou": 0.7635929706333778,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": true,
+        "matched_input": "scene_016_coco_000000387098__det_000",
+        "iou": 0.723267276578774,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 9
+     },
+     {
+      "scene_id": "scene_017_coco_000000246308",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_018_coco_000000195918",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_018_coco_000000195918__det_001",
+        "iou": 0.9525266614754491,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_018_coco_000000195918__det_002",
+        "iou": 0.9666402878241913,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_018_coco_000000195918__det_011",
+        "iou": 0.950111067700548,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_018_coco_000000195918__det_003",
+        "iou": 0.9699109456935311,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_018_coco_000000195918__det_004",
+        "iou": 0.8869275660735089,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 7
+     },
+     {
+      "scene_id": "scene_019_coco_000000472678",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_019_coco_000000472678__det_002",
+        "iou": 0.9033119004435932,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_019_coco_000000472678__det_003",
+        "iou": 0.9000935774363735,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_019_coco_000000472678__det_009",
+        "iou": 0.8322410694069384,
+        "physical_pass": true
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_019_coco_000000472678__det_004",
+        "iou": 0.7342002896529001,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 6
+     },
+     {
+      "scene_id": "scene_020_coco_000000189820",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_021_coco_000000024610",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_022_coco_000000346638",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_022_coco_000000346638__det_001",
+        "iou": 0.9870920233091851,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_022_coco_000000346638__det_002",
+        "iou": 0.941077098267766,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_022_coco_000000346638__det_000",
+        "iou": 0.9737517455334554,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_022_coco_000000346638__det_003",
+        "iou": 0.9545262901810109,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 4
+     },
+     {
+      "scene_id": "scene_023_coco_000000385719",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_024_coco_000000225757",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_025_coco_000000555972",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_025_coco_000000555972__det_000",
+        "iou": 0.944902666010616,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 7
+     },
+     {
+      "scene_id": "scene_026_coco_000000159791",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_026_coco_000000159791__det_000",
+        "iou": 0.9779966028003027,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_026_coco_000000159791__det_004",
+        "iou": 0.8682566390572962,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_026_coco_000000159791__det_001",
+        "iou": 0.7111966155501959,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 3
+     },
+     {
+      "scene_id": "scene_027_coco_000000529568",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_028_coco_000000203580",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_028_coco_000000203580__det_004",
+        "iou": 0.9352064609005244,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 6
+     },
+     {
+      "scene_id": "scene_029_coco_000000255165",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_030_coco_000000001993",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_030_coco_000000001993__det_000",
+        "iou": 0.9861395780460545,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_030_coco_000000001993__det_002",
+        "iou": 0.9567852331176696,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_030_coco_000000001993__det_001",
+        "iou": 0.912909777522458,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 5
+     },
+     {
+      "scene_id": "scene_031_coco_000000237928",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_031_coco_000000237928__det_000",
+        "iou": 0.9074108886867457,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_031_coco_000000237928__det_002",
+        "iou": 0.8652568111557473,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_031_coco_000000237928__det_001",
+        "iou": 0.8575389779000256,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 9
+     },
+     {
+      "scene_id": "scene_032_coco_000000547144",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_033_coco_000000360951",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_033_coco_000000360951__det_002",
+        "iou": 0.9658153289386495,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_033_coco_000000360951__det_001",
+        "iou": 0.9651702159462326,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_033_coco_000000360951__det_003",
+        "iou": 0.8977899134619376,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 7
+     },
+     {
+      "scene_id": "scene_034_coco_000000060449",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_034_coco_000000060449__det_000",
+        "iou": 0.9608143382880536,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 2
+     },
+     {
+      "scene_id": "scene_035_coco_000000437898",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_036_coco_000000038576",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_036_coco_000000038576__det_000",
+        "iou": 0.9705950875639328,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_036_coco_000000038576__det_001",
+        "iou": 0.9745605568756298,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_036_coco_000000038576__det_002",
+        "iou": 0.97886959005667,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 1
+     },
+     {
+      "scene_id": "scene_037_coco_000000429598",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_037_coco_000000429598__det_000",
+        "iou": 0.9917221015185548,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_037_coco_000000429598__det_001",
+        "iou": 0.9730919159600318,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_037_coco_000000429598__det_002",
+        "iou": 0.6862909914173138,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 12
+     },
+     {
+      "scene_id": "scene_038_coco_000000148620",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_038_coco_000000148620__det_002",
+        "iou": 0.9544357683939103,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_038_coco_000000148620__det_001",
+        "iou": 0.9565384344214088,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_038_coco_000000148620__det_003",
+        "iou": 0.9037898994084334,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 7
+     },
+     {
+      "scene_id": "scene_039_coco_000000513688",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_039_coco_000000513688__det_000",
+        "iou": 0.9718910338247729,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_039_coco_000000513688__det_002",
+        "iou": 0.9606349209316307,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 4
+     },
+     {
+      "scene_id": "scene_040_coco_000000372466",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_040_coco_000000372466__det_001",
+        "iou": 0.6706595219577268,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_040_coco_000000372466__det_000",
+        "iou": 0.9955976724566875,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_040_coco_000000372466__det_002",
+        "iou": 0.9102482154418603,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 7
+     },
+     {
+      "scene_id": "scene_041_coco_000000051738",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_041_coco_000000051738__det_000",
+        "iou": 0.9718486346044545,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_041_coco_000000051738__det_001",
+        "iou": 0.7586564084630182,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_041_coco_000000051738__det_004",
+        "iou": 0.9216180573660558,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 4
+     },
+     {
+      "scene_id": "scene_042_coco_000000047769",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_042_coco_000000047769__det_000",
+        "iou": 0.8828548813042622,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 7
+     },
+     {
+      "scene_id": "scene_043_coco_000000041872",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_043_coco_000000041872__det_000",
+        "iou": 0.5444263340684434,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_043_coco_000000041872__det_001",
+        "iou": 0.9581576952318622,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_043_coco_000000041872__det_006",
+        "iou": 0.8088531934652733,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 5
+     },
+     {
+      "scene_id": "scene_044_coco_000000365387",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_044_coco_000000365387__det_000",
+        "iou": 0.9641829828951349,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_044_coco_000000365387__det_001",
+        "iou": 0.886573436483765,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_044_coco_000000365387__det_002",
+        "iou": 0.9486251266944126,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_045_coco_000000178469",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_046_coco_000000549674",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_046_coco_000000549674__det_001",
+        "iou": 0.8142173172860768,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_046_coco_000000549674__det_000",
+        "iou": 0.9654605926843526,
+        "physical_pass": true
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_046_coco_000000549674__det_002",
+        "iou": 0.9964589526108708,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": true,
+        "matched_input": "scene_046_coco_000000549674__det_004",
+        "iou": 0.9346537952246932,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": true,
+      "unmatched_detections": 4
+     },
+     {
+      "scene_id": "scene_047_coco_000000488075",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_048_coco_000000419653",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "6",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "7",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "8",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "9",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "10",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_049_coco_000000480122",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "1",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "5",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "6",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "7",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "8",
+        "localized": false,
+        "physical_pass": false
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 0
+     },
+     {
+      "scene_id": "scene_050_coco_000000248314",
+      "objects": [
+       {
+        "object_id": "0",
+        "localized": true,
+        "matched_input": "scene_050_coco_000000248314__det_005",
+        "iou": 0.8470516312633158,
+        "physical_pass": true
+       },
+       {
+        "object_id": "1",
+        "localized": true,
+        "matched_input": "scene_050_coco_000000248314__det_003",
+        "iou": 0.8335930636785787,
+        "physical_pass": false
+       },
+       {
+        "object_id": "2",
+        "localized": true,
+        "matched_input": "scene_050_coco_000000248314__det_007",
+        "iou": 0.9545749684116981,
+        "physical_pass": true
+       },
+       {
+        "object_id": "3",
+        "localized": false,
+        "physical_pass": false
+       },
+       {
+        "object_id": "4",
+        "localized": true,
+        "matched_input": "scene_050_coco_000000248314__det_001",
+        "iou": 0.8983125030216271,
+        "physical_pass": true
+       },
+       {
+        "object_id": "5",
+        "localized": true,
+        "matched_input": "scene_050_coco_000000248314__det_006",
+        "iou": 0.9019268555419689,
+        "physical_pass": true
+       }
+      ],
+      "all_objects_physical_pass": false,
+      "unmatched_detections": 8
+     }
+    ]
+   },
+   "source_hashes_unchanged": true,
+   "oracle_gap": "not_measured",
+   "robot_real_world": "not_evaluated",
+   "robot_control_status": "not_evaluated",
+   "robot_task_success": null
+  },
+  "build_threads": 8,
+  "construction": {
+   "candidates": 20,
+   "batch_size": 5,
+   "repairs_per_candidate": 1,
+   "minimum_confidence": 0.55,
+   "minimum_geometry_score": 0.2,
+   "seed": 20260916,
+   "materialization_timeout_seconds": 600
+  },
+  "resources": {
+   "worker_wall_hours": 380.1633444879676,
+   "model_load_seconds_median": 16.15012997901067,
+   "peak_gpu_memory_mib_per_worker_tree_max": 33093.0,
+   "peak_gpu_memory_mib_per_worker_tree_median": 29712.0,
+   "gpu_note": "each worker holds one A100 allocation for its whole run (Qwen3-VL-8B + two PhysX processes); memory sums the worker tree across all visible devices",
+   "worker_wall_seconds_per_case": 597.8977894961483,
+   "worker_gpu_hours_per_pass": 0.19142162360924855,
+   "offline_index_wall_seconds": 1190.1779193729162,
+   "offline_index_entries": 11351
+  },
+  "exp1": {
+   "denominator": 2000,
+   "completed_cases": 2000,
+   "physical_pass": 1703,
+   "wilson95_over_denominator": {
+    "success": 1703,
+    "total": 2000,
+    "rate": 0.8515,
+    "lower": 0.8352421796157717,
+    "upper": 0.8664101361455075
+   },
+   "wilson95_over_completed": {
+    "success": 1703,
+    "total": 2000,
+    "rate": 0.8515,
+    "lower": 0.8352421796157717,
+    "upper": 0.8664101361455075
+   },
+   "outcome_counts": {
+    "physical_pass": 1703,
+    "no_structured_export": 297
+   },
+   "status_counts": {
+    "physical_pass": 1703,
+    "construction_failed": 297
+   },
+   "attempt_status_counts": {
+    "selected": 1703,
+    "not_exported": 2573,
+    "semantic_rejection": 1093,
+    "construction_physics_failed": 435,
+    "repair_not_exported": 70
+   },
+   "repairs_attempted": 179,
+   "passes_whose_selected_asset_was_repaired": 60,
+   "selected_support_roles": {
+    "free": 1398,
+    "mounted": 305
+   },
+   "failure_reasons_nonexclusive": {
+    "target_not_localized": 230,
+    "candidate_budget_exhausted": 64,
+    "invalid_automatic_box": 2,
+    "model_output_not_object": 1
+   },
+   "by_category": {
+    "Bottle": {
+     "n": 159,
+     "done": 159,
+     "physical_pass": 127,
+     "physics_validation_failed": 0,
+     "no_structured_export": 32,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 127,
+      "total": 159,
+      "rate": 0.7987421383647799,
+      "lower": 0.7297120153083602,
+      "upper": 0.8536775016364936
+     }
+    },
+    "Box": {
+     "n": 61,
+     "done": 61,
+     "physical_pass": 57,
+     "physics_validation_failed": 0,
+     "no_structured_export": 4,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 57,
+      "total": 61,
+      "rate": 0.9344262295081968,
+      "lower": 0.8431719832010424,
+      "upper": 0.9742062955104335
+     }
+    },
+    "Camera": {
+     "n": 132,
+     "done": 132,
+     "physical_pass": 126,
+     "physics_validation_failed": 0,
+     "no_structured_export": 6,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 126,
+      "total": 132,
+      "rate": 0.9545454545454546,
+      "lower": 0.9043790616005736,
+      "upper": 0.9790036776734188
+     }
+    },
+    "Cart": {
+     "n": 89,
+     "done": 89,
+     "physical_pass": 87,
+     "physics_validation_failed": 0,
+     "no_structured_export": 2,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 87,
+      "total": 89,
+      "rate": 0.9775280898876404,
+      "lower": 0.921723653251775,
+      "upper": 0.9938156012978714
+     }
+    },
+    "Chair": {
+     "n": 153,
+     "done": 153,
+     "physical_pass": 111,
+     "physics_validation_failed": 0,
+     "no_structured_export": 42,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 111,
+      "total": 153,
+      "rate": 0.7254901960784313,
+      "lower": 0.6499080175752308,
+      "upper": 0.7900266815713952
+     }
+    },
+    "Clock": {
+     "n": 15,
+     "done": 15,
+     "physical_pass": 10,
+     "physics_validation_failed": 0,
+     "no_structured_export": 5,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 10,
+      "total": 15,
+      "rate": 0.6666666666666666,
+      "lower": 0.41713547738519774,
+      "upper": 0.8482367556028526
+     }
+    },
+    "CoffeeMachine": {
+     "n": 19,
+     "done": 19,
+     "physical_pass": 19,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 19,
+      "total": 19,
+      "rate": 1.0,
+      "lower": 0.8318207759473837,
+      "upper": 1.0
+     }
+    },
+    "Dishwasher": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Display": {
+     "n": 45,
+     "done": 45,
+     "physical_pass": 42,
+     "physics_validation_failed": 0,
+     "no_structured_export": 3,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 42,
+      "total": 45,
+      "rate": 0.9333333333333333,
+      "lower": 0.8214339803640811,
+      "upper": 0.977067967400749
+     }
+    },
+    "Door": {
+     "n": 145,
+     "done": 145,
+     "physical_pass": 120,
+     "physics_validation_failed": 0,
+     "no_structured_export": 25,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 120,
+      "total": 145,
+      "rate": 0.8275862068965517,
+      "lower": 0.7578607455114587,
+      "upper": 0.8804022811526667
+     }
+    },
+    "Kettle": {
+     "n": 23,
+     "done": 23,
+     "physical_pass": 23,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 23,
+      "total": 23,
+      "rate": 1.0,
+      "lower": 0.8568833815495731,
+      "upper": 1.0
+     }
+    },
+    "Keyboard": {
+     "n": 24,
+     "done": 24,
+     "physical_pass": 17,
+     "physics_validation_failed": 0,
+     "no_structured_export": 7,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 17,
+      "total": 24,
+      "rate": 0.7083333333333334,
+      "lower": 0.5083230633550337,
+      "upper": 0.8508535180303913
+     }
+    },
+    "Knife": {
+     "n": 57,
+     "done": 57,
+     "physical_pass": 56,
+     "physics_validation_failed": 0,
+     "no_structured_export": 1,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 56,
+      "total": 57,
+      "rate": 0.9824561403508771,
+      "lower": 0.9070925082143229,
+      "upper": 0.9968963353485918
+     }
+    },
+    "Lamp": {
+     "n": 35,
+     "done": 35,
+     "physical_pass": 33,
+     "physics_validation_failed": 0,
+     "no_structured_export": 2,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 33,
+      "total": 35,
+      "rate": 0.9428571428571428,
+      "lower": 0.8139294257983507,
+      "upper": 0.9841868381428913
+     }
+    },
+    "Laptop": {
+     "n": 47,
+     "done": 47,
+     "physical_pass": 42,
+     "physics_validation_failed": 0,
+     "no_structured_export": 5,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 42,
+      "total": 47,
+      "rate": 0.8936170212765957,
+      "lower": 0.7740573065626163,
+      "upper": 0.9536952178189183
+     }
+    },
+    "Microwave": {
+     "n": 5,
+     "done": 5,
+     "physical_pass": 5,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 5,
+      "total": 5,
+      "rate": 1.0,
+      "lower": 0.5655175352168251,
+      "upper": 1.0
+     }
+    },
+    "Mouse": {
+     "n": 59,
+     "done": 59,
+     "physical_pass": 59,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 59,
+      "total": 59,
+      "rate": 1.0,
+      "lower": 0.9388706294732116,
+      "upper": 1.0
+     }
+    },
+    "Oven": {
+     "n": 17,
+     "done": 17,
+     "physical_pass": 16,
+     "physics_validation_failed": 0,
+     "no_structured_export": 1,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 16,
+      "total": 17,
+      "rate": 0.9411764705882353,
+      "lower": 0.7301796936242461,
+      "upper": 0.9895395990150025
+     }
+    },
+    "Pen": {
+     "n": 33,
+     "done": 33,
+     "physical_pass": 32,
+     "physics_validation_failed": 0,
+     "no_structured_export": 1,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 32,
+      "total": 33,
+      "rate": 0.9696969696969697,
+      "lower": 0.846812746178811,
+      "upper": 0.9946305894631283
+     }
+    },
+    "Phone": {
+     "n": 96,
+     "done": 96,
+     "physical_pass": 86,
+     "physics_validation_failed": 0,
+     "no_structured_export": 10,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 86,
+      "total": 96,
+      "rate": 0.8958333333333334,
+      "lower": 0.8187783586967837,
+      "upper": 0.9424284675825568
+     }
+    },
+    "Printer": {
+     "n": 19,
+     "done": 19,
+     "physical_pass": 19,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 19,
+      "total": 19,
+      "rate": 1.0,
+      "lower": 0.8318207759473837,
+      "upper": 1.0
+     }
+    },
+    "Refrigerator": {
+     "n": 16,
+     "done": 16,
+     "physical_pass": 15,
+     "physics_validation_failed": 0,
+     "no_structured_export": 1,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 15,
+      "total": 16,
+      "rate": 0.9375,
+      "lower": 0.7167126242970107,
+      "upper": 0.9888806552353576
+     }
+    },
+    "Remote": {
+     "n": 5,
+     "done": 5,
+     "physical_pass": 5,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 5,
+      "total": 5,
+      "rate": 1.0,
+      "lower": 0.5655175352168251,
+      "upper": 1.0
+     }
+    },
+    "Scissors": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "StorageFurniture": {
+     "n": 140,
+     "done": 140,
+     "physical_pass": 137,
+     "physics_validation_failed": 0,
+     "no_structured_export": 3,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 137,
+      "total": 140,
+      "rate": 0.9785714285714285,
+      "lower": 0.9388952114746261,
+      "upper": 0.9926859967432213
+     }
+    },
+    "Suitcase": {
+     "n": 16,
+     "done": 16,
+     "physical_pass": 15,
+     "physics_validation_failed": 0,
+     "no_structured_export": 1,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 15,
+      "total": 16,
+      "rate": 0.9375,
+      "lower": 0.7167126242970107,
+      "upper": 0.9888806552353576
+     }
+    },
+    "Table": {
+     "n": 264,
+     "done": 264,
+     "physical_pass": 231,
+     "physics_validation_failed": 0,
+     "no_structured_export": 33,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 231,
+      "total": 264,
+      "rate": 0.875,
+      "lower": 0.8296514755458679,
+      "upper": 0.9095918099103639
+     }
+    },
+    "Toilet": {
+     "n": 25,
+     "done": 25,
+     "physical_pass": 20,
+     "physics_validation_failed": 0,
+     "no_structured_export": 5,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 20,
+      "total": 25,
+      "rate": 0.8,
+      "lower": 0.6086904963045967,
+      "upper": 0.9113941531319742
+     }
+    },
+    "TrashCan": {
+     "n": 17,
+     "done": 17,
+     "physical_pass": 17,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 17,
+      "total": 17,
+      "rate": 1.0,
+      "lower": 0.8156818649911483,
+      "upper": 1.0
+     }
+    },
+    "WashingMachine": {
+     "n": 19,
+     "done": 19,
+     "physical_pass": 17,
+     "physics_validation_failed": 0,
+     "no_structured_export": 2,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 17,
+      "total": 19,
+      "rate": 0.8947368421052632,
+      "lower": 0.6860591728889099,
+      "upper": 0.9706414397011299
+     }
+    },
+    "Window": {
+     "n": 263,
+     "done": 263,
+     "physical_pass": 157,
+     "physics_validation_failed": 0,
+     "no_structured_export": 106,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 157,
+      "total": 263,
+      "rate": 0.596958174904943,
+      "lower": 0.5366928331288858,
+      "upper": 0.6544318902382944
+     }
+    }
+   },
+   "timing_seconds": {
+    "per_phase_median": {
+     "grounding": 5.775225354998838,
+     "retrieval": 0.08796241199888755,
+     "multimodal_ranking": 25.00317137100501,
+     "asset_construction": 93.61496419800096,
+     "construction_physics": 2.9084982279964606,
+     "final_physics": 2.808365751989186,
+     "repair": 5.846988642588258e-06
+    },
+    "per_phase_mean": {
+     "grounding": 5.947609453665984,
+     "retrieval": 0.10191820136576257,
+     "multimodal_ranking": 25.63630870736783,
+     "asset_construction": 225.72804434647165,
+     "construction_physics": 5.415497726376828,
+     "final_physics": 5.473156338905082,
+     "repair": 10.025283120290693
+    },
+    "per_case_group_median": {
+     "perception": 31.57063298848516,
+     "adaptation": 67.29979791498045,
+     "validation": 6.522271175505011
+    },
+    "per_case_group_mean": {
+     "perception": 36.121862452668786,
+     "adaptation": 628.5597727515299,
+     "validation": 12.77048947397435
+    },
+    "e2e_median": 84.9970214060013,
+    "e2e_mean": 602.3864745967829,
+    "e2e_p95": 2873.4587749640455,
+    "considered_candidates_mean": 2.937,
+    "note": "throughput run with concurrent workers per GPU and a pre-warmed geometry cache; not an exclusive-device latency measurement"
+   },
+   "verified_final_results": true
+  },
+  "exp2": {
+   "denominator": 289,
+   "completed_cases": 289,
+   "physical_pass": 283,
+   "wilson95_over_denominator": {
+    "success": 283,
+    "total": 289,
+    "rate": 0.9792387543252595,
+    "lower": 0.9554532838849823,
+    "upper": 0.9904510327903633
+   },
+   "wilson95_over_completed": {
+    "success": 283,
+    "total": 289,
+    "rate": 0.9792387543252595,
+    "lower": 0.9554532838849823,
+    "upper": 0.9904510327903633
+   },
+   "outcome_counts": {
+    "physical_pass": 283,
+    "no_structured_export": 6
+   },
+   "status_counts": {
+    "physical_pass": 283,
+    "construction_failed": 6
+   },
+   "attempt_status_counts": {
+    "selected": 283,
+    "construction_physics_failed": 35,
+    "not_exported": 275,
+    "semantic_rejection": 122,
+    "repair_not_exported": 48
+   },
+   "repairs_attempted": 86,
+   "passes_whose_selected_asset_was_repaired": 19,
+   "selected_support_roles": {
+    "free": 260,
+    "mounted": 23
+   },
+   "failure_reasons_nonexclusive": {
+    "candidate_budget_exhausted": 6
+   },
+   "by_category": {
+    "Armor": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Bed": {
+     "n": 5,
+     "done": 5,
+     "physical_pass": 5,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 5,
+      "total": 5,
+      "rate": 1.0,
+      "lower": 0.5655175352168251,
+      "upper": 1.0
+     }
+    },
+    "Bench": {
+     "n": 2,
+     "done": 2,
+     "physical_pass": 2,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 2,
+      "total": 2,
+      "rate": 1.0,
+      "lower": 0.34238022750665303,
+      "upper": 1.0
+     }
+    },
+    "Book": {
+     "n": 7,
+     "done": 7,
+     "physical_pass": 7,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 7,
+      "total": 7,
+      "rate": 1.0,
+      "lower": 0.6456695649333126,
+      "upper": 1.0
+     }
+    },
+    "Bottle": {
+     "n": 10,
+     "done": 10,
+     "physical_pass": 10,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 10,
+      "total": 10,
+      "rate": 1.0,
+      "lower": 0.7224672001371107,
+      "upper": 0.9999999999999999
+     }
+    },
+    "BottleCap": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Bowl": {
+     "n": 2,
+     "done": 2,
+     "physical_pass": 2,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 2,
+      "total": 2,
+      "rate": 1.0,
+      "lower": 0.34238022750665303,
+      "upper": 1.0
+     }
+    },
+    "Box": {
+     "n": 6,
+     "done": 6,
+     "physical_pass": 6,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 6,
+      "total": 6,
+      "rate": 1.0,
+      "lower": 0.6096657120978346,
+      "upper": 1.0
+     }
+    },
+    "Bucket": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Calculator": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Camera": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Can": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Chair": {
+     "n": 16,
+     "done": 16,
+     "physical_pass": 12,
+     "physics_validation_failed": 0,
+     "no_structured_export": 4,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 12,
+      "total": 16,
+      "rate": 0.75,
+      "lower": 0.5050168346449122,
+      "upper": 0.8981793250878696
+     }
+    },
+    "Clock": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "CoffeeMachine": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Coin": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Cup": {
+     "n": 8,
+     "done": 8,
+     "physical_pass": 8,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 8,
+      "total": 8,
+      "rate": 1.0,
+      "lower": 0.6755924351161198,
+      "upper": 1.0
+     }
+    },
+    "Desk": {
+     "n": 17,
+     "done": 17,
+     "physical_pass": 17,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 17,
+      "total": 17,
+      "rate": 1.0,
+      "lower": 0.8156818649911483,
+      "upper": 1.0
+     }
+    },
+    "Dishwasher": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Display": {
+     "n": 23,
+     "done": 23,
+     "physical_pass": 23,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 23,
+      "total": 23,
+      "rate": 1.0,
+      "lower": 0.8568833815495731,
+      "upper": 1.0
+     }
+    },
+    "Door": {
+     "n": 5,
+     "done": 5,
+     "physical_pass": 5,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 5,
+      "total": 5,
+      "rate": 1.0,
+      "lower": 0.5655175352168251,
+      "upper": 1.0
+     }
+    },
+    "Dresser": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Faucet": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Figurine": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Fireplace": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Fishbowl": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Flag": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 0,
+     "physics_validation_failed": 0,
+     "no_structured_export": 1,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 0,
+      "total": 1,
+      "rate": 0.0,
+      "lower": 0.0,
+      "upper": 0.7934506856227626
+     }
+    },
+    "Handle": {
+     "n": 4,
+     "done": 4,
+     "physical_pass": 4,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 4,
+      "total": 4,
+      "rate": 1.0,
+      "lower": 0.5101091635454027,
+      "upper": 1.0
+     }
+    },
+    "Headboard": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Headset": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Joystick": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Kettle": {
+     "n": 2,
+     "done": 2,
+     "physical_pass": 2,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 2,
+      "total": 2,
+      "rate": 1.0,
+      "lower": 0.34238022750665303,
+      "upper": 1.0
+     }
+    },
+    "Keyboard": {
+     "n": 16,
+     "done": 16,
+     "physical_pass": 16,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 16,
+      "total": 16,
+      "rate": 1.0,
+      "lower": 0.8063923194655637,
+      "upper": 1.0
+     }
+    },
+    "Knob": {
+     "n": 12,
+     "done": 12,
+     "physical_pass": 12,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 12,
+      "total": 12,
+      "rate": 1.0,
+      "lower": 0.7575059933447592,
+      "upper": 1.0
+     }
+    },
+    "Lamp": {
+     "n": 12,
+     "done": 12,
+     "physical_pass": 12,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 12,
+      "total": 12,
+      "rate": 1.0,
+      "lower": 0.7575059933447592,
+      "upper": 1.0
+     }
+    },
+    "Laptop": {
+     "n": 14,
+     "done": 14,
+     "physical_pass": 14,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 14,
+      "total": 14,
+      "rate": 1.0,
+      "lower": 0.7846891972623643,
+      "upper": 1.0
+     }
+    },
+    "Magazine": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Microwave": {
+     "n": 3,
+     "done": 3,
+     "physical_pass": 3,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 3,
+      "total": 3,
+      "rate": 1.0,
+      "lower": 0.4385029682449546,
+      "upper": 1.0
+     }
+    },
+    "Mouse": {
+     "n": 16,
+     "done": 16,
+     "physical_pass": 16,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 16,
+      "total": 16,
+      "rate": 1.0,
+      "lower": 0.8063923194655637,
+      "upper": 1.0
+     }
+    },
+    "Mug": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Notebook": {
+     "n": 3,
+     "done": 3,
+     "physical_pass": 3,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 3,
+      "total": 3,
+      "rate": 1.0,
+      "lower": 0.4385029682449546,
+      "upper": 1.0
+     }
+    },
+    "Oven": {
+     "n": 4,
+     "done": 4,
+     "physical_pass": 3,
+     "physics_validation_failed": 0,
+     "no_structured_export": 1,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 3,
+      "total": 4,
+      "rate": 0.75,
+      "lower": 0.30064184258240184,
+      "upper": 0.9544127391902995
+     }
+    },
+    "Pen": {
+     "n": 2,
+     "done": 2,
+     "physical_pass": 2,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 2,
+      "total": 2,
+      "rate": 1.0,
+      "lower": 0.34238022750665303,
+      "upper": 1.0
+     }
+    },
+    "Phone": {
+     "n": 10,
+     "done": 10,
+     "physical_pass": 10,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 10,
+      "total": 10,
+      "rate": 1.0,
+      "lower": 0.7224672001371107,
+      "upper": 0.9999999999999999
+     }
+    },
+    "Printer": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "RadioReceiver": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Refrigerator": {
+     "n": 3,
+     "done": 3,
+     "physical_pass": 3,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 3,
+      "total": 3,
+      "rate": 1.0,
+      "lower": 0.4385029682449546,
+      "upper": 1.0
+     }
+    },
+    "Remote": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "RouterComputerEquipment": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Signboard": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Sink": {
+     "n": 3,
+     "done": 3,
+     "physical_pass": 3,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 3,
+      "total": 3,
+      "rate": 1.0,
+      "lower": 0.4385029682449546,
+      "upper": 1.0
+     }
+    },
+    "SpeakerSteroEquipment": {
+     "n": 14,
+     "done": 14,
+     "physical_pass": 14,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 14,
+      "total": 14,
+      "rate": 1.0,
+      "lower": 0.7846891972623643,
+      "upper": 1.0
+     }
+    },
+    "Spoon": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Stool": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "StorageFurniture": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Suitcase": {
+     "n": 2,
+     "done": 2,
+     "physical_pass": 2,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 2,
+      "total": 2,
+      "rate": 1.0,
+      "lower": 0.34238022750665303,
+      "upper": 1.0
+     }
+    },
+    "Switch": {
+     "n": 3,
+     "done": 3,
+     "physical_pass": 3,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 3,
+      "total": 3,
+      "rate": 1.0,
+      "lower": 0.4385029682449546,
+      "upper": 1.0
+     }
+    },
+    "Table": {
+     "n": 6,
+     "done": 6,
+     "physical_pass": 6,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 6,
+      "total": 6,
+      "rate": 1.0,
+      "lower": 0.6096657120978346,
+      "upper": 1.0
+     }
+    },
+    "TelevisionCamera": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Toaster": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Toilet": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "TrashCan": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Tray": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "USB": {
+     "n": 5,
+     "done": 5,
+     "physical_pass": 5,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 5,
+      "total": 5,
+      "rate": 1.0,
+      "lower": 0.5655175352168251,
+      "upper": 1.0
+     }
+    },
+    "Umbrella": {
+     "n": 2,
+     "done": 2,
+     "physical_pass": 2,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 2,
+      "total": 2,
+      "rate": 1.0,
+      "lower": 0.34238022750665303,
+      "upper": 1.0
+     }
+    },
+    "Vase": {
+     "n": 4,
+     "done": 4,
+     "physical_pass": 4,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 4,
+      "total": 4,
+      "rate": 1.0,
+      "lower": 0.5101091635454027,
+      "upper": 1.0
+     }
+    },
+    "Webcam": {
+     "n": 1,
+     "done": 1,
+     "physical_pass": 1,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 1,
+      "total": 1,
+      "rate": 1.0,
+      "lower": 0.20654931437723745,
+      "upper": 1.0
+     }
+    },
+    "Window": {
+     "n": 13,
+     "done": 13,
+     "physical_pass": 13,
+     "physics_validation_failed": 0,
+     "no_structured_export": 0,
+     "infrastructure_blocked": 0,
+     "not_run": 0,
+     "wilson95": {
+      "success": 13,
+      "total": 13,
+      "rate": 1.0,
+      "lower": 0.7719046276458016,
+      "upper": 0.9999999999999999
+     }
+    }
+   },
+   "timing_seconds": {
+    "per_phase_median": {
+     "grounding": 0.0007901859935373068,
+     "retrieval": 0.09895799100922886,
+     "multimodal_ranking": 26.49984671000857,
+     "asset_construction": 16.012501707999036,
+     "construction_physics": 2.3060455130034825,
+     "repair": 5.6249991757795215e-06,
+     "final_physics": 2.3066779249929823
+    },
+    "per_phase_mean": {
+     "grounding": 0.0009057228682561903,
+     "retrieval": 0.11792772296214095,
+     "multimodal_ranking": 26.782161855887257,
+     "asset_construction": 175.60081041127776,
+     "construction_physics": 3.472304757321288,
+     "repair": 60.54834464087539,
+     "final_physics": 3.491035565730876
+    },
+    "per_case_group_median": {
+     "perception": 28.037033197004348,
+     "adaptation": 14.006357869002386,
+     "validation": 5.218445510494348
+    },
+    "per_case_group_mean": {
+     "perception": 33.01733676361578,
+     "adaptation": 468.4665930907926,
+     "validation": 8.381539692914346
+    },
+    "e2e_median": 47.140113435001695,
+    "e2e_mean": 509.7209404511139,
+    "e2e_p95": 2557.9065339551953,
+    "considered_candidates_mean": 2.640138408304498,
+    "note": "throughput run with concurrent workers per GPU and a pre-warmed geometry cache; not an exclusive-device latency measurement"
+   },
+   "verified_final_results": true,
+   "reference_evaluation": {
+    "complete": true,
+    "reference_images": 50,
+    "reference_objects": 237,
+    "localized": 105,
+    "physical_passes": 100,
+    "all_object_images": 13,
+    "scene_relation_success": null,
+    "matching": "same_category_hungarian_IoU_at_least_0.5"
+   }
+  }
+ },
+ "study": {
+  "path": "${AFFORDCRAFT_RUNS}/one_factor_study",
+  "method_version": "formal-code-010",
+  "complete": true,
+  "verifier_summary": {
+   "method_version": "formal-code-010",
+   "study": "paired_one_factor_variants;two_tracks",
+   "complete": true,
+   "tracks": {
+    "subset200": {
+     "denominator": 200,
+     "purpose": "paired one-factor rows of the ablation table",
+     "per_variant": {
+      "full": {
+       "physical_pass": 169,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 169,
+        "construction_failed": 31
+       },
+       "wilson95": [
+        0.7883930940765792,
+        0.8886036307231068
+       ],
+       "complete": true,
+       "rate_if_complete": 0.845,
+       "by_category": {
+        "Bottle": {
+         "pass": 11,
+         "n": 15,
+         "wilson95": [
+          0.4804956594401943,
+          0.8910254667430761
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 12,
+         "n": 12,
+         "wilson95": [
+          0.7575059933447592,
+          1.0
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 10,
+         "n": 14,
+         "wilson95": [
+          0.4535091567010681,
+          0.8827862135542308
+         ]
+        },
+        "Clock": {
+         "pass": 1,
+         "n": 2,
+         "wilson95": [
+          0.09453120573423074,
+          0.9054687942657693
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 24,
+         "n": 24,
+         "wilson95": [
+          0.8620237953250198,
+          1.0
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 11,
+         "n": 23,
+         "wilson95": [
+          0.29237157416646653,
+          0.6703726266357259
+         ]
+        }
+       }
+      },
+      "encoder_replacement": {
+       "physical_pass": 176,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 176,
+        "construction_failed": 24
+       },
+       "wilson95": [
+        0.8276574790170326,
+        0.9180200729362449
+       ],
+       "complete": true,
+       "rate_if_complete": 0.88,
+       "by_category": {
+        "Bottle": {
+         "pass": 14,
+         "n": 15,
+         "wilson95": [
+          0.7018347012621998,
+          0.9881331045067315
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 12,
+         "n": 12,
+         "wilson95": [
+          0.7575059933447592,
+          1.0
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 12,
+         "n": 14,
+         "wilson95": [
+          0.6005862050302965,
+          0.9599060787285351
+         ]
+        },
+        "Clock": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 1,
+         "n": 3,
+         "wilson95": [
+          0.06149194472039621,
+          0.7923403991979522
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 24,
+         "n": 24,
+         "wilson95": [
+          0.8620237953250198,
+          1.0
+         ]
+        },
+        "Toilet": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 11,
+         "n": 23,
+         "wilson95": [
+          0.29237157416646653,
+          0.6703726266357259
+         ]
+        }
+       }
+      },
+      "without_task_condition": {
+       "physical_pass": 173,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 173,
+        "construction_failed": 27
+       },
+       "wilson95": [
+        0.8107086162924745,
+        0.9055342954521209
+       ],
+       "complete": true,
+       "rate_if_complete": 0.865,
+       "by_category": {
+        "Bottle": {
+         "pass": 14,
+         "n": 15,
+         "wilson95": [
+          0.7018347012621998,
+          0.9881331045067315
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 12,
+         "n": 12,
+         "wilson95": [
+          0.7575059933447592,
+          1.0
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 11,
+         "n": 14,
+         "wilson95": [
+          0.524107694133997,
+          0.9242861328730683
+         ]
+        },
+        "Clock": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 23,
+         "n": 24,
+         "wilson95": [
+          0.7975819352134406,
+          0.9926065438344942
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 10,
+         "n": 23,
+         "wilson95": [
+          0.25634635325674215,
+          0.6318862491498354
+         ]
+        }
+       }
+      },
+      "without_multimodal_selection": {
+       "physical_pass": 175,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 175,
+        "construction_failed": 25
+       },
+       "wilson95": [
+        0.8219857499741765,
+        0.9138802552428735
+       ],
+       "complete": true,
+       "rate_if_complete": 0.875,
+       "by_category": {
+        "Bottle": {
+         "pass": 14,
+         "n": 15,
+         "wilson95": [
+          0.7018347012621998,
+          0.9881331045067315
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 12,
+         "n": 12,
+         "wilson95": [
+          0.7575059933447592,
+          1.0
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 11,
+         "n": 14,
+         "wilson95": [
+          0.524107694133997,
+          0.9242861328730683
+         ]
+        },
+        "Clock": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 24,
+         "n": 24,
+         "wilson95": [
+          0.8620237953250198,
+          1.0
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 11,
+         "n": 23,
+         "wilson95": [
+          0.29237157416646653,
+          0.6703726266357259
+         ]
+        }
+       }
+      },
+      "without_scale_adaptation": {
+       "physical_pass": 167,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 167,
+        "construction_failed": 33
+       },
+       "wilson95": [
+        0.7773421846094045,
+        0.8800314467178268
+       ],
+       "complete": true,
+       "rate_if_complete": 0.835,
+       "by_category": {
+        "Bottle": {
+         "pass": 10,
+         "n": 15,
+         "wilson95": [
+          0.41713547738519774,
+          0.8482367556028526
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 12,
+         "n": 12,
+         "wilson95": [
+          0.7575059933447592,
+          1.0
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 10,
+         "n": 14,
+         "wilson95": [
+          0.4535091567010681,
+          0.8827862135542308
+         ]
+        },
+        "Clock": {
+         "pass": 0,
+         "n": 2,
+         "wilson95": [
+          0.0,
+          0.6576197724933469
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 24,
+         "n": 24,
+         "wilson95": [
+          0.8620237953250198,
+          1.0
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 11,
+         "n": 23,
+         "wilson95": [
+          0.29237157416646653,
+          0.6703726266357259
+         ]
+        }
+       }
+      },
+      "without_articulation_adaptation": {
+       "physical_pass": 93,
+       "n": 200,
+       "status_counts": {
+        "construction_failed": 107,
+        "physical_pass": 93
+       },
+       "wilson95": [
+        0.3971856415700402,
+        0.5341335312763685
+       ],
+       "complete": true,
+       "rate_if_complete": 0.465,
+       "by_category": {
+        "Bottle": {
+         "pass": 10,
+         "n": 15,
+         "wilson95": [
+          0.41713547738519774,
+          0.8482367556028526
+         ]
+        },
+        "Box": {
+         "pass": 3,
+         "n": 6,
+         "wilson95": [
+          0.1876163064826506,
+          0.8123836935173494
+         ]
+        },
+        "Camera": {
+         "pass": 4,
+         "n": 12,
+         "wilson95": [
+          0.13812009109121315,
+          0.6093779111272004
+         ]
+        },
+        "Cart": {
+         "pass": 7,
+         "n": 9,
+         "wilson95": [
+          0.45258896910698887,
+          0.9367748928821533
+         ]
+        },
+        "Chair": {
+         "pass": 10,
+         "n": 14,
+         "wilson95": [
+          0.4535091567010681,
+          0.8827862135542308
+         ]
+        },
+        "Clock": {
+         "pass": 0,
+         "n": 2,
+         "wilson95": [
+          0.0,
+          0.6576197724933469
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 0,
+         "n": 3,
+         "wilson95": [
+          5.551115123125783e-17,
+          0.5614970317550454
+         ]
+        },
+        "Dishwasher": {
+         "pass": 0,
+         "n": 1,
+         "wilson95": [
+          0.0,
+          0.7934506856227626
+         ]
+        },
+        "Display": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Door": {
+         "pass": 0,
+         "n": 13,
+         "wilson95": [
+          0.0,
+          0.22809537235419838
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Laptop": {
+         "pass": 2,
+         "n": 5,
+         "wilson95": [
+          0.11762077423264783,
+          0.769275718723987
+         ]
+        },
+        "Microwave": {
+         "pass": 0,
+         "n": 1,
+         "wilson95": [
+          0.0,
+          0.7934506856227626
+         ]
+        },
+        "Mouse": {
+         "pass": 1,
+         "n": 6,
+         "wilson95": [
+          0.030053369748306635,
+          0.5635028221864702
+         ]
+        },
+        "Oven": {
+         "pass": 0,
+         "n": 2,
+         "wilson95": [
+          0.0,
+          0.6576197724933469
+         ]
+        },
+        "Pen": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Phone": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Printer": {
+         "pass": 0,
+         "n": 3,
+         "wilson95": [
+          5.551115123125783e-17,
+          0.5614970317550454
+         ]
+        },
+        "Refrigerator": {
+         "pass": 0,
+         "n": 2,
+         "wilson95": [
+          0.0,
+          0.6576197724933469
+         ]
+        },
+        "Remote": {
+         "pass": 0,
+         "n": 1,
+         "wilson95": [
+          0.0,
+          0.7934506856227626
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 3,
+         "n": 13,
+         "wilson95": [
+          0.08179528718498569,
+          0.5025637594672749
+         ]
+        },
+        "Suitcase": {
+         "pass": 1,
+         "n": 2,
+         "wilson95": [
+          0.09453120573423074,
+          0.9054687942657693
+         ]
+        },
+        "Table": {
+         "pass": 21,
+         "n": 24,
+         "wilson95": [
+          0.6899611872949993,
+          0.9565566591987655
+         ]
+        },
+        "Toilet": {
+         "pass": 0,
+         "n": 3,
+         "wilson95": [
+          5.551115123125783e-17,
+          0.5614970317550454
+         ]
+        },
+        "TrashCan": {
+         "pass": 0,
+         "n": 2,
+         "wilson95": [
+          0.0,
+          0.6576197724933469
+         ]
+        },
+        "WashingMachine": {
+         "pass": 0,
+         "n": 3,
+         "wilson95": [
+          5.551115123125783e-17,
+          0.5614970317550454
+         ]
+        },
+        "Window": {
+         "pass": 1,
+         "n": 23,
+         "wilson95": [
+          0.007716666143453149,
+          0.20991155070258877
+         ]
+        }
+       }
+      },
+      "without_physics_reselection": {
+       "physical_pass": 147,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 147,
+        "construction_failed": 53
+       },
+       "wilson95": [
+        0.6698242380737758,
+        0.7913184585289088
+       ],
+       "complete": true,
+       "rate_if_complete": 0.735,
+       "by_category": {
+        "Bottle": {
+         "pass": 11,
+         "n": 15,
+         "wilson95": [
+          0.4804956594401943,
+          0.8910254667430761
+         ]
+        },
+        "Box": {
+         "pass": 4,
+         "n": 6,
+         "wilson95": [
+          0.299993315138392,
+          0.9032285888942195
+         ]
+        },
+        "Camera": {
+         "pass": 8,
+         "n": 12,
+         "wilson95": [
+          0.39062208887279953,
+          0.8618799089087867
+         ]
+        },
+        "Cart": {
+         "pass": 6,
+         "n": 9,
+         "wilson95": [
+          0.3542021355803963,
+          0.879416181613089
+         ]
+        },
+        "Chair": {
+         "pass": 9,
+         "n": 14,
+         "wilson95": [
+          0.38764423103907397,
+          0.8365526824644587
+         ]
+        },
+        "Clock": {
+         "pass": 0,
+         "n": 2,
+         "wilson95": [
+          0.0,
+          0.6576197724933469
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 0,
+         "n": 3,
+         "wilson95": [
+          5.551115123125783e-17,
+          0.5614970317550454
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 7,
+         "n": 13,
+         "wilson95": [
+          0.29143795714506004,
+          0.7679393219046169
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Laptop": {
+         "pass": 3,
+         "n": 5,
+         "wilson95": [
+          0.2307242812760128,
+          0.882379225767352
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 12,
+         "n": 13,
+         "wilson95": [
+          0.6668604907890041,
+          0.9862895787574435
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 23,
+         "n": 24,
+         "wilson95": [
+          0.7975819352134406,
+          0.9926065438344942
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 1,
+         "n": 2,
+         "wilson95": [
+          0.09453120573423074,
+          0.9054687942657693
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 7,
+         "n": 23,
+         "wilson95": [
+          0.15604024453214022,
+          0.508657562687592
+         ]
+        }
+       }
+      },
+      "without_repair": {
+       "physical_pass": 169,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 169,
+        "construction_failed": 31
+       },
+       "wilson95": [
+        0.7883930940765792,
+        0.8886036307231068
+       ],
+       "complete": true,
+       "rate_if_complete": 0.845,
+       "by_category": {
+        "Bottle": {
+         "pass": 11,
+         "n": 15,
+         "wilson95": [
+          0.4804956594401943,
+          0.8910254667430761
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 12,
+         "n": 12,
+         "wilson95": [
+          0.7575059933447592,
+          1.0
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 10,
+         "n": 14,
+         "wilson95": [
+          0.4535091567010681,
+          0.8827862135542308
+         ]
+        },
+        "Clock": {
+         "pass": 1,
+         "n": 2,
+         "wilson95": [
+          0.09453120573423074,
+          0.9054687942657693
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 24,
+         "n": 24,
+         "wilson95": [
+          0.8620237953250198,
+          1.0
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 11,
+         "n": 23,
+         "wilson95": [
+          0.29237157416646653,
+          0.6703726266357259
+         ]
+        }
+       }
+      },
+      "without_installation_evidence": {
+       "physical_pass": 169,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 169,
+        "construction_failed": 31
+       },
+       "wilson95": [
+        0.7883930940765792,
+        0.8886036307231068
+       ],
+       "complete": true,
+       "rate_if_complete": 0.845,
+       "by_category": {
+        "Bottle": {
+         "pass": 12,
+         "n": 15,
+         "wilson95": [
+          0.5481455128483065,
+          0.9295245065301844
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 12,
+         "n": 12,
+         "wilson95": [
+          0.7575059933447592,
+          1.0
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 10,
+         "n": 14,
+         "wilson95": [
+          0.4535091567010681,
+          0.8827862135542308
+         ]
+        },
+        "Clock": {
+         "pass": 1,
+         "n": 2,
+         "wilson95": [
+          0.09453120573423074,
+          0.9054687942657693
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Refrigerator": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 23,
+         "n": 24,
+         "wilson95": [
+          0.7975819352134406,
+          0.9926065438344942
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Window": {
+         "pass": 11,
+         "n": 23,
+         "wilson95": [
+          0.29237157416646653,
+          0.6703726266357259
+         ]
+        }
+       }
+      },
+      "without_decomposition_cascade": {
+       "physical_pass": 153,
+       "n": 200,
+       "status_counts": {
+        "physical_pass": 153,
+        "construction_failed": 47
+       },
+       "wilson95": [
+        0.7015863111723746,
+        0.8184256658476741
+       ],
+       "complete": true,
+       "rate_if_complete": 0.765,
+       "by_category": {
+        "Bottle": {
+         "pass": 10,
+         "n": 15,
+         "wilson95": [
+          0.41713547738519774,
+          0.8482367556028526
+         ]
+        },
+        "Box": {
+         "pass": 5,
+         "n": 6,
+         "wilson95": [
+          0.43649717781352987,
+          0.9699466302516935
+         ]
+        },
+        "Camera": {
+         "pass": 4,
+         "n": 12,
+         "wilson95": [
+          0.13812009109121315,
+          0.6093779111272004
+         ]
+        },
+        "Cart": {
+         "pass": 8,
+         "n": 9,
+         "wilson95": [
+          0.5650002944233439,
+          0.9801091123614551
+         ]
+        },
+        "Chair": {
+         "pass": 10,
+         "n": 14,
+         "wilson95": [
+          0.4535091567010681,
+          0.8827862135542308
+         ]
+        },
+        "Clock": {
+         "pass": 0,
+         "n": 2,
+         "wilson95": [
+          0.0,
+          0.6576197724933469
+         ]
+        },
+        "CoffeeMachine": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Dishwasher": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Display": {
+         "pass": 5,
+         "n": 5,
+         "wilson95": [
+          0.5655175352168251,
+          1.0
+         ]
+        },
+        "Door": {
+         "pass": 9,
+         "n": 13,
+         "wilson95": [
+          0.42369343180549035,
+          0.8731929634428948
+         ]
+        },
+        "Kettle": {
+         "pass": 3,
+         "n": 3,
+         "wilson95": [
+          0.4385029682449546,
+          1.0
+         ]
+        },
+        "Keyboard": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Knife": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Lamp": {
+         "pass": 3,
+         "n": 4,
+         "wilson95": [
+          0.30064184258240184,
+          0.9544127391902995
+         ]
+        },
+        "Laptop": {
+         "pass": 4,
+         "n": 5,
+         "wilson95": [
+          0.37553462976252533,
+          0.9637758913675698
+         ]
+        },
+        "Microwave": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Mouse": {
+         "pass": 6,
+         "n": 6,
+         "wilson95": [
+          0.6096657120978346,
+          1.0
+         ]
+        },
+        "Oven": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Pen": {
+         "pass": 4,
+         "n": 4,
+         "wilson95": [
+          0.5101091635454027,
+          1.0
+         ]
+        },
+        "Phone": {
+         "pass": 9,
+         "n": 9,
+         "wilson95": [
+          0.7008549515804559,
+          1.0
+         ]
+        },
+        "Printer": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "Refrigerator": {
+         "pass": 1,
+         "n": 2,
+         "wilson95": [
+          0.09453120573423074,
+          0.9054687942657693
+         ]
+        },
+        "Remote": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "Scissors": {
+         "pass": 1,
+         "n": 1,
+         "wilson95": [
+          0.20654931437723745,
+          1.0
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 13,
+         "n": 13,
+         "wilson95": [
+          0.7719046276458016,
+          0.9999999999999999
+         ]
+        },
+        "Suitcase": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "Table": {
+         "pass": 23,
+         "n": 24,
+         "wilson95": [
+          0.7975819352134406,
+          0.9926065438344942
+         ]
+        },
+        "Toilet": {
+         "pass": 2,
+         "n": 3,
+         "wilson95": [
+          0.2076596008020477,
+          0.9385080552796037
+         ]
+        },
+        "TrashCan": {
+         "pass": 2,
+         "n": 2,
+         "wilson95": [
+          0.34238022750665303,
+          1.0
+         ]
+        },
+        "WashingMachine": {
+         "pass": 0,
+         "n": 3,
+         "wilson95": [
+          5.551115123125783e-17,
+          0.5614970317550454
+         ]
+        },
+        "Window": {
+         "pass": 11,
+         "n": 23,
+         "wilson95": [
+          0.29237157416646653,
+          0.6703726266357259
+         ]
+        }
+       }
+      }
+     },
+     "paired_vs_full": {
+      "encoder_replacement": {
+       "both_pass": 168,
+       "full_only": 1,
+       "variant_only": 8,
+       "both_fail": 23,
+       "undecided_pairs": 0,
+       "absolute_change_pp": 3.5,
+       "mcnemar_exact_two_sided": 0.0390625,
+       "by_category": {
+        "Bottle": {
+         "full_only": 0,
+         "variant_only": 3,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Box": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Cart": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 2,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "Clock": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      },
+      "without_task_condition": {
+       "both_pass": 167,
+       "full_only": 2,
+       "variant_only": 6,
+       "both_fail": 25,
+       "undecided_pairs": 0,
+       "absolute_change_pp": 2.0,
+       "mcnemar_exact_two_sided": 0.2890625,
+       "by_category": {
+        "Bottle": {
+         "full_only": 0,
+         "variant_only": 3,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Box": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Cart": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      },
+      "without_multimodal_selection": {
+       "both_pass": 169,
+       "full_only": 0,
+       "variant_only": 6,
+       "both_fail": 25,
+       "undecided_pairs": 0,
+       "absolute_change_pp": 3.0,
+       "mcnemar_exact_two_sided": 0.03125,
+       "by_category": {
+        "Bottle": {
+         "full_only": 0,
+         "variant_only": 3,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Box": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Cart": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      },
+      "without_scale_adaptation": {
+       "both_pass": 167,
+       "full_only": 2,
+       "variant_only": 0,
+       "both_fail": 31,
+       "undecided_pairs": 0,
+       "absolute_change_pp": -1.0,
+       "mcnemar_exact_two_sided": 0.5,
+       "by_category": {
+        "Bottle": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Box": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Cart": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      },
+      "without_articulation_adaptation": {
+       "both_pass": 93,
+       "full_only": 76,
+       "variant_only": 0,
+       "both_fail": 31,
+       "undecided_pairs": 0,
+       "absolute_change_pp": -38.0,
+       "mcnemar_exact_two_sided": 2.6469779601696886e-23,
+       "by_category": {
+        "Bottle": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Box": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "Camera": {
+         "full_only": 8,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.0078125
+        },
+        "Cart": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 3,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Dishwasher": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 9,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.00390625
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "Microwave": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 5,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.0625
+        },
+        "Oven": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "Pen": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 3,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Refrigerator": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "Remote": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 10,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.001953125
+        },
+        "Suitcase": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 3,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Toilet": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "TrashCan": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "WashingMachine": {
+         "full_only": 3,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Window": {
+         "full_only": 10,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.001953125
+        }
+       }
+      },
+      "without_physics_reselection": {
+       "both_pass": 147,
+       "full_only": 22,
+       "variant_only": 0,
+       "both_fail": 31,
+       "undecided_pairs": 0,
+       "absolute_change_pp": -11.0,
+       "mcnemar_exact_two_sided": 4.76837158203125e-07,
+       "by_category": {
+        "Bottle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Box": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 4,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.125
+        },
+        "Cart": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "Chair": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 3,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 2,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.5
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 4,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.125
+        }
+       }
+      },
+      "without_repair": {
+       "both_pass": 169,
+       "full_only": 0,
+       "variant_only": 0,
+       "both_fail": 31,
+       "undecided_pairs": 0,
+       "absolute_change_pp": 0.0,
+       "mcnemar_exact_two_sided": 1.0,
+       "by_category": {
+        "Bottle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Box": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Cart": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      },
+      "without_installation_evidence": {
+       "both_pass": 168,
+       "full_only": 1,
+       "variant_only": 1,
+       "both_fail": 30,
+       "undecided_pairs": 0,
+       "absolute_change_pp": 0.0,
+       "mcnemar_exact_two_sided": 1.0,
+       "by_category": {
+        "Bottle": {
+         "full_only": 0,
+         "variant_only": 1,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Box": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Cart": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      },
+      "without_decomposition_cascade": {
+       "both_pass": 153,
+       "full_only": 16,
+       "variant_only": 0,
+       "both_fail": 31,
+       "undecided_pairs": 0,
+       "absolute_change_pp": -8.0,
+       "mcnemar_exact_two_sided": 3.0517578125e-05,
+       "by_category": {
+        "Bottle": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Box": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Camera": {
+         "full_only": 8,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.0078125
+        },
+        "Cart": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Chair": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Clock": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "CoffeeMachine": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Dishwasher": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Display": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Kettle": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Keyboard": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Knife": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Lamp": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Laptop": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Microwave": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Mouse": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Oven": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Pen": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Phone": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Printer": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Refrigerator": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Remote": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Scissors": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Suitcase": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Table": {
+         "full_only": 1,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Toilet": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "TrashCan": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "WashingMachine": {
+         "full_only": 3,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      }
+     }
+    },
+    "category548": {
+     "denominator": 548,
+     "purpose": "per-category attribution of the Window/Door/StorageFurniture recovery to installation evidence and the decomposition cascade",
+     "per_variant": {
+      "full": {
+       "physical_pass": 411,
+       "n": 548,
+       "status_counts": {
+        "physical_pass": 411,
+        "construction_failed": 137
+       },
+       "wilson95": [
+        0.7120900140293038,
+        0.7844294040396977
+       ],
+       "complete": true,
+       "rate_if_complete": 0.75,
+       "by_category": {
+        "Door": {
+         "pass": 118,
+         "n": 145,
+         "wilson95": [
+          0.7426346082759815,
+          0.8687541856864963
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 136,
+         "n": 140,
+         "wilson95": [
+          0.9288427879216012,
+          0.9888342231586664
+         ]
+        },
+        "Window": {
+         "pass": 157,
+         "n": 263,
+         "wilson95": [
+          0.5366928331288858,
+          0.6544318902382944
+         ]
+        }
+       }
+      },
+      "without_installation_evidence": {
+       "physical_pass": 411,
+       "n": 548,
+       "status_counts": {
+        "physical_pass": 411,
+        "construction_failed": 137
+       },
+       "wilson95": [
+        0.7120900140293038,
+        0.7844294040396977
+       ],
+       "complete": true,
+       "rate_if_complete": 0.75,
+       "by_category": {
+        "Door": {
+         "pass": 118,
+         "n": 145,
+         "wilson95": [
+          0.7426346082759815,
+          0.8687541856864963
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 136,
+         "n": 140,
+         "wilson95": [
+          0.9288427879216012,
+          0.9888342231586664
+         ]
+        },
+        "Window": {
+         "pass": 157,
+         "n": 263,
+         "wilson95": [
+          0.5366928331288858,
+          0.6544318902382944
+         ]
+        }
+       }
+      },
+      "without_decomposition_cascade": {
+       "physical_pass": 408,
+       "n": 548,
+       "status_counts": {
+        "physical_pass": 408,
+        "construction_failed": 140
+       },
+       "wilson95": [
+        0.7063958849443508,
+        0.7792508451377385
+       ],
+       "complete": true,
+       "rate_if_complete": 0.7445255474452555,
+       "by_category": {
+        "Door": {
+         "pass": 115,
+         "n": 145,
+         "wilson95": [
+          0.7200235028895448,
+          0.8510539420204621
+         ]
+        },
+        "StorageFurniture": {
+         "pass": 136,
+         "n": 140,
+         "wilson95": [
+          0.9288427879216012,
+          0.9888342231586664
+         ]
+        },
+        "Window": {
+         "pass": 157,
+         "n": 263,
+         "wilson95": [
+          0.5366928331288858,
+          0.6544318902382944
+         ]
+        }
+       }
+      }
+     },
+     "paired_vs_full": {
+      "without_installation_evidence": {
+       "both_pass": 411,
+       "full_only": 0,
+       "variant_only": 0,
+       "both_fail": 137,
+       "undecided_pairs": 0,
+       "absolute_change_pp": 0.0,
+       "mcnemar_exact_two_sided": 1.0,
+       "by_category": {
+        "Door": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      },
+      "without_decomposition_cascade": {
+       "both_pass": 408,
+       "full_only": 3,
+       "variant_only": 0,
+       "both_fail": 137,
+       "undecided_pairs": 0,
+       "absolute_change_pp": -0.5474452554744526,
+       "mcnemar_exact_two_sided": 0.25,
+       "by_category": {
+        "Door": {
+         "full_only": 3,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 0.25
+        },
+        "StorageFurniture": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        },
+        "Window": {
+         "full_only": 0,
+         "variant_only": 0,
+         "mcnemar_exact_two_sided": 1.0
+        }
+       }
+      }
+     }
+    }
+   },
+   "one_factor_only": true,
+   "task_match": "not_evaluated",
+   "robot_real_world": "not_evaluated",
+   "robot_control_status": "not_evaluated",
+   "robot_task_success": null,
+   "source_hashes_unchanged": true
+  },
+  "live_partial_counts_not_results": {},
+  "tracks": {
+   "subset200": {
+    "inputs": "${AFFORDCRAFT_RUNS}/inputs/subset_200_inputs.json",
+    "input_sha256": "db043e72f336ca751d291c09f9e12704d4dd6b6e0e229281250c1b126a1903bf",
+    "variants": [
+     "full",
+     "encoder_replacement",
+     "without_task_condition",
+     "without_multimodal_selection",
+     "without_scale_adaptation",
+     "without_articulation_adaptation",
+     "without_physics_reselection",
+     "without_repair",
+     "without_installation_evidence",
+     "without_decomposition_cascade"
+    ],
+    "shard_count": 4,
+    "denominator": 200,
+    "priority": 0,
+    "purpose": "paired one-factor rows of the ablation table"
+   },
+   "category548": {
+    "inputs": "${AFFORDCRAFT_RUNS}/inputs/category_548_inputs.json",
+    "input_sha256": "5e5bda29779c0ee596b595a89bbe31af9063309775526132a530dc7b9721afec",
+    "variants": [
+     "full",
+     "without_installation_evidence",
+     "without_decomposition_cascade"
+    ],
+    "shard_count": 8,
+    "denominator": 548,
+    "priority": 1,
+    "purpose": "per-category attribution of the Window/Door/StorageFurniture recovery to installation evidence and the decomposition cascade"
+   }
+  }
+ },
+ "robot_real_world": "not_evaluated",
+ "robot_control_status": "not_evaluated",
+ "robot_task_success": null,
+ "task_match": "not_evaluated"
+}

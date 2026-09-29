@@ -1,0 +1,869 @@
+{
+ "schema": "affordcraft.exp2.union.v1",
+ "created_utc": "2026-09-21T16:18:26Z",
+ "complete": true,
+ "protocol": "full-RGB annotation-free discovery (no boxes, masks, counts or labels supplied); reference matching is evaluation-only",
+ "construction_code": "formal-code-009 (identical for both record sources)",
+ "detection_code": {
+  "retained_32_images": "formal-code-004 tool (exec007 run)",
+  "new_18_images": "detection-code-011"
+ },
+ "record_sources": {
+  "main_campaign": {
+   "images": 32,
+   "records": 289,
+   "path": "${AFFORDCRAFT_RUNS}/main_campaign/final_results/exp2_per_prediction.jsonl",
+   "sha256": "b456469493754ae8362b1bbcc41dcc403b667c286c3f7ef5c420e517f6aac5e3"
+  },
+  "detection_rerun": {
+   "images": 18,
+   "records": 286,
+   "physical_pass": 280,
+   "status_counts": {
+    "physical_pass": 280,
+    "construction_failed": 6
+   },
+   "unresolved": []
+  }
+ },
+ "union": {
+  "reference_images": 50,
+  "reference_objects": 237,
+  "localized": 172,
+  "physical_passes": 162,
+  "all_object_images": 15,
+  "matching": "same_category_hungarian_IoU_at_least_0.5"
+ },
+ "union_wilson95": {
+  "physical_pass_over_237": {
+   "success": 162,
+   "total": 237,
+   "rate": 0.6835443037974683,
+   "lower": 0.6218054131699202,
+   "upper": 0.7394280738966537
+  },
+  "localized_over_237": {
+   "success": 172,
+   "total": 237,
+   "rate": 0.7257383966244726,
+   "lower": 0.6656779562281152,
+   "upper": 0.7785977117733032
+  },
+  "all_object_images_over_50": {
+   "success": 15,
+   "total": 50,
+   "rate": 0.3,
+   "lower": 0.19103553500880954,
+   "upper": 0.437503504644534
+  }
+ },
+ "parent_only": {
+  "reference_images": 50,
+  "reference_objects": 237,
+  "localized": 105,
+  "physical_passes": 100,
+  "all_object_images": 13
+ },
+ "construction_pass_rate_over_predictions": {
+  "union": {
+   "records": 575,
+   "physical_pass": 563
+  },
+  "main_campaign": {
+   "records": 289,
+   "physical_pass": 283
+  },
+  "detection_rerun": {
+   "records": 286,
+   "physical_pass": 280
+  }
+ },
+ "per_category_union": {
+  "Backpack": {
+   "reference": 3,
+   "localized": 3,
+   "physical_pass": 3
+  },
+  "Bed": {
+   "reference": 6,
+   "localized": 6,
+   "physical_pass": 6
+  },
+  "Bench": {
+   "reference": 3,
+   "localized": 1,
+   "physical_pass": 1
+  },
+  "Book": {
+   "reference": 8,
+   "localized": 2,
+   "physical_pass": 2
+  },
+  "Bottle": {
+   "reference": 8,
+   "localized": 7,
+   "physical_pass": 6
+  },
+  "Bowl": {
+   "reference": 5,
+   "localized": 4,
+   "physical_pass": 4
+  },
+  "Chair": {
+   "reference": 35,
+   "localized": 24,
+   "physical_pass": 16
+  },
+  "Cup": {
+   "reference": 7,
+   "localized": 4,
+   "physical_pass": 4
+  },
+  "Display": {
+   "reference": 43,
+   "localized": 37,
+   "physical_pass": 37
+  },
+  "Doll": {
+   "reference": 1,
+   "localized": 0,
+   "physical_pass": 0
+  },
+  "Keyboard": {
+   "reference": 34,
+   "localized": 23,
+   "physical_pass": 23
+  },
+  "Laptop": {
+   "reference": 28,
+   "localized": 25,
+   "physical_pass": 25
+  },
+  "Microwave": {
+   "reference": 3,
+   "localized": 3,
+   "physical_pass": 3
+  },
+  "Mouse": {
+   "reference": 6,
+   "localized": 5,
+   "physical_pass": 5
+  },
+  "Oven": {
+   "reference": 11,
+   "localized": 7,
+   "physical_pass": 6
+  },
+  "Phone": {
+   "reference": 2,
+   "localized": 2,
+   "physical_pass": 2
+  },
+  "Refrigerator": {
+   "reference": 7,
+   "localized": 5,
+   "physical_pass": 5
+  },
+  "Remote": {
+   "reference": 1,
+   "localized": 0,
+   "physical_pass": 0
+  },
+  "Sink": {
+   "reference": 7,
+   "localized": 5,
+   "physical_pass": 5
+  },
+  "Suitcase": {
+   "reference": 3,
+   "localized": 3,
+   "physical_pass": 3
+  },
+  "Table": {
+   "reference": 12,
+   "localized": 4,
+   "physical_pass": 4
+  },
+  "Toilet": {
+   "reference": 1,
+   "localized": 1,
+   "physical_pass": 1
+  },
+  "Umbrella": {
+   "reference": 2,
+   "localized": 0,
+   "physical_pass": 0
+  },
+  "Vase": {
+   "reference": 1,
+   "localized": 1,
+   "physical_pass": 1
+  }
+ },
+ "per_category_parent_only": {
+  "Backpack": {
+   "reference": 3,
+   "localized": 0,
+   "physical_pass": 0
+  },
+  "Bed": {
+   "reference": 6,
+   "localized": 5,
+   "physical_pass": 5
+  },
+  "Bench": {
+   "reference": 3,
+   "localized": 1,
+   "physical_pass": 1
+  },
+  "Book": {
+   "reference": 8,
+   "localized": 1,
+   "physical_pass": 1
+  },
+  "Bottle": {
+   "reference": 8,
+   "localized": 6,
+   "physical_pass": 6
+  },
+  "Bowl": {
+   "reference": 5,
+   "localized": 1,
+   "physical_pass": 1
+  },
+  "Chair": {
+   "reference": 35,
+   "localized": 13,
+   "physical_pass": 9
+  },
+  "Cup": {
+   "reference": 7,
+   "localized": 3,
+   "physical_pass": 3
+  },
+  "Display": {
+   "reference": 43,
+   "localized": 22,
+   "physical_pass": 22
+  },
+  "Doll": {
+   "reference": 1,
+   "localized": 0,
+   "physical_pass": 0
+  },
+  "Keyboard": {
+   "reference": 34,
+   "localized": 15,
+   "physical_pass": 15
+  },
+  "Laptop": {
+   "reference": 28,
+   "localized": 14,
+   "physical_pass": 14
+  },
+  "Microwave": {
+   "reference": 3,
+   "localized": 2,
+   "physical_pass": 2
+  },
+  "Mouse": {
+   "reference": 6,
+   "localized": 5,
+   "physical_pass": 5
+  },
+  "Oven": {
+   "reference": 11,
+   "localized": 4,
+   "physical_pass": 3
+  },
+  "Phone": {
+   "reference": 2,
+   "localized": 1,
+   "physical_pass": 1
+  },
+  "Refrigerator": {
+   "reference": 7,
+   "localized": 3,
+   "physical_pass": 3
+  },
+  "Remote": {
+   "reference": 1,
+   "localized": 0,
+   "physical_pass": 0
+  },
+  "Sink": {
+   "reference": 7,
+   "localized": 3,
+   "physical_pass": 3
+  },
+  "Suitcase": {
+   "reference": 3,
+   "localized": 2,
+   "physical_pass": 2
+  },
+  "Table": {
+   "reference": 12,
+   "localized": 2,
+   "physical_pass": 2
+  },
+  "Toilet": {
+   "reference": 1,
+   "localized": 1,
+   "physical_pass": 1
+  },
+  "Umbrella": {
+   "reference": 2,
+   "localized": 0,
+   "physical_pass": 0
+  },
+  "Vase": {
+   "reference": 1,
+   "localized": 1,
+   "physical_pass": 1
+  }
+ },
+ "detections_per_category_union": {
+  "Bottle": 17,
+  "Can": 1,
+  "Display": 42,
+  "Keyboard": 26,
+  "Laptop": 25,
+  "Mouse": 26,
+  "Headset": 3,
+  "Desk": 28,
+  "Umbrella": 2,
+  "Table": 11,
+  "Bench": 2,
+  "Chair": 30,
+  "Cup": 13,
+  "Book": 31,
+  "SpeakerSteroEquipment": 20,
+  "Window": 20,
+  "Box": 11,
+  "Figurine": 22,
+  "BottleCap": 2,
+  "Lamp": 17,
+  "Notebook": 4,
+  "Pen": 4,
+  "Bowl": 8,
+  "CoffeeMachine": 1,
+  "Dishwasher": 1,
+  "Faucet": 7,
+  "Kettle": 5,
+  "Microwave": 5,
+  "Oven": 8,
+  "Sink": 6,
+  "Vase": 6,
+  "Phone": 15,
+  "Webcam": 3,
+  "Door": 9,
+  "Bed": 6,
+  "Dresser": 2,
+  "TelevisionCamera": 1,
+  "Remote": 1,
+  "Magazine": 1,
+  "Suitcase": 3,
+  "Fishbowl": 1,
+  "RadioReceiver": 1,
+  "Mug": 8,
+  "Printer": 4,
+  "Joystick": 1,
+  "Armor": 1,
+  "RouterComputerEquipment": 1,
+  "Refrigerator": 6,
+  "Toaster": 1,
+  "StorageFurniture": 3,
+  "Bucket": 1,
+  "Signboard": 1,
+  "Flag": 1,
+  "Coin": 3,
+  "TrashCan": 3,
+  "Handle": 7,
+  "Knob": 23,
+  "Switch": 4,
+  "USB": 10,
+  "Headboard": 1,
+  "Stool": 1,
+  "Clock": 2,
+  "Fireplace": 1,
+  "Toilet": 1,
+  "Camera": 1,
+  "Calculator": 2,
+  "Spoon": 1,
+  "Tray": 1,
+  "Basket": 1,
+  "Drawer": 15,
+  "KitchenSink": 1,
+  "Backpack": 3,
+  "Key": 1,
+  "Battery": 2,
+  "Card": 1,
+  "Binder": 2,
+  "Microphone": 1,
+  "Stapler": 1,
+  "Marker": 1,
+  "Chandelier": 1,
+  "Mirror": 1,
+  "Candle": 3,
+  "Doormat": 1,
+  "Calendar": 1,
+  "Knife": 2,
+  "Spatula": 1
+ },
+ "per_image": [
+  {
+   "scene_id": "scene_001_coco_000000555009",
+   "source": "main_campaign",
+   "reference_objects": 9,
+   "localized": 7,
+   "physical_pass": 7,
+   "all_objects_pass": false,
+   "unmatched_detections": 4
+  },
+  {
+   "scene_id": "scene_002_coco_000000030213",
+   "source": "detection_rerun",
+   "reference_objects": 5,
+   "localized": 2,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 13
+  },
+  {
+   "scene_id": "scene_003_coco_000000172595",
+   "source": "detection_rerun",
+   "reference_objects": 7,
+   "localized": 7,
+   "physical_pass": 6,
+   "all_objects_pass": false,
+   "unmatched_detections": 3
+  },
+  {
+   "scene_id": "scene_004_coco_000000348481",
+   "source": "detection_rerun",
+   "reference_objects": 6,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": false,
+   "unmatched_detections": 14
+  },
+  {
+   "scene_id": "scene_005_coco_000000121506",
+   "source": "main_campaign",
+   "reference_objects": 6,
+   "localized": 2,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 4
+  },
+  {
+   "scene_id": "scene_006_coco_000000026564",
+   "source": "main_campaign",
+   "reference_objects": 5,
+   "localized": 5,
+   "physical_pass": 5,
+   "all_objects_pass": true,
+   "unmatched_detections": 6
+  },
+  {
+   "scene_id": "scene_007_coco_000000516916",
+   "source": "detection_rerun",
+   "reference_objects": 7,
+   "localized": 6,
+   "physical_pass": 5,
+   "all_objects_pass": false,
+   "unmatched_detections": 5
+  },
+  {
+   "scene_id": "scene_008_coco_000000370478",
+   "source": "detection_rerun",
+   "reference_objects": 4,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": true,
+   "unmatched_detections": 5
+  },
+  {
+   "scene_id": "scene_009_coco_000000371677",
+   "source": "main_campaign",
+   "reference_objects": 7,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_010_coco_000000226171",
+   "source": "main_campaign",
+   "reference_objects": 5,
+   "localized": 5,
+   "physical_pass": 5,
+   "all_objects_pass": true,
+   "unmatched_detections": 6
+  },
+  {
+   "scene_id": "scene_011_coco_000000091615",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": false,
+   "unmatched_detections": 6
+  },
+  {
+   "scene_id": "scene_012_coco_000000182202",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 2,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 0
+  },
+  {
+   "scene_id": "scene_013_coco_000000435003",
+   "source": "main_campaign",
+   "reference_objects": 6,
+   "localized": 5,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 10
+  },
+  {
+   "scene_id": "scene_014_coco_000000442323",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 3,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 8
+  },
+  {
+   "scene_id": "scene_015_coco_000000301421",
+   "source": "main_campaign",
+   "reference_objects": 5,
+   "localized": 3,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 9
+  },
+  {
+   "scene_id": "scene_016_coco_000000387098",
+   "source": "main_campaign",
+   "reference_objects": 6,
+   "localized": 5,
+   "physical_pass": 5,
+   "all_objects_pass": false,
+   "unmatched_detections": 9
+  },
+  {
+   "scene_id": "scene_017_coco_000000246308",
+   "source": "detection_rerun",
+   "reference_objects": 4,
+   "localized": 4,
+   "physical_pass": 3,
+   "all_objects_pass": false,
+   "unmatched_detections": 25
+  },
+  {
+   "scene_id": "scene_018_coco_000000195918",
+   "source": "main_campaign",
+   "reference_objects": 5,
+   "localized": 5,
+   "physical_pass": 5,
+   "all_objects_pass": true,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_019_coco_000000472678",
+   "source": "main_campaign",
+   "reference_objects": 5,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 6
+  },
+  {
+   "scene_id": "scene_020_coco_000000189820",
+   "source": "detection_rerun",
+   "reference_objects": 5,
+   "localized": 3,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 24
+  },
+  {
+   "scene_id": "scene_021_coco_000000024610",
+   "source": "detection_rerun",
+   "reference_objects": 5,
+   "localized": 1,
+   "physical_pass": 1,
+   "all_objects_pass": false,
+   "unmatched_detections": 1
+  },
+  {
+   "scene_id": "scene_022_coco_000000346638",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": true,
+   "unmatched_detections": 4
+  },
+  {
+   "scene_id": "scene_023_coco_000000385719",
+   "source": "detection_rerun",
+   "reference_objects": 5,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 11
+  },
+  {
+   "scene_id": "scene_024_coco_000000225757",
+   "source": "detection_rerun",
+   "reference_objects": 5,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 6
+  },
+  {
+   "scene_id": "scene_025_coco_000000555972",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 1,
+   "physical_pass": 1,
+   "all_objects_pass": false,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_026_coco_000000159791",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 3,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 3
+  },
+  {
+   "scene_id": "scene_027_coco_000000529568",
+   "source": "detection_rerun",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 18
+  },
+  {
+   "scene_id": "scene_028_coco_000000203580",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 1,
+   "physical_pass": 1,
+   "all_objects_pass": false,
+   "unmatched_detections": 6
+  },
+  {
+   "scene_id": "scene_029_coco_000000255165",
+   "source": "detection_rerun",
+   "reference_objects": 6,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 16
+  },
+  {
+   "scene_id": "scene_030_coco_000000001993",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 5
+  },
+  {
+   "scene_id": "scene_031_coco_000000237928",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 9
+  },
+  {
+   "scene_id": "scene_032_coco_000000547144",
+   "source": "detection_rerun",
+   "reference_objects": 5,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 8
+  },
+  {
+   "scene_id": "scene_033_coco_000000360951",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": false,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_034_coco_000000060449",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 1,
+   "physical_pass": 1,
+   "all_objects_pass": false,
+   "unmatched_detections": 2
+  },
+  {
+   "scene_id": "scene_035_coco_000000437898",
+   "source": "detection_rerun",
+   "reference_objects": 3,
+   "localized": 2,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 10
+  },
+  {
+   "scene_id": "scene_036_coco_000000038576",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 1
+  },
+  {
+   "scene_id": "scene_037_coco_000000429598",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 12
+  },
+  {
+   "scene_id": "scene_038_coco_000000148620",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_039_coco_000000513688",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 2,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 4
+  },
+  {
+   "scene_id": "scene_040_coco_000000372466",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": false,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_041_coco_000000051738",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 4
+  },
+  {
+   "scene_id": "scene_042_coco_000000047769",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 1,
+   "physical_pass": 1,
+   "all_objects_pass": false,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_043_coco_000000041872",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 5
+  },
+  {
+   "scene_id": "scene_044_coco_000000365387",
+   "source": "main_campaign",
+   "reference_objects": 3,
+   "localized": 3,
+   "physical_pass": 3,
+   "all_objects_pass": true,
+   "unmatched_detections": 0
+  },
+  {
+   "scene_id": "scene_045_coco_000000178469",
+   "source": "detection_rerun",
+   "reference_objects": 4,
+   "localized": 2,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 6
+  },
+  {
+   "scene_id": "scene_046_coco_000000549674",
+   "source": "main_campaign",
+   "reference_objects": 4,
+   "localized": 4,
+   "physical_pass": 4,
+   "all_objects_pass": true,
+   "unmatched_detections": 4
+  },
+  {
+   "scene_id": "scene_047_coco_000000488075",
+   "source": "detection_rerun",
+   "reference_objects": 5,
+   "localized": 2,
+   "physical_pass": 2,
+   "all_objects_pass": false,
+   "unmatched_detections": 7
+  },
+  {
+   "scene_id": "scene_048_coco_000000419653",
+   "source": "detection_rerun",
+   "reference_objects": 11,
+   "localized": 6,
+   "physical_pass": 5,
+   "all_objects_pass": false,
+   "unmatched_detections": 29
+  },
+  {
+   "scene_id": "scene_049_coco_000000480122",
+   "source": "detection_rerun",
+   "reference_objects": 9,
+   "localized": 6,
+   "physical_pass": 6,
+   "all_objects_pass": false,
+   "unmatched_detections": 18
+  },
+  {
+   "scene_id": "scene_050_coco_000000248314",
+   "source": "main_campaign",
+   "reference_objects": 6,
+   "localized": 5,
+   "physical_pass": 4,
+   "all_objects_pass": false,
+   "unmatched_detections": 8
+  }
+ ],
+ "scene_relation_success": null,
+ "robot_real_world": "not_evaluated",
+ "robot_task_success": null,
+ "note": "Each image is evaluated from exactly one construction run. The two sources share the frozen construction code, definition parameters, geometry cache and physics gates; they differ only in the detection tool that produced the automatic regions of the 18 images that had failed detection."
+}

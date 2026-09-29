@@ -1,0 +1,19 @@
+{
+ "schema": "affordcraft.api_prices.v1",
+ "description": "Official list prices (USD per million tokens) applied to the recorded token counts of the API-based routes; read and checked by api_cost_official.py.",
+ "prices_usd_per_million": {
+  "gpt-6-astra": {"input": 10, "cached_input": 1, "cache_write": 12.5, "output": 50, "long_prompt_threshold": 272000},
+  "gemini-2.5-flash": {"input": 0.3, "output": 2.5},
+  "gemini-3.8-flash": {"input": 0.75, "output": 3.75}
+ },
+ "rules": {
+  "gpt-6-astra": "OpenAI Standard tier. Cache writes are billed at 1.25x the input rate (prompt caching is on by default for GPT-5.6 and later). A request whose prompt exceeds long_prompt_threshold input tokens is billed at 2x the input/cached/cache-write rates and 1.5x the output rate. Upper bound (reported in the paper): every uncached prompt token billed as a cache write; lower bound: at the input rate.",
+  "gemini-2.5-flash": "Google; output price includes thinking tokens; cached prompt tokens (none in the records) billed at the input rate.",
+  "gemini-3.8-flash": "Google; introductory price valid through 2026-12-31."
+ },
+ "sources": {
+  "gpt-6-astra": "https://developers.openai.com/api/docs/models/gpt-6-astra (as of 2026-09)",
+  "gemini-2.5-flash": "Google Gemini API pricing page (as of 2026-09)",
+  "gemini-3.8-flash": "Google Gemini API pricing page (as of 2026-09)"
+ }
+}

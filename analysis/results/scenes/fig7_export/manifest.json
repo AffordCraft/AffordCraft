@@ -1,0 +1,775 @@
+{
+ "selection_rule": "first passed round-2 held-out policy episode per scene, else first passed collect20 worker-0 teacher episode",
+ "scenes": {
+  "cabinet_cup": {
+   "source": "teacher_collect20_w0",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/scenes/collect20/cabinet_cup_w0/episode_0000",
+   "episode_index": 0,
+   "seed": 200000000,
+   "mode": "teacher",
+   "variant": "",
+   "ticks": 528,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "open the cabinet door fully and put the cup inside the cabinet",
+   "assets": {
+    "cabinet": "46277"
+   },
+   "objects": {
+    "cup": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "mouse",
+     "label": "mouse",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 107,
+    "t_lift": 352,
+    "t_rel": 444,
+    "last": 527,
+    "z_apex": 1.681,
+    "z_start": 0.9339
+   },
+   "event_frames": [
+    0,
+    107,
+    352,
+    527
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    48,
+    96,
+    144,
+    192,
+    240,
+    287,
+    335,
+    383,
+    431,
+    479,
+    527
+   ],
+   "trace_sha256": "b4c2bf6e03e46fae376272e65264fd18dbdbb60a2cf0cd5acd8dbad12ed3eab8",
+   "episode_json_sha256": "ec9b211dcc209a38ccb80e6356e74d4dc6f60530510e8e8ac4871caa8386824d",
+   "review_video_sha256": "c35f1932aa606859fd18562dbb7e0249f29693a992a1ed50cd2dd9d227298443"
+  },
+  "cabinet1_box": {
+   "source": "policy_round2_heldout",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/v20_vla/round2/eval/trained_vla/cabinet1_box/episode_0000",
+   "episode_index": 0,
+   "seed": 260000000,
+   "mode": "policy",
+   "variant": "trained_vla",
+   "ticks": 500,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "open the cabinet door fully and put the box inside the cabinet",
+   "assets": {
+    "cabinet": "45623"
+   },
+   "objects": {
+    "box": {
+     "asset": "box_bar",
+     "label": "box",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "vase",
+     "label": "vase",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 122,
+    "t_lift": 372,
+    "t_rel": 478,
+    "last": 499,
+    "z_apex": 1.5318,
+    "z_start": 0.9213
+   },
+   "event_frames": [
+    0,
+    122,
+    372,
+    499
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    45,
+    91,
+    136,
+    181,
+    227,
+    272,
+    318,
+    363,
+    408,
+    454,
+    499
+   ],
+   "trace_sha256": "50287e46ba22e8496ae049e8df8609a6c4d3ceeb2526a0497653db50a60692bd",
+   "episode_json_sha256": "33df218f93a3b4c5175f62917c25770d2896287909cfb62cd3eed47cf453cb2d",
+   "review_video_sha256": "b0354d3d9af58880c04f193fb3acea90d935d67af270eecdddb71e6351df6292"
+  },
+  "fridge_cup": {
+   "source": "teacher_collect20_w0",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/scenes/collect20/fridge_cup_w0/episode_0000",
+   "episode_index": 0,
+   "seed": 200000000,
+   "mode": "teacher",
+   "variant": "",
+   "ticks": 708,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "open the refrigerator door fully and put the cup inside the refrigerator",
+   "assets": {
+    "fridge": "10849"
+   },
+   "objects": {
+    "cup": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "mouse",
+     "label": "mouse",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 144,
+    "t_lift": 502,
+    "t_rel": 607,
+    "last": 707,
+    "z_apex": 1.5309,
+    "z_start": 0.9339
+   },
+   "event_frames": [
+    0,
+    144,
+    502,
+    707
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    64,
+    129,
+    193,
+    257,
+    321,
+    386,
+    450,
+    514,
+    578,
+    643,
+    707
+   ],
+   "trace_sha256": "ec6f9be99fe7874911457ca6c309e40761dd0fe68bb11eb974c134897e9207c9",
+   "episode_json_sha256": "ae90e1e3058b3b0c8b2895ba49085267a5a72f4f7c8cca6467804d64cc0ab25f",
+   "review_video_sha256": "488fdb28fdfcdc071dd35ad50b6b85e20e01359ea7191d3029c4d2e26d291999"
+  },
+  "microwave_box": {
+   "source": "policy_round2_heldout",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/v20_vla/round2/eval/trained_vla/microwave_box/episode_0005",
+   "episode_index": 5,
+   "seed": 260000005,
+   "mode": "policy",
+   "variant": "trained_vla",
+   "ticks": 505,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "open the microwave door fully and put the box inside the microwave",
+   "assets": {
+    "microwave": "7310"
+   },
+   "objects": {
+    "box": {
+     "asset": "box_bar",
+     "label": "box",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "bottle_wide",
+     "label": "bottle",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 109,
+    "t_lift": 373,
+    "t_rel": 490,
+    "last": 504,
+    "z_apex": 1.4159,
+    "z_start": 0.9213
+   },
+   "event_frames": [
+    0,
+    109,
+    373,
+    504
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    46,
+    92,
+    137,
+    183,
+    229,
+    275,
+    321,
+    367,
+    412,
+    458,
+    504
+   ],
+   "trace_sha256": "cb38ae80dc8451b7daa3e0939c6bd2c3d42443c2837e48984be435f1a46faa75",
+   "episode_json_sha256": "9b51092969eb24bdb5759c431663b22e10c62f3c7f1090f00a023c6c00d80db9",
+   "review_video_sha256": "d134a45a69b7132d9af08143f402a13ec1a4f8923a4f9bf28b8cd6b789859351"
+  },
+  "drawer_cup": {
+   "source": "policy_round2_heldout",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/v20_vla/round2/eval/trained_vla/drawer_cup/episode_0002",
+   "episode_index": 2,
+   "seed": 260000002,
+   "mode": "policy",
+   "variant": "trained_vla",
+   "ticks": 350,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "open the top drawer and put the cup inside the drawer",
+   "assets": {
+    "drawers": "46130"
+   },
+   "objects": {
+    "cup": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "pen",
+     "label": "pen",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 119,
+    "t_lift": 318,
+    "t_rel": 333,
+    "last": 349,
+    "z_apex": 1.3907,
+    "z_start": 0.9339
+   },
+   "event_frames": [
+    0,
+    119,
+    318,
+    349
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    32,
+    63,
+    95,
+    127,
+    159,
+    190,
+    222,
+    254,
+    286,
+    317,
+    349
+   ],
+   "trace_sha256": "779a99cc7a41ad07bc8a8555c6243afb83d2a0a616b8e347b7f7615e082deb3b",
+   "episode_json_sha256": "5e50d65d4bc62ebcbf2a26db4fffb3a61bb60fb9e8b6e493bfef0ee68f6289f8",
+   "review_video_sha256": "895b7dd24e5d58f2907dc114308f252d1f9ebb0cbd6c3575d3bd19c1dbed21e0"
+  },
+  "drawer_two": {
+   "source": "teacher_collect20_w0",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/scenes/collect20/drawer_two_w0/episode_0000",
+   "episode_index": 0,
+   "seed": 200000000,
+   "mode": "teacher",
+   "variant": "",
+   "ticks": 636,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true,
+    true
+   ],
+   "instruction": "open the top drawer and put both cups inside the drawer",
+   "assets": {
+    "drawers": "46130"
+   },
+   "objects": {
+    "cup": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    },
+    "cup2": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "bottle_wide",
+     "label": "bottle",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 119,
+    "t_lift": 553,
+    "t_rel": 587,
+    "last": 635,
+    "z_apex": 1.5227,
+    "z_start": 0.9339
+   },
+   "event_frames": [
+    0,
+    119,
+    553,
+    635
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    58,
+    115,
+    173,
+    231,
+    289,
+    346,
+    404,
+    462,
+    520,
+    577,
+    635
+   ],
+   "trace_sha256": "66f063c220e0510e3365ebd17fab8c1bd4e7f6cacdbef464d22c3f7b96ca5c17",
+   "episode_json_sha256": "872bf9da17f062f4ab92ed558e9a73b03feb05367c8e1e5d04a56f8caf05b0e3",
+   "review_video_sha256": "1679c50c0faa379e2d334d3dacfa2056b402b9785e6a542b7d21d3ca554ab2d4"
+  },
+  "drawer_to_cabinet": {
+   "source": "policy_round2_heldout",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/v20_vla/round2/eval/trained_vla/drawer_to_cabinet/episode_0004",
+   "episode_index": 4,
+   "seed": 260000004,
+   "mode": "policy",
+   "variant": "trained_vla",
+   "ticks": 435,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "take the cup out of the drawer, put it into the cabinet and close the drawer",
+   "assets": {
+    "cabinet": "46277",
+    "drawers": "46130"
+   },
+   "objects": {
+    "cup": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    }
+   },
+   "event_ticks": {
+    "t_art": null,
+    "t_lift": 161,
+    "t_rel": 261,
+    "last": 434,
+    "z_apex": 1.7784,
+    "z_start": 1.2709
+   },
+   "event_frames": [
+    0,
+    161,
+    261,
+    434
+   ],
+   "event_kinds": [
+    "start",
+    "object_lift_apex",
+    "gripper_release",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    39,
+    79,
+    118,
+    158,
+    197,
+    237,
+    276,
+    316,
+    355,
+    395,
+    434
+   ],
+   "trace_sha256": "9ef4c5fdf7b971b6b2c440e336f52fa226a576026b8799475d7b809049f6e197",
+   "episode_json_sha256": "686d8659a73da9200a699c65d1faf3cdc0ac999ba159cd7d760b1cc904fe04b2",
+   "review_video_sha256": "e1240d84cf654cd5e150c72f57386977cc29d06d9a62b1592b64bf83bdcef1c4"
+  },
+  "drawer_to_fridge": {
+   "source": "policy_round2_heldout",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/v20_vla/round2/eval/trained_vla/drawer_to_fridge/episode_0006",
+   "episode_index": 6,
+   "seed": 260000006,
+   "mode": "policy",
+   "variant": "trained_vla",
+   "ticks": 435,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "take the cup out of the drawer, put it into the refrigerator and close the drawer",
+   "assets": {
+    "fridge": "10849",
+    "drawers": "46130"
+   },
+   "objects": {
+    "cup": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    }
+   },
+   "event_ticks": {
+    "t_art": null,
+    "t_lift": 156,
+    "t_rel": 250,
+    "last": 434,
+    "z_apex": 1.6373,
+    "z_start": 1.2715
+   },
+   "event_frames": [
+    0,
+    156,
+    250,
+    434
+   ],
+   "event_kinds": [
+    "start",
+    "object_lift_apex",
+    "gripper_release",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    39,
+    79,
+    118,
+    158,
+    197,
+    237,
+    276,
+    316,
+    355,
+    395,
+    434
+   ],
+   "trace_sha256": "befd6c3b9c84daa98a0ee94df5d15edeb7bd39bce148efde9e800c379093d837",
+   "episode_json_sha256": "1889ecae12120043be8ec27de97f5ae4cf4c9c2ecd3d95326d7e62fc5706e3fb",
+   "review_video_sha256": "78db480a9d97b5381ed2d0684501dcc947f8a6f2e33f961c342e5913a2740439"
+  },
+  "laptop_cup": {
+   "source": "teacher_collect20_w0",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/scenes/collect20/laptop_cup_w0/episode_0000",
+   "episode_index": 0,
+   "seed": 200000000,
+   "mode": "teacher",
+   "variant": "",
+   "ticks": 526,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "close the laptop and put the cup on top of the laptop",
+   "assets": {
+    "laptop": "11586"
+   },
+   "objects": {
+    "cup": {
+     "asset": "cup_b",
+     "label": "cup",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "mouse",
+     "label": "mouse",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 144,
+    "t_lift": 449,
+    "t_rel": 477,
+    "last": 525,
+    "z_apex": 1.2927,
+    "z_start": 0.9339
+   },
+   "event_frames": [
+    0,
+    144,
+    449,
+    525
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    48,
+    95,
+    143,
+    191,
+    239,
+    286,
+    334,
+    382,
+    430,
+    477,
+    525
+   ],
+   "trace_sha256": "1cf488ebd81f39033b056639044df29c5c23be1d870e97df187128cdabbbd90d",
+   "episode_json_sha256": "720eb981d859bf52b4516bdb8c4e487a76779ba0e0354e478c23f7f4e922fd56",
+   "review_video_sha256": "f2271cce0e82f04670e8eb6baa909256d7e049807b09951ab88c1635a5bbc528"
+  },
+  "trashcan_box": {
+   "source": "teacher_collect20_w0",
+   "episode_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/scenes/collect20/trashcan_box_w0/episode_0000",
+   "episode_index": 0,
+   "seed": 200000000,
+   "mode": "teacher",
+   "variant": "",
+   "ticks": 728,
+   "status": "passed",
+   "goals_ok": [
+    true,
+    true
+   ],
+   "instruction": "open the trash can lid and put the box into the trash can",
+   "assets": {
+    "trashcan": "11124"
+   },
+   "objects": {
+    "box": {
+     "asset": "box_bar",
+     "label": "box",
+     "distractor": false
+    },
+    "distractor_0": {
+     "asset": "pen",
+     "label": "pen",
+     "distractor": true
+    }
+   },
+   "event_ticks": {
+    "t_art": 327,
+    "t_lift": 610,
+    "t_rel": 635,
+    "last": 727,
+    "z_apex": 1.3031,
+    "z_start": 0.9213
+   },
+   "event_frames": [
+    0,
+    327,
+    610,
+    727
+   ],
+   "event_kinds": [
+    "start",
+    "articulation_goal_reached",
+    "object_lift_apex",
+    "final"
+   ],
+   "even_frames": [
+    0,
+    66,
+    132,
+    198,
+    264,
+    330,
+    397,
+    463,
+    529,
+    595,
+    661,
+    727
+   ],
+   "trace_sha256": "e9120ad4e91f5a2dfe511a3165cd00526cdee436ce031681aa80504fb6d99517",
+   "episode_json_sha256": "d26f6cb2b0ee2e6a70cfba2d2af5051a5d3be79f8cd210457b932eaa3aece7a7",
+   "review_video_sha256": "3c9b5b6b1fe8df6804a87ab0c37b8c4bce06b032043801800cec334294f912c1"
+  }
+ },
+ "counts": {
+  "cabinet_cup": {
+   "teacher_passed": 20,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "0/10",
+   "heldout_trained_vla_stage1": "10/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "0/6",
+   "seen_trained_vla_stage1": "6/6"
+  },
+  "cabinet1_box": {
+   "teacher_passed": 24,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "4/10",
+   "heldout_trained_vla_stage1": "10/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "3/6",
+   "seen_trained_vla_stage1": "6/6"
+  },
+  "fridge_cup": {
+   "teacher_passed": 32,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "0/10",
+   "heldout_trained_vla_stage1": "10/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "1/4",
+   "seen_trained_vla_passed": "0/6",
+   "seen_trained_vla_stage1": "5/6"
+  },
+  "microwave_box": {
+   "teacher_passed": 28,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "1/10",
+   "heldout_trained_vla_stage1": "9/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "2/6",
+   "seen_trained_vla_stage1": "5/6"
+  },
+  "drawer_cup": {
+   "teacher_passed": 29,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "3/10",
+   "heldout_trained_vla_stage1": "8/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "2/6",
+   "seen_trained_vla_stage1": "5/6"
+  },
+  "drawer_two": {
+   "teacher_passed": 29,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "0/10",
+   "heldout_trained_vla_stage1": "8/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "0/6",
+   "seen_trained_vla_stage1": "6/6"
+  },
+  "drawer_to_cabinet": {
+   "teacher_passed": 32,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "2/10",
+   "heldout_trained_vla_stage1": "2/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "1/6",
+   "seen_trained_vla_stage1": "1/6"
+  },
+  "drawer_to_fridge": {
+   "teacher_passed": 31,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "1/10",
+   "heldout_trained_vla_stage1": "1/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "0/6",
+   "seen_trained_vla_stage1": "1/6"
+  },
+  "laptop_cup": {
+   "teacher_passed": 27,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "0/10",
+   "heldout_trained_vla_stage1": "7/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "0/6",
+   "seen_trained_vla_stage1": "6/6"
+  },
+  "trashcan_box": {
+   "teacher_passed": 21,
+   "teacher_episodes": 32,
+   "heldout_trained_vla_passed": "0/10",
+   "heldout_trained_vla_stage1": "1/10",
+   "heldout_untrained_vla_passed": "0/4",
+   "heldout_untrained_vla_stage1": "0/4",
+   "seen_trained_vla_passed": "0/6",
+   "seen_trained_vla_stage1": "1/6"
+  }
+ }
+}

@@ -1,0 +1,7 @@
+# Physics services: construction check and final validation in Isaac Sim 5.1 (PhysX), two independent processes.
+# Runs scripts/physics_worker.py, make_physics_fixtures.py and run_physics_job.py. Python 3.11.
+# Install Isaac Sim 5.1 following NVIDIA's pip instructions, e.g.
+#   pip install 'isaacsim[all,extscache]==5.1.0' --extra-index-url https://pypi.nvidia.com
+isaacsim==5.1.0.0
+numpy==1.26.0
+scipy==1.15.3

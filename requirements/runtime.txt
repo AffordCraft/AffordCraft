@@ -1,0 +1,12 @@
+# Asset construction subprocess: source-preserving import, adaptation, collision decomposition cascade, USD export.
+# Runs scripts/materialize_asset.py and scripts/coacd_health.py. Python 3.10.
+numpy==2.2.6
+scipy==1.15.3
+trimesh==4.12.2
+coacd==1.0.11
+usd-core==26.8
+networkx==3.4.2
+rtree==1.4.1
+pillow==11.3.0
+# External-method gate (evaluation/gate) additionally parses native MJCF exports with MuJoCo.
+mujoco==3.8.1

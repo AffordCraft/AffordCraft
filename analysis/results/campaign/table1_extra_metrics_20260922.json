@@ -1,0 +1,52 @@
+{
+ "all2000": {
+  "label": "all2000",
+  "n": 2000,
+  "passes": 1703,
+  "articulated_passes": 1132,
+  "localized": 1767,
+  "group_median": {
+   "perception": 31.6,
+   "adaptation": 67.3,
+   "validation": 6.5
+  },
+  "group_mean": {
+   "perception": 36.1,
+   "adaptation": 628.6,
+   "validation": 12.8
+  },
+  "e2e_median": 85.0,
+  "e2e_p95": 2873.5,
+  "e2e_mean": 602.4,
+  "case_wall_hours": 334.66,
+  "gpu_min_per_pass": 11.8,
+  "passes_per_case_hour": 5.09,
+  "considered_mean": 2.94
+ },
+ "subset200": {
+  "label": "subset200",
+  "n": 200,
+  "passes": 167,
+  "articulated_passes": 106,
+  "localized": 177,
+  "group_median": {
+   "perception": 31.8,
+   "adaptation": 73.1,
+   "validation": 6.2
+  },
+  "group_mean": {
+   "perception": 36.3,
+   "adaptation": 669.3,
+   "validation": 12.2
+  },
+  "e2e_median": 80.6,
+  "e2e_p95": 3076.2,
+  "e2e_mean": 638.9,
+  "case_wall_hours": 35.49,
+  "gpu_min_per_pass": 12.8,
+  "passes_per_case_hour": 4.7,
+  "considered_mean": 3.05
+ },
+ "source": "${AFFORDCRAFT_RUNS}/main_campaign/final_results/exp1_per_case.jsonl",
+ "note": "per-case wall time incl. failed attempts, one worker slot; GPU-min per pass = sum(case wall)/passes"
+}

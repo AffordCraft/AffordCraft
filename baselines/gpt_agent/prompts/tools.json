@@ -1,0 +1,136 @@
+[
+ {
+  "type": "function",
+  "function": {
+   "name": "search_catalog",
+   "description": "Visual retrieval over the asset catalog using the input photograph (optionally a crop of it). Returns up to k entries with id, category, source type, extent, link count, joint summary and one preview image each.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "category": {
+      "type": "string",
+      "description": "Catalog category to prefer (e.g. \"StorageFurniture\", \"Door\", \"Window\", \"Chair\", \"Table\", \"Bottle\", \"Laptop\"). Unknown names fall back to category-blind visual neighbours and the reply lists similar catalog category names."
+     },
+     "query": {
+      "type": "string",
+      "description": "Free-text note of what you are looking for. It is recorded only; the ranking is visual."
+     },
+     "k": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "Number of entries to return (1-10)."
+     },
+     "offset": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "Skip this many top-ranked entries (0-10) to page through the 20-entry retrieval list."
+     },
+     "box_normalized": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "Optional [x0, y0, x1, y1] in 0-1 image coordinates: crop the photograph to this box before retrieval."
+     }
+    },
+    "required": [
+     "category",
+     "query",
+     "k"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "inspect_entry",
+   "description": "Full description of one catalog entry: links (extent, centre, frame origin), joints (type, parent, child, pivot, axis, limits), size and units note, plus its catalog preview and renders at the rest and the opened configuration.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "entry_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "entry_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "make_primitive",
+   "description": "Create a primitive mesh part centred at its own origin. box: size_m=[x, y, z]; cylinder: size_m=[radius, height] (axis along z); sphere: size_m=[radius]. Returns the part_id to reference as {\"type\": \"primitive\", \"part_id\": ...}.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "kind": {
+      "type": "string",
+      "enum": [
+       "box",
+       "cylinder",
+       "sphere"
+      ]
+     },
+     "size_m": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "maxItems": 3
+     }
+    },
+    "required": [
+     "kind",
+     "size_m"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "render_assembly",
+   "description": "Validate an assembly spec and render it (two views at the rest configuration and one view with every joint at its far limit) on the ground grid; returns the images, the world bounding boxes of all links, joint pivots/axes in world coordinates, the lowest point and warnings.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "spec": {
+      "type": "object",
+      "description": "Assembly spec (see the system message)."
+     }
+    },
+    "required": [
+     "spec"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "submit_asset",
+   "description": "Final answer: validate and materialise the assembly spec as the native asset (URDF + MJCF + meshes). An accepted submission ends the task; a rejected one returns the validation error.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "spec": {
+      "type": "object",
+      "description": "Assembly spec (see the system message)."
+     }
+    },
+    "required": [
+     "spec"
+    ]
+   }
+  }
+ }
+]

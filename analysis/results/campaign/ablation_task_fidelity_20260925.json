@@ -1,0 +1,613 @@
+{
+ "written": "2026-09-24T21:43:00Z",
+ "study_results": "${AFFORDCRAFT_RUNS}/one_factor_study/study_results",
+ "manifest": "${AFFORDCRAFT_RUNS}/inputs/input_manifest_2000.jsonl",
+ "manifest_sha256": "139981fed148e2875f0e43a3d6e1cd30736d1db3088e4303b80d7a2f5d85a0df",
+ "definition": "correct = physical_pass and catalog label of the delivered entry (ordered_candidate_pool) == requested_category of the frozen manifest",
+ "tracks": {
+  "subset200": {
+   "full": {
+    "n": 200,
+    "passes": 169,
+    "correct": 169,
+    "wrong_category": [],
+    "passed_gain": 0,
+    "passed_loss": 0,
+    "passed_mcnemar_exact_two_sided": 1.0,
+    "correct_gain": 0,
+    "correct_loss": 0,
+    "correct_mcnemar_exact_two_sided": 1.0
+   },
+   "encoder_replacement": {
+    "n": 200,
+    "passes": 176,
+    "correct": 173,
+    "wrong_category": [
+     [
+      [
+       "Chair",
+       "FoldingChair"
+      ],
+      3
+     ]
+    ],
+    "passed_gain": 8,
+    "passed_loss": 1,
+    "passed_mcnemar_exact_two_sided": 0.0390625,
+    "correct_gain": 7,
+    "correct_loss": 3,
+    "correct_mcnemar_exact_two_sided": 0.34375
+   },
+   "without_task_condition": {
+    "n": 200,
+    "passes": 173,
+    "correct": 125,
+    "wrong_category": [
+     [
+      [
+       "Cart",
+       "Wagon"
+      ],
+      4
+     ],
+     [
+      [
+       "Display",
+       "Laptop"
+      ],
+      3
+     ],
+     [
+      [
+       "Table",
+       "TrashCan"
+      ],
+      2
+     ],
+     [
+      [
+       "Phone",
+       "Laptop"
+      ],
+      2
+     ],
+     [
+      [
+       "Table",
+       "Typewriter"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Keyboard"
+      ],
+      1
+     ],
+     [
+      [
+       "Suitcase",
+       "Box"
+      ],
+      1
+     ],
+     [
+      [
+       "Chair",
+       "FoldingChair"
+      ],
+      1
+     ],
+     [
+      [
+       "Chair",
+       "MusicStool"
+      ],
+      1
+     ],
+     [
+      [
+       "Camera",
+       "Scissors"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Cart"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Mug"
+      ],
+      1
+     ],
+     [
+      [
+       "Bottle",
+       "Dispenser"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "BowlingBall"
+      ],
+      1
+     ],
+     [
+      [
+       "Window",
+       "Headset"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Chair"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Microwave"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "GlassDrinkContainer"
+      ],
+      1
+     ],
+     [
+      [
+       "Window",
+       "Desk"
+      ],
+      1
+     ],
+     [
+      [
+       "Bottle",
+       "Phone"
+      ],
+      1
+     ],
+     [
+      [
+       "Pen",
+       "Remote"
+      ],
+      1
+     ],
+     [
+      [
+       "StorageFurniture",
+       "Chair"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Box"
+      ],
+      1
+     ],
+     [
+      [
+       "Bottle",
+       "Kettle"
+      ],
+      1
+     ],
+     [
+      [
+       "Lamp",
+       "SteeringWheel"
+      ],
+      1
+     ],
+     [
+      [
+       "Display",
+       "Globe"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "FireExtinguisher"
+      ],
+      1
+     ],
+     [
+      [
+       "Chair",
+       "Table"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Candle"
+      ],
+      1
+     ],
+     [
+      [
+       "Chair",
+       "Globe"
+      ],
+      1
+     ],
+     [
+      [
+       "StorageFurniture",
+       "SpeakerSteroEquipment"
+      ],
+      1
+     ],
+     [
+      [
+       "Window",
+       "Vase"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "StorageFurniture"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "TennisRacket"
+      ],
+      1
+     ],
+     [
+      [
+       "Phone",
+       "USB"
+      ],
+      1
+     ],
+     [
+      [
+       "Suitcase",
+       "Cart"
+      ],
+      1
+     ],
+     [
+      [
+       "Lamp",
+       "Seashell"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Eyeglasses"
+      ],
+      1
+     ],
+     [
+      [
+       "Bottle",
+       "Candle"
+      ],
+      1
+     ],
+     [
+      [
+       "Laptop",
+       "Keyboard"
+      ],
+      1
+     ],
+     [
+      [
+       "Table",
+       "Phone"
+      ],
+      1
+     ]
+    ],
+    "passed_gain": 6,
+    "passed_loss": 2,
+    "passed_mcnemar_exact_two_sided": 0.2890625,
+    "correct_gain": 3,
+    "correct_loss": 47,
+    "correct_mcnemar_exact_two_sided": 3.708322537931963e-11
+   },
+   "without_multimodal_selection": {
+    "n": 200,
+    "passes": 175,
+    "correct": 173,
+    "wrong_category": [
+     [
+      [
+       "Bottle",
+       "Phone"
+      ],
+      1
+     ],
+     [
+      [
+       "Chair",
+       "Display"
+      ],
+      1
+     ]
+    ],
+    "passed_gain": 6,
+    "passed_loss": 0,
+    "passed_mcnemar_exact_two_sided": 0.03125,
+    "correct_gain": 4,
+    "correct_loss": 0,
+    "correct_mcnemar_exact_two_sided": 0.125
+   },
+   "without_scale_adaptation": {
+    "n": 200,
+    "passes": 167,
+    "correct": 166,
+    "wrong_category": [
+     [
+      [
+       "Chair",
+       "FoldingChair"
+      ],
+      1
+     ]
+    ],
+    "passed_gain": 0,
+    "passed_loss": 2,
+    "passed_mcnemar_exact_two_sided": 0.5,
+    "correct_gain": 0,
+    "correct_loss": 3,
+    "correct_mcnemar_exact_two_sided": 0.25
+   },
+   "without_articulation_adaptation": {
+    "n": 200,
+    "passes": 93,
+    "correct": 89,
+    "wrong_category": [
+     [
+      [
+       "Window",
+       "Desk"
+      ],
+      1
+     ],
+     [
+      [
+       "Box",
+       "Laptop"
+      ],
+      1
+     ],
+     [
+      [
+       "Cart",
+       "Wagon"
+      ],
+      1
+     ],
+     [
+      [
+       "Laptop",
+       "Keyboard"
+      ],
+      1
+     ]
+    ],
+    "passed_gain": 0,
+    "passed_loss": 76,
+    "passed_mcnemar_exact_two_sided": 2.6469779601696886e-23,
+    "correct_gain": 0,
+    "correct_loss": 80,
+    "correct_mcnemar_exact_two_sided": 1.6543612251060553e-24
+   },
+   "without_physics_reselection": {
+    "n": 200,
+    "passes": 147,
+    "correct": 147,
+    "wrong_category": [],
+    "passed_gain": 0,
+    "passed_loss": 22,
+    "passed_mcnemar_exact_two_sided": 4.76837158203125e-07,
+    "correct_gain": 0,
+    "correct_loss": 22,
+    "correct_mcnemar_exact_two_sided": 4.76837158203125e-07
+   },
+   "without_repair": {
+    "n": 200,
+    "passes": 169,
+    "correct": 169,
+    "wrong_category": [],
+    "passed_gain": 0,
+    "passed_loss": 0,
+    "passed_mcnemar_exact_two_sided": 1.0,
+    "correct_gain": 0,
+    "correct_loss": 0,
+    "correct_mcnemar_exact_two_sided": 1.0
+   },
+   "without_installation_evidence": {
+    "n": 200,
+    "passes": 169,
+    "correct": 169,
+    "wrong_category": [],
+    "passed_gain": 1,
+    "passed_loss": 1,
+    "passed_mcnemar_exact_two_sided": 1.0,
+    "correct_gain": 1,
+    "correct_loss": 1,
+    "correct_mcnemar_exact_two_sided": 1.0
+   },
+   "without_decomposition_cascade": {
+    "n": 200,
+    "passes": 153,
+    "correct": 153,
+    "wrong_category": [],
+    "passed_gain": 0,
+    "passed_loss": 16,
+    "passed_mcnemar_exact_two_sided": 3.0517578125e-05,
+    "correct_gain": 0,
+    "correct_loss": 16,
+    "correct_mcnemar_exact_two_sided": 3.0517578125e-05
+   }
+  },
+  "category548": {
+   "full": {
+    "n": 548,
+    "passes": 411,
+    "correct": 406,
+    "wrong_category": [
+     [
+      [
+       "Door",
+       "Window"
+      ],
+      2
+     ],
+     [
+      [
+       "Window",
+       "Door"
+      ],
+      1
+     ],
+     [
+      [
+       "StorageFurniture",
+       "Table"
+      ],
+      1
+     ],
+     [
+      [
+       "Door",
+       "Remote"
+      ],
+      1
+     ]
+    ],
+    "passed_gain": 0,
+    "passed_loss": 0,
+    "passed_mcnemar_exact_two_sided": 1.0,
+    "correct_gain": 0,
+    "correct_loss": 0,
+    "correct_mcnemar_exact_two_sided": 1.0
+   },
+   "without_installation_evidence": {
+    "n": 548,
+    "passes": 411,
+    "correct": 406,
+    "wrong_category": [
+     [
+      [
+       "Door",
+       "Window"
+      ],
+      2
+     ],
+     [
+      [
+       "Window",
+       "Door"
+      ],
+      1
+     ],
+     [
+      [
+       "StorageFurniture",
+       "Table"
+      ],
+      1
+     ],
+     [
+      [
+       "Door",
+       "Remote"
+      ],
+      1
+     ]
+    ],
+    "passed_gain": 0,
+    "passed_loss": 0,
+    "passed_mcnemar_exact_two_sided": 1.0,
+    "correct_gain": 0,
+    "correct_loss": 0,
+    "correct_mcnemar_exact_two_sided": 1.0
+   },
+   "without_decomposition_cascade": {
+    "n": 548,
+    "passes": 408,
+    "correct": 403,
+    "wrong_category": [
+     [
+      [
+       "Window",
+       "Door"
+      ],
+      2
+     ],
+     [
+      [
+       "Door",
+       "Window"
+      ],
+      2
+     ],
+     [
+      [
+       "StorageFurniture",
+       "Table"
+      ],
+      1
+     ]
+    ],
+    "passed_gain": 0,
+    "passed_loss": 3,
+    "passed_mcnemar_exact_two_sided": 0.25,
+    "correct_gain": 0,
+    "correct_loss": 3,
+    "correct_mcnemar_exact_two_sided": 0.25
+   }
+  }
+ },
+ "sources": {
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_full.jsonl": "7d560fdc770cb413d465f8535bb8be31aeb1dd0595a819905c5920691798bd5d",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_encoder_replacement.jsonl": "42d745010d81209565aa21ae3439b4f031f5f1b1d7a90a4cf1e2ac2b5b2f5b13",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_task_condition.jsonl": "b82db037cf90d994b61f10e9f3d7489b8d6c999608bd2ffbcf652de72367da6b",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_multimodal_selection.jsonl": "3c0911c2ec861aef3132416261a4ca27fd82a7b3278e69e16f9eb5e6850c8d54",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_scale_adaptation.jsonl": "2c994e1d4ef53fe6cd38f284ae691c0446ce9d1bc03b75fd593d7e1ad5dbe026",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_articulation_adaptation.jsonl": "defbb6fa4aabfb8a08a3e961e5f8ee4de12c2849899a3bec935ad03cec2f5370",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_physics_reselection.jsonl": "2532f28f4daf1144162b9f609f7202b7a06512ad68bedc8a87b49b8590a305ca",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_repair.jsonl": "6e57e377c44c22303c53291847f4f98c393081b2258cf868c1e36341fd1f6ad6",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_installation_evidence.jsonl": "f533788456292bfda83a1a37ec0fc8abf28213a8c4643b785d44a8f18a85913a",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_subset200_without_decomposition_cascade.jsonl": "68e00990115927a43eea1fbae7ae792295899716c6b6395d11016eb6cb5fe375",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_category548_full.jsonl": "d60cdd3d6878839735683fd571e18b2569b96711066c7c152b99f1af8fa39a36",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_category548_without_installation_evidence.jsonl": "f6425e1f5dc782e72d5438efd8c6005dfcbe5bfe6f836610f5b5cc5c35a04f67",
+  "${AFFORDCRAFT_RUNS}/one_factor_study/study_results/per_case_category548_without_decomposition_cascade.jsonl": "7b1ba03cf6abb0b977da05acc7314720bf7c788f7c15e0b23318e971dc3145e1"
+ },
+ "cases_jsonl_sha256": "caefbb437c07e3a4b684ce68fb5345a11a1f0e9d6b9e7ef369f4ead355bfe7ed"
+}

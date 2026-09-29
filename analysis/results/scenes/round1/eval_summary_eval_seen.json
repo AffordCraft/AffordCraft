@@ -1,0 +1,1016 @@
+{
+ "created": 1789896829.4553392,
+ "eval_dir": "${AFFORDCRAFT_RUNS}/scenes_vla/v20_vla/round1/eval_seen",
+ "variants": {
+  "untrained_vla": {
+   "episodes": 0,
+   "passed": 0,
+   "stage1_reached": 0,
+   "per_scene": {},
+   "per_scene_stage1": {},
+   "all_have_video": true,
+   "rows": []
+  },
+  "trained_vla": {
+   "episodes": 60,
+   "passed": 8,
+   "stage1_reached": 43,
+   "per_scene": {
+    "cabinet1_box": "2/6",
+    "cabinet_cup": "0/6",
+    "drawer_cup": "0/6",
+    "drawer_to_cabinet": "2/6",
+    "drawer_to_fridge": "2/6",
+    "drawer_two": "1/6",
+    "fridge_cup": "0/6",
+    "laptop_cup": "0/6",
+    "microwave_box": "1/6",
+    "trashcan_box": "0/6"
+   },
+   "per_scene_stage1": {
+    "cabinet1_box": "6/6",
+    "cabinet_cup": "3/6",
+    "drawer_cup": "6/6",
+    "drawer_to_cabinet": "2/6",
+    "drawer_to_fridge": "3/6",
+    "drawer_two": "6/6",
+    "fridge_cup": "5/6",
+    "laptop_cup": "6/6",
+    "microwave_box": "3/6",
+    "trashcan_box": "3/6"
+   },
+   "all_have_video": true,
+   "rows": [
+    {
+     "scene": "cabinet1_box",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet1_box",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet1_box",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 960,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet1_box",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet1_box",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet1_box",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 755,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet_cup",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "joint_min:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "cabinet_cup",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet_cup",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet_cup",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "joint_min:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "cabinet_cup",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "cabinet_cup",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "joint_min:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_cup",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_cup",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_cup",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_cup",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_cup",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_cup",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_to_cabinet",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_to_cabinet",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_to_cabinet",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_to_cabinet",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "inside:cabinet",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_to_cabinet",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 435,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_to_cabinet",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 430,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_to_fridge",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_to_fridge",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 435,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_to_fridge",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "joint_max:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_to_fridge",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 415,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_to_fridge",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_to_fridge",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "drawer_two",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_two",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_two",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_two",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_two",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 590,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "drawer_two",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "inside:drawers",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "fridge_cup",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "fridge_cup",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "joint_min:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "fridge_cup",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "fridge_cup",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "fridge_cup",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "fridge_cup",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "inside:fridge",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "laptop_cup",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "on_top:laptop",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "laptop_cup",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "on_top:laptop",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "laptop_cup",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "on_top:laptop",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "laptop_cup",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "on_top:laptop",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "laptop_cup",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "failed",
+     "failure_reason": "on_top:laptop",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "laptop_cup",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "on_top:laptop",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "microwave_box",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "joint_min:microwave",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "microwave_box",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "joint_min:microwave",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "microwave_box",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "inside:microwave",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "microwave_box",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "inside:microwave",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "microwave_box",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "passed",
+     "failure_reason": null,
+     "ticks": 470,
+     "video": true,
+     "trace": true,
+     "teacher_status": "completed",
+     "goals_ok": [
+      true,
+      true
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "microwave_box",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "joint_min:microwave",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "trashcan_box",
+     "episode": 0,
+     "seed": 200000000,
+     "status": "failed",
+     "failure_reason": "inside:trashcan",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "trashcan_box",
+     "episode": 1,
+     "seed": 200000001,
+     "status": "failed",
+     "failure_reason": "joint_min:trashcan",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "trashcan_box",
+     "episode": 2,
+     "seed": 200000002,
+     "status": "failed",
+     "failure_reason": "inside:trashcan",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "trashcan_box",
+     "episode": 3,
+     "seed": 200000003,
+     "status": "failed",
+     "failure_reason": "joint_min:trashcan",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    },
+    {
+     "scene": "trashcan_box",
+     "episode": 4,
+     "seed": 200000004,
+     "status": "failed",
+     "failure_reason": "inside:trashcan",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      true,
+      false
+     ],
+     "stage1": true
+    },
+    {
+     "scene": "trashcan_box",
+     "episode": 5,
+     "seed": 200000005,
+     "status": "failed",
+     "failure_reason": "joint_min:trashcan",
+     "ticks": 1000,
+     "video": true,
+     "trace": true,
+     "teacher_status": "budget_exhausted",
+     "goals_ok": [
+      false,
+      false
+     ],
+     "stage1": false
+    }
+   ]
+  }
+ },
+ "robot_real_world": "not_evaluated",
+ "robot_control_status": "simulated_robot_only",
+ "robot_task_success": null
+}

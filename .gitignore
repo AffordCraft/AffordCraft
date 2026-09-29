@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local asset sources, runs and generated outputs (see docs/setup.md)
+runs/
+workspace/
+analysis/out/
+
+# Credentials (the API-based baselines read EVAL_API_BASE / EVAL_API_KEY from the environment)
+.env
+.env.*
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+# Main process: grounding and selection (Qwen3-VL-8B-Instruct), visual retrieval (DINOv2), orchestration.
+# Runs scripts/run_pipeline.py, build_visual_index.py, detect_scene_objects.py, calibrate_vision.py. Python 3.10.
+# Versions are the ones used for the paper; install PyTorch for your CUDA version first (the paper used CUDA 12.8).
+torch==2.7.0
+transformers==4.57.1
+accelerate==1.5.2
+safetensors==0.8.0
+huggingface-hub==0.36.2
+numpy==2.2.6
+scipy==1.15.3
+pillow==11.3.0
+trimesh==4.12.2
+coacd==1.0.11

@@ -1,0 +1,63 @@
+{
+ "name": "f06_library_grouped_bars",
+ "width_inches": 5.5,
+ "height_inches": 3.0555555555555554,
+ "minimum_text_pt": 8.5,
+ "out_of_canvas_text": [],
+ "inputs": [],
+ "facts": {
+  "entries": [
+   141,
+   418,
+   472,
+   614,
+   11372
+  ],
+  "coverage": [
+   46.150000000000006,
+   46.150000000000006,
+   46.150000000000006,
+   100.0,
+   100.0
+  ],
+  "agreement": [
+   17.5,
+   22.3,
+   24.75,
+   30.3,
+   51.449999999999996
+  ],
+  "median_ms": [
+   44.88895647227764,
+   44.9572391808033,
+   44.94374059140682,
+   44.999273493885994,
+   50.13229325413704
+  ],
+  "p95_ms": [
+   68.38085874915123,
+   68.46575811505318,
+   68.51674988865852,
+   68.41351464390755,
+   74.43029060959816
+  ],
+  "configurations": [
+   "base_library",
+   "additional_instances",
+   "additional_mechanisms",
+   "additional_categories",
+   "full_library"
+  ],
+  "bars": 20,
+  "additional_measurements": 0,
+  "rate_y_limit": [
+   0,
+   110
+  ],
+  "latency_y_limit": [
+   0,
+   90
+  ],
+  "median_and_p95_are_quantiles_not_confidence_intervals": true
+ }
+}

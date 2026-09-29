@@ -1,0 +1,308 @@
+{
+ "collect20": {
+  "cabinet_cup": {
+   "episodes": 32,
+   "passed": 20,
+   "stage1": 24,
+   "passed_ticks_median": 527.5,
+   "passed_ticks_min": 494,
+   "passed_ticks_max": 817,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "cabinet1_box": {
+   "episodes": 32,
+   "passed": 24,
+   "stage1": 31,
+   "passed_ticks_median": 573.0,
+   "passed_ticks_min": 494,
+   "passed_ticks_max": 679,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "fridge_cup": {
+   "episodes": 32,
+   "passed": 32,
+   "stage1": 32,
+   "passed_ticks_median": 715.5,
+   "passed_ticks_min": 624,
+   "passed_ticks_max": 895,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "microwave_box": {
+   "episodes": 32,
+   "passed": 28,
+   "stage1": 32,
+   "passed_ticks_median": 569.0,
+   "passed_ticks_min": 539,
+   "passed_ticks_max": 894,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "drawer_cup": {
+   "episodes": 32,
+   "passed": 29,
+   "stage1": 32,
+   "passed_ticks_median": 385,
+   "passed_ticks_min": 364,
+   "passed_ticks_max": 443,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "drawer_two": {
+   "episodes": 32,
+   "passed": 29,
+   "stage1": 32,
+   "passed_ticks_median": 640,
+   "passed_ticks_min": 589,
+   "passed_ticks_max": 726,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "drawer_to_cabinet": {
+   "episodes": 32,
+   "passed": 32,
+   "stage1": 32,
+   "passed_ticks_median": 480.0,
+   "passed_ticks_min": 469,
+   "passed_ticks_max": 511,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "drawer_to_fridge": {
+   "episodes": 32,
+   "passed": 31,
+   "stage1": 31,
+   "passed_ticks_median": 451,
+   "passed_ticks_min": 409,
+   "passed_ticks_max": 502,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "laptop_cup": {
+   "episodes": 32,
+   "passed": 27,
+   "stage1": 30,
+   "passed_ticks_median": 546,
+   "passed_ticks_min": 518,
+   "passed_ticks_max": 562,
+   "policy_ticks": 0,
+   "bursts": 0
+  },
+  "trashcan_box": {
+   "episodes": 32,
+   "passed": 21,
+   "stage1": 22,
+   "passed_ticks_median": 770,
+   "passed_ticks_min": 728,
+   "passed_ticks_max": 837,
+   "policy_ticks": 0,
+   "bursts": 0
+  }
+ },
+ "dagger20": {
+  "cabinet_cup": {
+   "episodes": 20,
+   "passed": 8,
+   "stage1": 20,
+   "passed_ticks_median": 593.0,
+   "passed_ticks_min": 522,
+   "passed_ticks_max": 898,
+   "policy_ticks": 0,
+   "bursts": 190
+  },
+  "cabinet1_box": {
+   "episodes": 20,
+   "passed": 14,
+   "stage1": 19,
+   "passed_ticks_median": 654.5,
+   "passed_ticks_min": 531,
+   "passed_ticks_max": 1188,
+   "policy_ticks": 0,
+   "bursts": 190
+  },
+  "fridge_cup": {
+   "episodes": 20,
+   "passed": 10,
+   "stage1": 20,
+   "passed_ticks_median": 820.5,
+   "passed_ticks_min": 711,
+   "passed_ticks_max": 1200,
+   "policy_ticks": 0,
+   "bursts": 245
+  },
+  "microwave_box": {
+   "episodes": 20,
+   "passed": 12,
+   "stage1": 20,
+   "passed_ticks_median": 621.5,
+   "passed_ticks_min": 566,
+   "passed_ticks_max": 800,
+   "policy_ticks": 0,
+   "bursts": 189
+  },
+  "drawer_cup": {
+   "episodes": 20,
+   "passed": 10,
+   "stage1": 17,
+   "passed_ticks_median": 412.0,
+   "passed_ticks_min": 387,
+   "passed_ticks_max": 510,
+   "policy_ticks": 0,
+   "bursts": 114
+  },
+  "drawer_two": {
+   "episodes": 20,
+   "passed": 6,
+   "stage1": 19,
+   "passed_ticks_median": 686.5,
+   "passed_ticks_min": 670,
+   "passed_ticks_max": 823,
+   "policy_ticks": 0,
+   "bursts": 187
+  },
+  "drawer_to_cabinet": {
+   "episodes": 20,
+   "passed": 5,
+   "stage1": 5,
+   "passed_ticks_median": 601,
+   "passed_ticks_min": 492,
+   "passed_ticks_max": 692,
+   "policy_ticks": 0,
+   "bursts": 97
+  },
+  "drawer_to_fridge": {
+   "episodes": 20,
+   "passed": 1,
+   "stage1": 1,
+   "passed_ticks_median": 671,
+   "passed_ticks_min": 671,
+   "passed_ticks_max": 671,
+   "policy_ticks": 0,
+   "bursts": 91
+  },
+  "laptop_cup": {
+   "episodes": 20,
+   "passed": 10,
+   "stage1": 16,
+   "passed_ticks_median": 572.0,
+   "passed_ticks_min": 542,
+   "passed_ticks_max": 665,
+   "policy_ticks": 0,
+   "bursts": 135
+  },
+  "trashcan_box": {
+   "episodes": 20,
+   "passed": 11,
+   "stage1": 11,
+   "passed_ticks_median": 789,
+   "passed_ticks_min": 738,
+   "passed_ticks_max": 838,
+   "policy_ticks": 0,
+   "bursts": 96
+  }
+ },
+ "dagger20r2": {
+  "cabinet_cup": {
+   "episodes": 24,
+   "passed": 10,
+   "stage1": 24,
+   "passed_ticks_median": 575.0,
+   "passed_ticks_min": 534,
+   "passed_ticks_max": 643,
+   "policy_ticks": 0,
+   "bursts": 207
+  },
+  "cabinet1_box": {
+   "episodes": 24,
+   "passed": 18,
+   "stage1": 24,
+   "passed_ticks_median": 690.0,
+   "passed_ticks_min": 548,
+   "passed_ticks_max": 898,
+   "policy_ticks": 0,
+   "bursts": 239
+  },
+  "fridge_cup": {
+   "episodes": 24,
+   "passed": 10,
+   "stage1": 24,
+   "passed_ticks_median": 799.0,
+   "passed_ticks_min": 693,
+   "passed_ticks_max": 1200,
+   "policy_ticks": 0,
+   "bursts": 265
+  },
+  "microwave_box": {
+   "episodes": 24,
+   "passed": 12,
+   "stage1": 24,
+   "passed_ticks_median": 639.5,
+   "passed_ticks_min": 571,
+   "passed_ticks_max": 831,
+   "policy_ticks": 0,
+   "bursts": 208
+  },
+  "drawer_cup": {
+   "episodes": 24,
+   "passed": 11,
+   "stage1": 20,
+   "passed_ticks_median": 428,
+   "passed_ticks_min": 411,
+   "passed_ticks_max": 464,
+   "policy_ticks": 0,
+   "bursts": 124
+  },
+  "drawer_two": {
+   "episodes": 24,
+   "passed": 6,
+   "stage1": 20,
+   "passed_ticks_median": 680.0,
+   "passed_ticks_min": 665,
+   "passed_ticks_max": 723,
+   "policy_ticks": 0,
+   "bursts": 196
+  },
+  "drawer_to_cabinet": {
+   "episodes": 24,
+   "passed": 9,
+   "stage1": 9,
+   "passed_ticks_median": 512,
+   "passed_ticks_min": 492,
+   "passed_ticks_max": 702,
+   "policy_ticks": 0,
+   "bursts": 134
+  },
+  "drawer_to_fridge": {
+   "episodes": 24,
+   "passed": 6,
+   "stage1": 6,
+   "passed_ticks_median": 538.5,
+   "passed_ticks_min": 485,
+   "passed_ticks_max": 589,
+   "policy_ticks": 0,
+   "bursts": 122
+  },
+  "laptop_cup": {
+   "episodes": 24,
+   "passed": 11,
+   "stage1": 19,
+   "passed_ticks_median": 607,
+   "passed_ticks_min": 551,
+   "passed_ticks_max": 688,
+   "policy_ticks": 0,
+   "bursts": 159
+  },
+  "trashcan_box": {
+   "episodes": 24,
+   "passed": 10,
+   "stage1": 14,
+   "passed_ticks_median": 776.5,
+   "passed_ticks_min": 755,
+   "passed_ticks_max": 813,
+   "policy_ticks": 0,
+   "bursts": 109
+  }
+ }
+}

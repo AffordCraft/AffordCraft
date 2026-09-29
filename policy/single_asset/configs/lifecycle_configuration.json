@@ -1,0 +1,18 @@
+{
+  "admission": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-149/supplement-and-dataset-001",
+  "collection": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-132/formal-collection-001",
+  "dataset_manifest": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-149/supplement-and-dataset-001/frozen_dataset/successful_trajectory_dataset_manifest.json",
+  "evaluation_configuration": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/evaluation_configuration.json",
+  "gpu_gate": "all eight GPUs have no unrelated compute process; wait without stopping any process",
+  "isaac_python": "${AFFORDCRAFT_ISAAC_PYTHON}",
+  "lifecycle_entrypoint": "${AFFORDCRAFT_REPO}/policy/single_asset/tools/run_exp3_feedback_learning_v0_167.py",
+  "model_initialization_before_gate": false,
+  "output": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001",
+  "repo": "${AFFORDCRAFT_REPO}/policy/single_asset",
+  "robot_control_status": "simulated_robot_only",
+  "robot_real_world": "not_evaluated",
+  "robot_task_success": null,
+  "training_configuration": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/training_configuration.json",
+  "training_gate": "final independent ten by one hundred success admission AND normal collection exit; never online provisional",
+  "vla_python": "${OPENVLA_OFT_PYTHON}"
+}

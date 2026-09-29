@@ -1,0 +1,306 @@
+{
+ "description": "50 cluttered COCO images; model input = the whole image and the instruction only",
+ "n": 50,
+ "inputs": [
+  {
+   "scene_id": "scene_001_coco_000000555009",
+   "coco_image_id": 555009,
+   "image_sha256": "01d975300362169fe1d5bbdf664f28873201678c9e6679080e69aba4deb1ca27",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_002_coco_000000030213",
+   "coco_image_id": 30213,
+   "image_sha256": "27fdc374629bb5fc3c059eb7f5516b940596f0b50087adf364b6b09922089eaf",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_003_coco_000000172595",
+   "coco_image_id": 172595,
+   "image_sha256": "faa06206531e26d29bed2d1ecca535d5496a017e1e88a7329f19bf4a5574a83b",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_004_coco_000000348481",
+   "coco_image_id": 348481,
+   "image_sha256": "7b4434ecb88a7379cd6d8327692ce2a1255100ef66bebd602b680e00b5a4206a",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_005_coco_000000121506",
+   "coco_image_id": 121506,
+   "image_sha256": "c343589eeba3701c2e6bc2b7f7f6c65eaaf9b2d998fd0402b90d82bdc69a0325",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_006_coco_000000026564",
+   "coco_image_id": 26564,
+   "image_sha256": "ecefff4893149e6ac22348a59c8e4d3c1b3a751266a15bd38e3e6d041bf39c52",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_007_coco_000000516916",
+   "coco_image_id": 516916,
+   "image_sha256": "a3f5a927065992ee6e8ebb022fd8ebde60dc51c6eda6ad2f8b2e1bdd353a3118",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_008_coco_000000370478",
+   "coco_image_id": 370478,
+   "image_sha256": "f5ed1c21f176378a77e5e3dcd071908850d193cc200232790071fea5a1234aaf",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_009_coco_000000371677",
+   "coco_image_id": 371677,
+   "image_sha256": "8db67d13aac1ef8f1a6c24fa7a542c794c4155343f0b9f8a9527dc4ffa9a405a",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_010_coco_000000226171",
+   "coco_image_id": 226171,
+   "image_sha256": "47d394dec639e40d53739ee70995e13c701d2bc6fdfc7912280e55b211b1cd71",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_011_coco_000000091615",
+   "coco_image_id": 91615,
+   "image_sha256": "4129b8e7fd52e262d9dffbddb3c5d0287b6e0cb0933315f84ddd1f30c0c98441",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_012_coco_000000182202",
+   "coco_image_id": 182202,
+   "image_sha256": "6c3cee9f0da8f494523c9bde554da113f44042128b22c94be7bd29d27df1d181",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_013_coco_000000435003",
+   "coco_image_id": 435003,
+   "image_sha256": "e41908e96c3ab7d91eb8b676c734d8f8283106faccc8fad59c9ae78e96819fc5",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_014_coco_000000442323",
+   "coco_image_id": 442323,
+   "image_sha256": "87c61ceffcecc9d3ecd9be2bb7dc605ed2a1c8c522b745f5867ac24f82c19d95",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_015_coco_000000301421",
+   "coco_image_id": 301421,
+   "image_sha256": "a68205cde5ae859ac50c6cb563a0a3e5f7d780f28625afddeb8db153c7dcbb71",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_016_coco_000000387098",
+   "coco_image_id": 387098,
+   "image_sha256": "8f238c8eb6eaa82b9bd28db4530e39ecb46793e00703e58a5ee39df837ae3937",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_017_coco_000000246308",
+   "coco_image_id": 246308,
+   "image_sha256": "1cf3ed51231a81dbdcf1c5fb95b2cd2ad5c7373453983233149bed64a3698a2b",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_018_coco_000000195918",
+   "coco_image_id": 195918,
+   "image_sha256": "7fe3399efdfa4f8df27d58c7bf5fb536e8d73121e328feba7a6b006b11b8c991",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_019_coco_000000472678",
+   "coco_image_id": 472678,
+   "image_sha256": "29b13646cfdb4a3b4388c9289e19a38b42679a5aed2bac7def1587033786e94d",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_020_coco_000000189820",
+   "coco_image_id": 189820,
+   "image_sha256": "194f0aca3fbaed6f998e1f87d90ee64f8590bf29d39fdc4c250b79015731faab",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_021_coco_000000024610",
+   "coco_image_id": 24610,
+   "image_sha256": "aa7b8f989b3584fa3b41c743f5d1b3c45f9f6ead8c31d7a64f9b253b5c2868cb",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_022_coco_000000346638",
+   "coco_image_id": 346638,
+   "image_sha256": "b4d43721cbdd42e88494453e2133e97d97f6d24dcb5d9293a61ac2f31de88842",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_023_coco_000000385719",
+   "coco_image_id": 385719,
+   "image_sha256": "5863bcc4c3bb2fbdf5686991746e4dd488c6dff72f6247d9f941a77c9ebdd7b6",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_024_coco_000000225757",
+   "coco_image_id": 225757,
+   "image_sha256": "4773e48bb6cf0f86aa759fc0e1a2def1decc9a10755299228442236c2a129fb0",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_025_coco_000000555972",
+   "coco_image_id": 555972,
+   "image_sha256": "3b42874ea83c67ae7cf722a1da416643e401f0a9501638bf9dee86ab4346c131",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_026_coco_000000159791",
+   "coco_image_id": 159791,
+   "image_sha256": "064a1dbf3418a71218e85213d4f990b6e7e2bbdf3ca980d3f86f8969e8101002",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_027_coco_000000529568",
+   "coco_image_id": 529568,
+   "image_sha256": "2c97efcc385141e55c77afcf239cf59639637e9155cacf5ac870c87d2a6de42e",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_028_coco_000000203580",
+   "coco_image_id": 203580,
+   "image_sha256": "4fd602bebdc1f4c57963d0b13562bf1c86929365f68c905b5061018b81c42c67",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_029_coco_000000255165",
+   "coco_image_id": 255165,
+   "image_sha256": "f7e0fd0c8f9c0bd753be75b504f0e41e3b3109259107bf7a8f27c7c950bccbe7",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_030_coco_000000001993",
+   "coco_image_id": 1993,
+   "image_sha256": "039f3bfb862023bde7f835a36c32d8f59a3e66488863c2a47b7b746e78c44186",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_031_coco_000000237928",
+   "coco_image_id": 237928,
+   "image_sha256": "f0c71f74a1830e0065931d5f26fd62a42853c5a67160a0e6ea2842812cb3d21e",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_032_coco_000000547144",
+   "coco_image_id": 547144,
+   "image_sha256": "3c06cc2d2c83a6ec598b8c89e04d58bb31fe3f9dcc85fdef9ceacb4c2b9bdba4",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_033_coco_000000360951",
+   "coco_image_id": 360951,
+   "image_sha256": "27d49fbfe39cbd55cf9af5bea2b1a0aba997ab6acc465d2beb0d118e82a57321",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_034_coco_000000060449",
+   "coco_image_id": 60449,
+   "image_sha256": "df8750575b6d080eff58ab42be4ac1790e6555722a06d7354d45ab5aff2cd469",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_035_coco_000000437898",
+   "coco_image_id": 437898,
+   "image_sha256": "80a69fe0b425618642c322b5d6144af30d6f93f79acb20f6f9585141d5fed90c",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_036_coco_000000038576",
+   "coco_image_id": 38576,
+   "image_sha256": "abdeced448bfb1d0aec615f9927f23ec679360f1fd954968b1ed2024d386509b",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_037_coco_000000429598",
+   "coco_image_id": 429598,
+   "image_sha256": "cf692837b22f590cc75ed7eb9bcabd26772c71e924a35506df081b0956755bb2",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_038_coco_000000148620",
+   "coco_image_id": 148620,
+   "image_sha256": "1895627cd71d8f224dcf6b6f0b05a4b3f69fc73d0483ef28cc978b03f81d92c7",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_039_coco_000000513688",
+   "coco_image_id": 513688,
+   "image_sha256": "c3cf5a23348287dcc7ebf7da4f35b84c2672a12849e6acfcf1789f852c6116db",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_040_coco_000000372466",
+   "coco_image_id": 372466,
+   "image_sha256": "39c3879d689f32ccb2e25ebd42ecda121dc18e6255ca890411830bf0e59658e1",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_041_coco_000000051738",
+   "coco_image_id": 51738,
+   "image_sha256": "d44181d442f78b7c16f4fb7abc4b23e2dc64dcafc7a56f643e944ddc8ec2d4f0",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_042_coco_000000047769",
+   "coco_image_id": 47769,
+   "image_sha256": "05ded59f58ff9936caaecf0be4cbe8ac15aae965828d9d11734825deb0fb7ea6",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_043_coco_000000041872",
+   "coco_image_id": 41872,
+   "image_sha256": "9ef41d1689519ff9d93fcd59fdd4ab43e9ba205f76b23fc1aeaf4f2d5cc5337e",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_044_coco_000000365387",
+   "coco_image_id": 365387,
+   "image_sha256": "3447dcb26227c408203ac253d2c6106a84395dbb2c14cb500ced9f39fffefa9b",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_045_coco_000000178469",
+   "coco_image_id": 178469,
+   "image_sha256": "ebaa112562b6a38aaf59ad1d1aee2c3f0288edc7dec761584b66beadec8d26c7",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_046_coco_000000549674",
+   "coco_image_id": 549674,
+   "image_sha256": "2ca0a6559f0796623dbe3dc2848a3df4a0683b8038b6d49541ca730df02285de",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_047_coco_000000488075",
+   "coco_image_id": 488075,
+   "image_sha256": "3c81a0b96e8154545bee42c0629076509127ce14e2bee6c35a58448b5d3b55c2",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_048_coco_000000419653",
+   "coco_image_id": 419653,
+   "image_sha256": "d1294e4e41779f47ea47168538cc5f961b0499c71a0ff6923d77e11909ee9bf6",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_049_coco_000000480122",
+   "coco_image_id": 480122,
+   "image_sha256": "59388d47e3ddcabe229718019086d04ad7ef4ef15b38e69c71348191cbaf0b6f",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  },
+  {
+   "scene_id": "scene_050_coco_000000248314",
+   "coco_image_id": 248314,
+   "image_sha256": "b6b1cf5511ed5a690b596376813360b46b180c3fa8c3c3ef9cead9b5647f87e1",
+   "instruction": "Identify visible object instances and construct separate simulation assets preserving their mechanisms and natural support conditions."
+  }
+ ]
+}

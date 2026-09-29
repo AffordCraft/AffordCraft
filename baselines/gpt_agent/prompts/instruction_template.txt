@@ -1,0 +1,1 @@
+Construct an interactive simulation asset for the {requested_category} visible in this image. Preserve its mechanism and natural support conditions.

@@ -1,0 +1,44 @@
+{
+ "prices_usd_per_million": {
+  "gpt-6-astra": {
+   "input": 10,
+   "cached_input": 1,
+   "cache_write": 12.5,
+   "output": 50,
+   "long_prompt_threshold": 272000
+  },
+  "gemini-2.5-flash": {
+   "input": 0.3,
+   "output": 2.5
+  },
+  "gemini-3.8-flash": {
+   "input": 0.75,
+   "output": 3.75
+  }
+ },
+ "gpt6-astra-agent-v0.1": {
+  "inputs": 200,
+  "prompt_tokens": 40921410,
+  "cached_prompt_tokens": 13459936,
+  "completion_tokens": 4474369,
+  "calls_over_272k": 0,
+  "usd_per_input_mean_upper": 2.902,
+  "usd_per_input_median_upper": 2.088,
+  "usd_total_upper": 580.45,
+  "usd_per_input_mean_lower": 2.559,
+  "usd_total_lower": 511.79
+ },
+ "articulate-anything-v0.1": {
+  "inputs": 200,
+  "cached_prompt_tokens_reported": 32525,
+  "usd_per_input_mean": 0.0678,
+  "usd_per_input_median": 0.0575,
+  "usd_total": 13.56
+ },
+ "partcrafter-v0.1": {
+  "calls_sampled": 569,
+  "prompt_tokens_per_call": 1260.6,
+  "completion_tokens_per_call": 1023.0,
+  "usd_per_input_mean": 0.0048
+ }
+}

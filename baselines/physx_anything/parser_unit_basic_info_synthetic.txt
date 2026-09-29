@@ -1,0 +1,18 @@
+Name: Synthetic Articulated Cabinet (parser unit test only, not a model output)
+Category: Furniture
+Dimension: 90*35*85
+Parts:
+l_0: cabinet_frame, 6, Wood, 0.65 g/cm^3, 10.0, 0.3, frame
+l_1: door, 1, Wood, 0.65 g/cm^3, 10.0, 0.3, hinged door
+l_2: drawer, 2, Wood, 0.65 g/cm^3, 10.0, 0.3, sliding drawer
+l_3: knob, 3, Metal, 7.8 g/cm^3, 200.0, 0.3, drawer knob
+l_4: lid, 4, Wood, 0.65 g/cm^3, 10.0, 0.3, lid on a ball hinge
+l_5: leg, 7, Wood, 0.65 g/cm^3, 10.0, 0.3, leg
+l_6: wheel, 8, Rubber, 1.1 g/cm^3, 0.01, 0.49, rotating and sliding wheel
+l_7: back_panel, 5, Wood, 0.65 g/cm^3, 10.0, 0.3, back panel
+Group_info:
+group_0: ['l_0', 'l_5', 'l_7']; Type: E; Param: N/A
+group_1: ['l_1']; Type: C relative to group_0; Params: direction: [0,0,1], axis position (in voxel grid): [4,8,16], revolute range (degree): [0,90]
+group_2: ['l_2', 'l_3']; Type: B relative to group_0; Params: direction: [0,1,0], slide range (in voxel grid): [0,10]
+group_3: ['l_4']; Type: D relative to group_0; Params: hinge position (in voxel grid): [16,16,28]
+group_4: ['l_6']; Type: CB relative to group_2; Params: axis direction: [1,0,0], axis position (in voxel grid): [16,4,4], revolute range (degree): [-180,180], slide direction: [0,0,1], slide range (in voxel grid): [0,2]

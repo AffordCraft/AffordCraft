@@ -1,0 +1,15 @@
+{
+ "schema": "affordcraft.paper.timing_p90_from_formal013.v1",
+ "created_utc": "2026-09-25T02:20:00Z",
+ "per_case_path": "${AFFORDCRAFT_RUNS}/main_campaign/final_results/exp1_per_case.jsonl",
+ "per_case_sha256": "c6e56c0e21629905c7c2b30c682c8c3fdd021e52b0a1bf1da94080185252a248",
+ "e2e": {
+  "n": 2000,
+  "p90_linear_interpolation": 1629.1683712348924,
+  "p90_nearest_rank": 1626.9651612789894,
+  "p95_linear_interpolation": 2873.4587749640455,
+  "median": 84.9970214060013,
+  "mean": 602.3864745967829
+ },
+ "note": "read-only recount of total_wall_seconds over the main campaign's verified exp1 per-case records (same file hash as timing_from_formal013.json) with numpy.percentile (linear interpolation, as the recorded P95); P90 reported in place of P95"
+}

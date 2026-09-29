@@ -1,0 +1,158 @@
+# Harness amendment 001, applied when the run was restarted shortly after its launch: catalog entries whose
+# PartNet-Mobility URDF has empty helper links carrying movable joints (compound joints) become inspectable and
+# importable link by link, and whole-entry import of such entries is refused with guidance (before, inspecting or
+# importing such an entry returned an error to the agent). Cases started after the restart, including every case of
+# the resumed run, used the amended harness. run_lanes.py: an amended harness found on restart is copied next to the
+# registered one (append-only), and a control.json flag 'drain' stops starting new cases.
+# Generated with difflib from the registered and the amended files.
+--- registered/agent_loop.py
++++ amended/agent_loop.py
+@@ -488,8 +488,11 @@
+             images.append(self._image(opened, f'entry {eid} render with every joint at its far limit'))
+         result = {k: v for k, v in s.items() if k != 'preview_path'}
+         result['render_link_colours'] = legend
+-        result['import_hint'] = {'whole_entry': {'type': 'catalog_entry', 'entry_id': eid}, 'single_link': {'type': 'catalog_link', 'entry_id': eid, 'link': s['root_link']},
+-                                 'link_names_after_whole_entry_import': ['<part id>' + ('' if n == s['root_link'] else '.' + n) for n in names]}
++        if s.get('whole_entry_importable', True):
++            result['import_hint'] = {'whole_entry': {'type': 'catalog_entry', 'entry_id': eid}, 'single_link': {'type': 'catalog_link', 'entry_id': eid, 'link': (s['root_link'] if s['root_link'] in names else names[0])},
++                                     'link_names_after_whole_entry_import': ['<part id>' + ('' if n == s['root_link'] else '.' + n) for n in names]}
++        else:
++            result['import_hint'] = {'whole_entry': None, 'reason': s.get('import_note'), 'single_link': {'type': 'catalog_link', 'entry_id': eid, 'link': names[0]}, 'links_with_geometry': names}
+         return result, images
+ 
+     def tool_primitive(self, args):
+--- registered/geometry.py
++++ amended/geometry.py
+@@ -141,16 +141,19 @@
+             root = roots[0]
+             # Drop empty links (no visual) that hang on fixed joints only; PartNet-Mobility roots 'base' are such frames.
+             dropped = []
++            helpers = []
+             changed = True
+             while changed:
+                 changed = False
+                 for n in list(links):
+-                    if links[n]['mesh'] is not None:
++                    if links[n]['mesh'] is not None or n in helpers:
+                         continue
+                     outgoing = [j for j in jlist if j['parent'] == n]
+                     incoming = [j for j in jlist if j['child'] == n]
+                     if any(j['type'] != 'fixed' for j in outgoing) or any(j['type'] != 'fixed' for j in incoming):
+-                        raise SpecError(f'entry {entry_id}: empty link {n} carries a non-fixed joint; cannot import')
++                        # compound-joint helper frame without geometry: kept for inspection; whole-entry import is refused
++                        helpers.append(n)
++                        continue
+                     if n == root:
+                         if len(outgoing) != 1:
+                             raise SpecError(f'entry {entry_id}: empty root with {len(outgoing)} children; cannot import')
+@@ -179,7 +182,7 @@
+                         break
+             units_note = ('PartNet-Mobility source: dataset convention is metres and Z-up, but object sizes are only approximately '
+                           'real-world; declare the metric size yourself with a uniform scale.')
+-            return {'root': root, 'links': links, 'joints': jlist, 'dropped': dropped, 'units_note': units_note, 'frame': 'Z-up source frame'}
++            return {'root': root, 'links': links, 'joints': jlist, 'dropped': dropped, 'helpers': helpers, 'units_note': units_note, 'frame': 'Z-up source frame'}
+         # rigid entry
+         src = e.get('source') or {}
+         vp = frozen_catalog.resolve(src['visual']['path'], PROJECT)
+@@ -197,7 +200,7 @@
+             up = 'Z'; units_note = 'Google Scanned Objects source: metres assumed (Gazebo SDF convention), Z-up.'
+         if up == 'Y':
+             T = np.eye(4); T[:3, :3] = rpy_matrix((math.pi / 2, 0, 0)); mesh.apply_transform(T)
+-        return {'root': 'body', 'links': {'body': {'mesh': mesh, 'visual_meshes': 1}}, 'joints': [], 'dropped': [], 'units_note': units_note,
++        return {'root': 'body', 'links': {'body': {'mesh': mesh, 'visual_meshes': 1}}, 'joints': [], 'dropped': [], 'helpers': [], 'units_note': units_note,
+                 'frame': 'Z-up (rotated from source Y-up)' if up == 'Y' else 'Z-up source frame'}
+ 
+     # ---- summaries ----------------------------------------------------------------------------------------------------
+@@ -228,9 +231,10 @@
+         allv = []
+         for n, L in g['links'].items():
+             m = L['mesh']
++            Tn = T[n]
+             if m is None:
++                links.append({'name': n, 'helper_frame_without_geometry': True, 'frame_origin': _r(Tn[:3, 3])})
+                 continue
+-            Tn = T[n]
+             v = np.asarray(m.vertices) @ Tn[:3, :3].T + Tn[:3, 3]
+             allv.append(v)
+             lo, hi = v.min(0), v.max(0)
+@@ -249,7 +253,10 @@
+         jt = [j['type'] for j in joints if j['type'] != 'fixed']
+         return {'entry_id': entry_id, 'category': e.get('category'), 'source_type': self.source_type(e), 'model_id': e.get('model_id'),
+                 'extent_source_units': _r(hi - lo), 'bounds_min': _r(lo), 'bounds_max': _r(hi), 'units_note': g['units_note'], 'frame': g['frame'],
+-                'root_link': g['root'], 'link_count': len(links), 'links': links, 'joints': joints, 'dropped_empty_frames': g['dropped'],
++                'root_link': g['root'], 'link_count': len([l for l in links if not l.get('helper_frame_without_geometry')]), 'links': links, 'joints': joints,
++                'dropped_empty_frames': g['dropped'], 'compound_helper_links': g.get('helpers', []),
++                'whole_entry_importable': not g.get('helpers'),
++                'import_note': (None if not g.get('helpers') else 'this entry has empty helper frame(s) carrying movable joints (compound joints); {"type": "catalog_entry"} import is refused for it - import its geometry links one by one with {"type": "catalog_link"} and define the joints yourself, or choose another entry'),
+                 'joint_summary': (f"{len(jt)} movable joint(s): " + ', '.join(jt)) if jt else 'rigid (no movable joints)', 'semantic_parts': sem,
+                 'preview_path': str(frozen_catalog.resolve(e['preview']['path'], PROJECT))}
+ 
+@@ -421,6 +428,9 @@
+             else:
+                 eid = str(src.get('entry_id'))
+                 g = catalog.load_geometry(eid)
++                if g.get('helpers'):
++                    raise SpecError(f"part {pid!r}: entry {eid} contains empty helper link(s) {g['helpers']} carrying movable joints (compound joints); "
++                                    "whole-entry import is not supported for it - import its geometry links individually with catalog_link and define the joints yourself, or choose another entry")
+                 names = {}
+                 for ln in g['links']:
+                     if g['links'][ln]['mesh'] is None:
+--- registered/run_lanes.py
++++ amended/run_lanes.py
+@@ -88,8 +88,18 @@
+         cfg = read_json(cfg_path)
+         drift = {f: h for f, h in harness_hashes.items() if cfg['harness']['files'].get(f) != h}
+         if drift:
+-            with (root / 'events.jsonl').open('a') as fh:
+-                fh.write(json.dumps({'t': now_iso(), 'event': 'harness_drift_on_restart', 'files': drift}) + '\n')
++            # amended harness: keep the new copy next to the original one (append-only) and record it
++            existing = sorted(p.name for p in (root / 'harness').glob('amendment-*'))
++            latest = read_json(root / 'harness' / existing[-1] / 'hashes.json') if existing else cfg['harness']['files']
++            if any(latest.get(f) != h for f, h in harness_hashes.items()):
++                dest = root / 'harness' / f"amendment-{len(existing) + 1:03d}-{time.strftime('%Y%m%d-%H%M%S')}"
++                dest.mkdir(parents=True)
++                for f in HARNESS_FILES:
++                    if (harness_dir / f).exists():
++                        shutil.copy2(harness_dir / f, dest / f)
++                write_json(dest / 'hashes.json', harness_hashes)
++                with (root / 'events.jsonl').open('a') as fh:
++                    fh.write(json.dumps({'t': now_iso(), 'event': 'harness_amendment_on_restart', 'files_changed_vs_configuration': drift, 'copy': str(dest)}) + '\n')
+     return cfg
+ 
+ 
+@@ -104,6 +114,7 @@
+         self.results = {}
+         self.inflight = {}
+         self.stop = False
++        self.drain = False
+ 
+     def event(self, e):
+         with self.elock:
+@@ -150,9 +161,11 @@
+                 dest.parent.mkdir(exist_ok=True)
+                 shutil.move(str(d), str(dest))
+                 self.event({'event': 'interrupted_case_moved', 'source_id': c['source_id'], 'to': str(dest)})
++            if self.drain:
++                break
+             self.acquire()
+             try:
+-                if self.stop:
++                if self.stop or self.drain:
+                     break
+                 verify_image(c)
+                 self.inflight[c['source_id']] = time.time()
+@@ -176,9 +189,13 @@
+                 ctl = self.root / 'control.json'
+                 if ctl.exists():
+                     try:
+-                        want = int(read_json(ctl).get('concurrency', self.concurrency))
++                        c = read_json(ctl)
++                        want = int(c.get('concurrency', self.concurrency))
+                         if 1 <= want <= 64 and want != self.concurrency:
+                             self.set_concurrency(want, 'control.json')
++                        if c.get('drain') and not self.drain:
++                            self.drain = True
++                            self.event({'event': 'drain_requested', 'note': 'no new cases are started; the controller exits when the in-flight cases finish'})
+                     except Exception:
+                         pass
+                 hits = len([x for x in self.client.rate_limit_hits if time.time() - x < 300])

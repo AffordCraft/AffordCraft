@@ -1,0 +1,3908 @@
+{
+ "4542": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-008-a01/runtime/builds/build_0000002/asset.usda",
+  "role": "free",
+  "scale": 0.31,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 1.479,
+   "link_1": 0.095
+  }
+ },
+ "objaverse_42e02b8cb8884ce09380943e8dd90372": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-008-a01/runtime/builds/build_0000004/asset.usda",
+  "role": "free",
+  "scale": 0.0138,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.046
+  }
+ },
+ "12917": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-008-a01/runtime/builds/build_0000008/asset.usda",
+  "role": "free",
+  "scale": 0.1338,
+  "joints": 102,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0,
+   "joint_13": 0.0,
+   "joint_14": 0.0,
+   "joint_15": 0.0,
+   "joint_16": 0.0,
+   "joint_17": 0.0,
+   "joint_18": 0.0,
+   "joint_19": 0.0,
+   "joint_20": 0.0,
+   "joint_21": 0.0,
+   "joint_22": 0.0,
+   "joint_23": 0.0,
+   "joint_24": 0.0,
+   "joint_25": 0.0,
+   "joint_26": 0.0,
+   "joint_27": 0.0,
+   "joint_28": 0.0,
+   "joint_29": 0.0,
+   "joint_30": 0.0,
+   "joint_31": 0.0,
+   "joint_32": 0.0,
+   "joint_33": 0.0,
+   "joint_34": 0.0,
+   "joint_35": 0.0,
+   "joint_36": 0.0,
+   "joint_37": 0.0,
+   "joint_38": 0.0,
+   "joint_39": 0.0,
+   "joint_40": 0.0,
+   "joint_41": 0.0,
+   "joint_42": 0.0,
+   "joint_43": 0.0,
+   "joint_44": 0.0,
+   "joint_45": 0.0,
+   "joint_46": 0.0,
+   "joint_47": 0.0,
+   "joint_48": 0.0,
+   "joint_49": 0.0,
+   "joint_50": 0.0,
+   "joint_51": 0.0,
+   "joint_52": 0.0,
+   "joint_53": 0.0,
+   "joint_54": 0.0,
+   "joint_55": 0.0,
+   "joint_56": 0.0,
+   "joint_57": 0.0,
+   "joint_58": 0.0,
+   "joint_59": 0.0,
+   "joint_60": 0.0,
+   "joint_61": 0.0,
+   "joint_62": 0.0,
+   "joint_63": 0.0,
+   "joint_64": 0.0,
+   "joint_65": 0.0,
+   "joint_66": 0.0,
+   "joint_67": 0.0,
+   "joint_68": 0.0,
+   "joint_69": 0.0,
+   "joint_70": 0.0,
+   "joint_71": 0.0,
+   "joint_72": 0.0,
+   "joint_73": 0.0,
+   "joint_74": 0.0,
+   "joint_75": 0.0,
+   "joint_76": 0.0,
+   "joint_77": 0.0,
+   "joint_78": 0.0,
+   "joint_79": 0.0,
+   "joint_80": 0.0,
+   "joint_81": 0.0,
+   "joint_82": 0.0,
+   "joint_83": 0.0,
+   "joint_84": 0.0,
+   "joint_85": 0.0,
+   "joint_86": 0.0,
+   "joint_87": 0.0,
+   "joint_88": 0.0,
+   "joint_89": 0.0,
+   "joint_90": 0.0,
+   "joint_91": 0.0,
+   "joint_92": 0.0,
+   "joint_93": 0.0,
+   "joint_94": 0.0,
+   "joint_95": 0.0,
+   "joint_96": 0.0,
+   "joint_97": 0.0,
+   "joint_98": 0.0,
+   "joint_99": 0.0,
+   "joint_100": 0.0,
+   "joint_101": 0.0,
+   "joint_102": 0.0
+  },
+  "semantics": "link_0 free keyboard_base | link_1 slider key | link_2 slider key | link_3 slider key | link_4 slider key | link_5 slider key | link_6 slider key | link_7 slider key | link_8 slider key | link_9 slider key | link_10 slider key | link_11 slider key | link_12 slider key | link_13 slider key | link_14 slider key | link_15 slider key | link_16 slider key | link_17 slider key | link_18 slider key | link_19 slider key | link_20 slider key | link_21 slider key | link_22 slider key | link_23 slider key | link_24 slider key | link_25 slider key | link_26 slider key | link_27 slider key | link_28 slider key | link_29 slider key | link_30 slider key | link_31 slider key | link_32 slider key | link_33 slider key | link_34 slider key | link_35 slider key | link_36 slider key | link_37 slider key | link_38 slider key | link_39 slider key | link_40 slider key | link_41 slider key | link_42 slider key | link_43 slider key | link_44 slider key | link_45 slider key | link_46 slider key | link_47 slider key | link_48 slider key | link_49 slider key | link_50 slider key | link_51 slider key | link_52 slider key | link_53 slider key | link_54 slider key | link_55 slider key | link_56 slider key | link_57 slider key | link_58 slider key | link_59 slider key | link_60 slider key | link_61 slider key | link_62 slider key | link_63 slider key | link_64 slider key | link_65 slider key | link_66 slider key | link_67 slider key | link_68 slider key | link_69 slider key | link_70 slider key | link_71 slider key | link_72 slider key | link_73 slider key | link_74 slider key | link_75 slider key | link_76 slider key | link_77 slider key | link_78 slider key | link_79 slider key | link_80 slider key | link_81 slider key | link_82 slider key | link_83 slider key | link_84 slider key | link_85 slider key | link_86 slider key | link_87 slider key | link_88 slider key | link_89 slider key | link_90 slider key | link_91 slider key | link_92 slider key | link_93 slider key | link_94 slider key | link_95 slider key | link_96 slider key | link_97 slider key | link_98 slider key | link_99 slider key | link_100 slider key | link_101 slider key | link_102 slider key",
+  "mass": {
+   "link_0": 0.157,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.001,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.001,
+   "link_14": 0.0,
+   "link_15": 0.001,
+   "link_16": 0.0,
+   "link_17": 0.0,
+   "link_18": 0.0,
+   "link_19": 0.0,
+   "link_20": 0.0,
+   "link_21": 0.0,
+   "link_22": 0.0,
+   "link_23": 0.0,
+   "link_24": 0.0,
+   "link_25": 0.0,
+   "link_26": 0.001,
+   "link_27": 0.0,
+   "link_28": 0.0,
+   "link_29": 0.0,
+   "link_30": 0.0,
+   "link_31": 0.0,
+   "link_32": 0.001,
+   "link_33": 0.0,
+   "link_34": 0.0,
+   "link_35": 0.0,
+   "link_36": 0.0,
+   "link_37": 0.0,
+   "link_38": 0.0,
+   "link_39": 0.0,
+   "link_40": 0.0,
+   "link_41": 0.0,
+   "link_42": 0.0,
+   "link_43": 0.0,
+   "link_44": 0.0,
+   "link_45": 0.0,
+   "link_46": 0.0,
+   "link_47": 0.0,
+   "link_48": 0.0,
+   "link_49": 0.0,
+   "link_50": 0.0,
+   "link_51": 0.0,
+   "link_52": 0.0,
+   "link_53": 0.0,
+   "link_54": 0.0,
+   "link_55": 0.0,
+   "link_56": 0.0,
+   "link_57": 0.0,
+   "link_58": 0.0,
+   "link_59": 0.0,
+   "link_60": 0.0,
+   "link_61": 0.0,
+   "link_62": 0.0,
+   "link_63": 0.0,
+   "link_64": 0.0,
+   "link_65": 0.0,
+   "link_66": 0.0,
+   "link_67": 0.0,
+   "link_68": 0.0,
+   "link_69": 0.002,
+   "link_70": 0.0,
+   "link_71": 0.0,
+   "link_72": 0.0,
+   "link_73": 0.0,
+   "link_74": 0.0,
+   "link_75": 0.0,
+   "link_76": 0.0,
+   "link_77": 0.0,
+   "link_78": 0.0,
+   "link_79": 0.0,
+   "link_80": 0.0,
+   "link_81": 0.0,
+   "link_82": 0.001,
+   "link_83": 0.0,
+   "link_84": 0.0,
+   "link_85": 0.0,
+   "link_86": 0.0,
+   "link_87": 0.0,
+   "link_88": 0.0,
+   "link_89": 0.0,
+   "link_90": 0.0,
+   "link_91": 0.0,
+   "link_92": 0.0,
+   "link_93": 0.0,
+   "link_94": 0.0,
+   "link_95": 0.0,
+   "link_96": 0.0,
+   "link_97": 0.0,
+   "link_98": 0.0,
+   "link_99": 0.0,
+   "link_100": 0.0,
+   "link_101": 0.0,
+   "link_102": 0.0
+  }
+ },
+ "4853": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-008-a01/runtime/builds/build_0000020/asset.usda",
+  "role": "free",
+  "scale": 0.4196,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 2.724,
+   "link_1": 0.08
+  }
+ },
+ "46277": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-008-a01/runtime/builds/build_0000022/asset.usda",
+  "role": "free",
+  "scale": 0.9114,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 hinge rotation_door | link_2 heavy furniture_body",
+  "mass": {
+   "link_0": 1.795,
+   "link_1": 1.814,
+   "link_2": 33.613
+  }
+ },
+ "10849": {
+  "category": "Refrigerator",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-008-a01/runtime/builds/build_0000027/asset.usda",
+  "role": "free",
+  "scale": 0.4696,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge door | link_1 heavy refrigerator_body",
+  "mass": {
+   "link_0": 0.539,
+   "link_1": 3.497
+  }
+ },
+ "5050": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000001/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 40.196,
+   "link_1": 4.579
+  }
+ },
+ "objaverse_1883273bf37f48218e7f5c1d8f6609ea": {
+  "category": "Book",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000003/asset.usda",
+  "role": "free",
+  "scale": 0.2918,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.342
+  }
+ },
+ "103024": {
+  "category": "Mouse",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000006/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge wheel | link_1 free mouse_body",
+  "mass": {
+   "link_0": 1.538,
+   "link_1": 48.919
+  }
+ },
+ "4564": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000007/asset.usda",
+  "role": "free",
+  "scale": 0.306,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 0.929,
+   "link_1": 0.039
+  }
+ },
+ "103828": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000015/asset.usda",
+  "role": "free",
+  "scale": 0.0275,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider translation_lid | link_1 free phone_base",
+  "mass": {
+   "link_0": 0.001,
+   "link_1": 0.001
+  }
+ },
+ "objaverse_52a97ce0d0c041de90180fd3257ea339": {
+  "category": "Mouse",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000016/asset.usda",
+  "role": "free",
+  "scale": 0.0004,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.006
+  }
+ },
+ "9107": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000017/asset.usda",
+  "role": "mounted",
+  "scale": 0.2726,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.7853981633974483
+  },
+  "semantics": "link_0 static door_frame | link_1 hinge rotation_door",
+  "mass": {
+   "link_0": 0.31,
+   "link_1": 0.409
+  }
+ },
+ "objaverse_59fec10a91a247118ded6e2fdb906946": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000024/asset.usda",
+  "role": "free",
+  "scale": 0.3336,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.07
+  }
+ },
+ "objaverse_8846701f077241e6bf4090b5abb19919": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000029/asset.usda",
+  "role": "free",
+  "scale": 0.3184,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 2.796
+  }
+ },
+ "objaverse_b89c9db0a6bb4ae3bb745bc3e7e4fe9a": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000031/asset.usda",
+  "role": "free",
+  "scale": 0.2476,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.052
+  }
+ },
+ "objaverse_6f79223d321047059e1032c78b1b00a5": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000033/asset.usda",
+  "role": "free",
+  "scale": 0.0023,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 4.011
+  }
+ },
+ "objaverse_24d8b2e005524aff82607e63e8eeb9ed": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000034/asset.usda",
+  "role": "free",
+  "scale": 0.0056,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 79.477
+  }
+ },
+ "11124": {
+  "category": "TrashCan",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000074/asset.usda",
+  "role": "free",
+  "scale": 0.1646,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge lid | link_1 free trashcan_body",
+  "mass": {
+   "link_0": 0.048,
+   "link_1": 0.154
+  }
+ },
+ "13086": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000078/asset.usda",
+  "role": "free",
+  "scale": 0.1555,
+  "joints": 109,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0,
+   "joint_13": 0.0,
+   "joint_14": 0.0,
+   "joint_15": 0.0,
+   "joint_16": 0.0,
+   "joint_17": 0.0,
+   "joint_18": 0.0,
+   "joint_19": 0.0,
+   "joint_20": 0.0,
+   "joint_21": 0.0,
+   "joint_22": 0.0,
+   "joint_23": 0.0,
+   "joint_24": 0.0,
+   "joint_25": 0.0,
+   "joint_26": 0.0,
+   "joint_27": 0.0,
+   "joint_28": 0.0,
+   "joint_29": 0.0,
+   "joint_30": 0.0,
+   "joint_31": 0.0,
+   "joint_32": 0.0,
+   "joint_33": 0.0,
+   "joint_34": 0.0,
+   "joint_35": 0.0,
+   "joint_36": 0.0,
+   "joint_37": 0.0,
+   "joint_38": 0.0,
+   "joint_39": 0.0,
+   "joint_40": 0.0,
+   "joint_41": 0.0,
+   "joint_42": 0.0,
+   "joint_43": 0.0,
+   "joint_44": 0.0,
+   "joint_45": 0.0,
+   "joint_46": 0.0,
+   "joint_47": 0.0,
+   "joint_48": 0.0,
+   "joint_49": 0.0,
+   "joint_50": 0.0,
+   "joint_51": 0.0,
+   "joint_52": 0.0,
+   "joint_53": 0.0,
+   "joint_54": 0.0,
+   "joint_55": 0.0,
+   "joint_56": 0.0,
+   "joint_57": 0.0,
+   "joint_58": 0.0,
+   "joint_59": 0.0,
+   "joint_60": 0.0,
+   "joint_61": 0.0,
+   "joint_62": 0.0,
+   "joint_63": 0.0,
+   "joint_64": 0.0,
+   "joint_65": 0.0,
+   "joint_66": 0.0,
+   "joint_67": 0.0,
+   "joint_68": 0.0,
+   "joint_69": 0.0,
+   "joint_70": 0.0,
+   "joint_71": 0.0,
+   "joint_72": 0.0,
+   "joint_73": 0.0,
+   "joint_74": 0.0,
+   "joint_75": 0.0,
+   "joint_76": 0.0,
+   "joint_77": 0.0,
+   "joint_78": 0.0,
+   "joint_79": 0.0,
+   "joint_80": 0.0,
+   "joint_81": 0.0,
+   "joint_82": 0.0,
+   "joint_83": 0.0,
+   "joint_84": 0.0,
+   "joint_85": 0.0,
+   "joint_86": 0.0,
+   "joint_87": 0.0,
+   "joint_88": 0.0,
+   "joint_89": 0.0,
+   "joint_90": 0.0,
+   "joint_91": 0.0,
+   "joint_92": 0.0,
+   "joint_93": 0.0,
+   "joint_94": 0.0,
+   "joint_95": 0.0,
+   "joint_96": 0.0,
+   "joint_97": 0.0,
+   "joint_98": 0.0,
+   "joint_99": 0.0,
+   "joint_100": 0.0,
+   "joint_101": 0.0,
+   "joint_102": 0.0,
+   "joint_103": 0.0,
+   "joint_104": 0.0,
+   "joint_105": 0.0,
+   "joint_106": 0.0,
+   "joint_107": 0.0,
+   "joint_108": 0.0,
+   "joint_109": 0.0
+  },
+  "semantics": "link_0 free keyboard_base | link_1 slider key | link_2 slider key | link_3 slider key | link_4 slider key | link_5 slider key | link_6 slider key | link_7 slider key | link_8 slider key | link_9 slider key | link_10 slider key | link_11 slider key | link_12 slider key | link_13 slider key | link_14 slider key | link_15 slider key | link_16 slider key | link_17 slider key | link_18 slider key | link_19 slider key | link_20 slider key | link_21 slider key | link_22 slider key | link_23 slider key | link_24 slider key | link_25 slider key | link_26 slider key | link_27 slider key | link_28 slider key | link_29 slider key | link_30 slider key | link_31 slider key | link_32 slider key | link_33 slider key | link_34 slider key | link_35 slider key | link_36 slider key | link_37 slider key | link_38 slider key | link_39 slider key | link_40 slider key | link_41 slider key | link_42 slider key | link_43 slider key | link_44 slider key | link_45 slider key | link_46 slider key | link_47 slider key | link_48 slider key | link_49 slider key | link_50 slider key | link_51 slider key | link_52 slider key | link_53 slider key | link_54 slider key | link_55 slider key | link_56 slider key | link_57 slider key | link_58 slider key | link_59 slider key | link_60 slider key | link_61 slider key | link_62 slider key | link_63 slider key | link_64 slider key | link_65 slider key | link_66 slider key | link_67 slider key | link_68 slider key | link_69 slider key | link_70 slider key | link_71 slider key | link_72 slider key | link_73 slider key | link_74 slider key | link_75 slider key | link_76 slider key | link_77 slider key | link_78 slider key | link_79 slider key | link_80 slider key | link_81 slider key | link_82 slider key | link_83 slider key | link_84 slider key | link_85 slider key | link_86 slider key | link_87 slider key | link_88 slider key | link_89 slider key | link_90 slider key | link_91 slider key | link_92 slider key | link_93 slider key | link_94 slider key | link_95 slider key | link_96 slider key | link_97 slider key | link_98 slider key | link_99 slider key | link_100 slider key | link_101 slider key | link_102 slider key | link_103 slider key | link_104 slider key | link_105 slider key | link_106 slider key | link_107 slider key | link_108 slider key | link_109 slider key",
+  "mass": {
+   "link_0": 0.058,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.0,
+   "link_14": 0.0,
+   "link_15": 0.001,
+   "link_16": 0.0,
+   "link_17": 0.001,
+   "link_18": 0.0,
+   "link_19": 0.0,
+   "link_20": 0.0,
+   "link_21": 0.0,
+   "link_22": 0.0,
+   "link_23": 0.0,
+   "link_24": 0.0,
+   "link_25": 0.0,
+   "link_26": 0.0,
+   "link_27": 0.0,
+   "link_28": 0.0,
+   "link_29": 0.0,
+   "link_30": 0.0,
+   "link_31": 0.0,
+   "link_32": 0.001,
+   "link_33": 0.0,
+   "link_34": 0.0,
+   "link_35": 0.0,
+   "link_36": 0.0,
+   "link_37": 0.001,
+   "link_38": 0.001,
+   "link_39": 0.0,
+   "link_40": 0.0,
+   "link_41": 0.0,
+   "link_42": 0.001,
+   "link_43": 0.001,
+   "link_44": 0.001,
+   "link_45": 0.0,
+   "link_46": 0.0,
+   "link_47": 0.0,
+   "link_48": 0.0,
+   "link_49": 0.0,
+   "link_50": 0.0,
+   "link_51": 0.0,
+   "link_52": 0.0,
+   "link_53": 0.0,
+   "link_54": 0.0,
+   "link_55": 0.0,
+   "link_56": 0.001,
+   "link_57": 0.0,
+   "link_58": 0.0,
+   "link_59": 0.0,
+   "link_60": 0.0,
+   "link_61": 0.0,
+   "link_62": 0.0,
+   "link_63": 0.0,
+   "link_64": 0.0,
+   "link_65": 0.0,
+   "link_66": 0.0,
+   "link_67": 0.0,
+   "link_68": 0.0,
+   "link_69": 0.0,
+   "link_70": 0.0,
+   "link_71": 0.0,
+   "link_72": 0.0,
+   "link_73": 0.0,
+   "link_74": 0.0,
+   "link_75": 0.0,
+   "link_76": 0.0,
+   "link_77": 0.0,
+   "link_78": 0.0,
+   "link_79": 0.0,
+   "link_80": 0.0,
+   "link_81": 0.0,
+   "link_82": 0.0,
+   "link_83": 0.0,
+   "link_84": 0.0,
+   "link_85": 0.0,
+   "link_86": 0.0,
+   "link_87": 0.002,
+   "link_88": 0.0,
+   "link_89": 0.0,
+   "link_90": 0.0,
+   "link_91": 0.0,
+   "link_92": 0.0,
+   "link_93": 0.0,
+   "link_94": 0.0,
+   "link_95": 0.0,
+   "link_96": 0.0,
+   "link_97": 0.001,
+   "link_98": 0.0,
+   "link_99": 0.001,
+   "link_100": 0.001,
+   "link_101": 0.001,
+   "link_102": 0.001,
+   "link_103": 0.0,
+   "link_104": 0.001,
+   "link_105": 0.0,
+   "link_106": 0.0,
+   "link_107": 0.0,
+   "link_108": 0.0,
+   "link_109": 0.0
+  }
+ },
+ "objaverse_c6a7c73a08e644988f9d2163dbddb0a7": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a01/runtime/builds/build_0000079/asset.usda",
+  "role": "free",
+  "scale": 0.0008,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 26.044
+  }
+ },
+ "objaverse_8f67849acb6444978de8cfe9d6d2f761": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000001/asset.usda",
+  "role": "free",
+  "scale": 0.0003,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.611
+  }
+ },
+ "102786": {
+  "category": "Kettle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000002/asset.usda",
+  "role": "free",
+  "scale": 0.1374,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider lid | link_1 free kettle_body",
+  "mass": {
+   "link_0": 0.015,
+   "link_1": 0.193
+  }
+ },
+ "10489": {
+  "category": "Refrigerator",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000003/asset.usda",
+  "role": "free",
+  "scale": 0.8814,
+  "joints": 2,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 heavy refrigerator_body | link_1 hinge door | link_2 hinge door",
+  "mass": {
+   "link_0": 44.031,
+   "link_1": 1.595,
+   "link_2": 6.103
+  }
+ },
+ "10280": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000009/asset.usda",
+  "role": "free",
+  "scale": 0.3177,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge screen | link_1 free laptop_base",
+  "mass": {
+   "link_0": 0.617,
+   "link_1": 0.476
+  }
+ },
+ "objaverse_963e794792af4ae7bc8fe02a2028a97d": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000012/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 250.193
+  }
+ },
+ "101377": {
+  "category": "TrashCan",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000026/asset.usda",
+  "role": "free",
+  "scale": 0.7031,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge foot_pad | link_1 hinge lid | link_2 free trashcan_body",
+  "mass": {
+   "link_0": 0.338,
+   "link_1": 13.885,
+   "link_2": 17.228
+  }
+ },
+ "12902": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000027/asset.usda",
+  "role": "free",
+  "scale": 0.1088,
+  "joints": 78,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0,
+   "joint_13": 0.0,
+   "joint_14": 0.0,
+   "joint_15": 0.0,
+   "joint_16": 0.0,
+   "joint_17": 0.0,
+   "joint_18": 0.0,
+   "joint_19": 0.0,
+   "joint_20": 0.0,
+   "joint_21": 0.0,
+   "joint_22": 0.0,
+   "joint_23": 0.0,
+   "joint_24": 0.0,
+   "joint_25": 0.0,
+   "joint_26": 0.0,
+   "joint_27": 0.0,
+   "joint_28": 0.0,
+   "joint_29": 0.0,
+   "joint_30": 0.0,
+   "joint_31": 0.0,
+   "joint_32": 0.0,
+   "joint_33": 0.0,
+   "joint_34": 0.0,
+   "joint_35": 0.0,
+   "joint_36": 0.0,
+   "joint_37": 0.0,
+   "joint_38": 0.0,
+   "joint_39": 0.0,
+   "joint_40": 0.0,
+   "joint_41": 0.0,
+   "joint_42": 0.0,
+   "joint_43": 0.0,
+   "joint_44": 0.0,
+   "joint_45": 0.0,
+   "joint_46": 0.0,
+   "joint_47": 0.0,
+   "joint_48": 0.0,
+   "joint_49": 0.0,
+   "joint_50": 0.0,
+   "joint_51": 0.0,
+   "joint_52": 0.0,
+   "joint_53": 0.0,
+   "joint_54": 0.0,
+   "joint_55": 0.0,
+   "joint_56": 0.0,
+   "joint_57": 0.0,
+   "joint_58": 0.0,
+   "joint_59": 0.0,
+   "joint_60": 0.0,
+   "joint_61": 0.0,
+   "joint_62": 0.0,
+   "joint_63": 0.0,
+   "joint_64": 0.0,
+   "joint_65": 0.0,
+   "joint_66": 0.0,
+   "joint_67": 0.0,
+   "joint_68": 0.0,
+   "joint_69": 0.0,
+   "joint_70": 0.0,
+   "joint_71": 0.0,
+   "joint_72": 0.0,
+   "joint_73": 0.0,
+   "joint_74": 0.0,
+   "joint_75": 0.0,
+   "joint_76": 0.0,
+   "joint_77": 0.0
+  },
+  "semantics": "link_0 slider key | link_1 slider key | link_2 slider key | link_3 slider key | link_4 slider key | link_5 slider key | link_6 slider key | link_7 slider key | link_8 slider key | link_9 slider key | link_10 slider key | link_11 slider key | link_12 slider key | link_13 slider key | link_14 slider key | link_15 slider key | link_16 slider key | link_17 slider key | link_18 slider key | link_19 slider key | link_20 slider key | link_21 slider key | link_22 slider key | link_23 slider key | link_24 slider key | link_25 slider key | link_26 slider key | link_27 slider key | link_28 slider key | link_29 slider key | link_30 slider key | link_31 slider key | link_32 slider key | link_33 slider key | link_34 slider key | link_35 slider key | link_36 slider key | link_37 slider key | link_38 slider key | link_39 slider key | link_40 slider key | link_41 slider key | link_42 slider key | link_43 slider key | link_44 slider key | link_45 slider key | link_46 slider key | link_47 slider key | link_48 slider key | link_49 slider key | link_50 slider key | link_51 slider key | link_52 slider key | link_53 slider key | link_54 slider key | link_55 slider key | link_56 slider key | link_57 slider key | link_58 slider key | link_59 slider key | link_60 slider key | link_61 slider key | link_62 slider key | link_63 slider key | link_64 slider key | link_65 slider key | link_66 slider key | link_67 slider key | link_68 slider key | link_69 slider key | link_70 slider key | link_71 slider key | link_72 slider key | link_73 slider key | link_74 slider key | link_75 slider key | link_76 slider key | link_77 slider key | link_78 free keyboard_base",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.0,
+   "link_14": 0.0,
+   "link_15": 0.0,
+   "link_16": 0.0,
+   "link_17": 0.0,
+   "link_18": 0.0,
+   "link_19": 0.0,
+   "link_20": 0.0,
+   "link_21": 0.0,
+   "link_22": 0.0,
+   "link_23": 0.0,
+   "link_24": 0.0,
+   "link_25": 0.0,
+   "link_26": 0.0,
+   "link_27": 0.0,
+   "link_28": 0.0,
+   "link_29": 0.0,
+   "link_30": 0.0,
+   "link_31": 0.0,
+   "link_32": 0.0,
+   "link_33": 0.0,
+   "link_34": 0.0,
+   "link_35": 0.0,
+   "link_36": 0.0,
+   "link_37": 0.0,
+   "link_38": 0.0,
+   "link_39": 0.0,
+   "link_40": 0.0,
+   "link_41": 0.0,
+   "link_42": 0.0,
+   "link_43": 0.0,
+   "link_44": 0.0,
+   "link_45": 0.0,
+   "link_46": 0.0,
+   "link_47": 0.0,
+   "link_48": 0.0,
+   "link_49": 0.0,
+   "link_50": 0.0,
+   "link_51": 0.0,
+   "link_52": 0.0,
+   "link_53": 0.0,
+   "link_54": 0.0,
+   "link_55": 0.0,
+   "link_56": 0.0,
+   "link_57": 0.0,
+   "link_58": 0.0,
+   "link_59": 0.0,
+   "link_60": 0.0,
+   "link_61": 0.0,
+   "link_62": 0.0,
+   "link_63": 0.0,
+   "link_64": 0.0,
+   "link_65": 0.0,
+   "link_66": 0.0,
+   "link_67": 0.0,
+   "link_68": 0.0,
+   "link_69": 0.0,
+   "link_70": 0.0,
+   "link_71": 0.0,
+   "link_72": 0.0,
+   "link_73": 0.0,
+   "link_74": 0.0,
+   "link_75": 0.0,
+   "link_76": 0.0,
+   "link_77": 0.0,
+   "link_78": 0.041
+  }
+ },
+ "101408": {
+  "category": "Mouse",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000035/asset.usda",
+  "role": "free",
+  "scale": 0.063,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 hinge wheel | link_3 free mouse_body",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.001,
+   "link_3": 0.006
+  }
+ },
+ "11586": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000042/asset.usda",
+  "role": "free",
+  "scale": 0.389,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 free laptop_base | link_1 hinge screen",
+  "mass": {
+   "link_0": 1.437,
+   "link_1": 0.629
+  }
+ },
+ "objaverse_773d387e68c14127a0fb1101b0b9a751": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000044/asset.usda",
+  "role": "free",
+  "scale": 0.0075,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.062
+  }
+ },
+ "9288": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000054/asset.usda",
+  "role": "mounted",
+  "scale": 1.0548,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 static door_frame | link_2 hinge rotation_door",
+  "mass": {
+   "link_0": 42.989,
+   "link_1": 13.445,
+   "link_2": 0.018
+  }
+ },
+ "objaverse_b687701c8eb74ccf856935859d72da2b": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000055/asset.usda",
+  "role": "free",
+  "scale": 0.0583,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 115.87
+  }
+ },
+ "30663": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000095/asset.usda",
+  "role": "free",
+  "scale": 0.7568,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.012108721180297606
+  },
+  "semantics": "link_0 slider drawer | link_1 slider drawer | link_2 slider drawer | link_3 heavy furniture_body",
+  "mass": {
+   "link_0": 0.69,
+   "link_1": 0.667,
+   "link_2": 0.512,
+   "link_3": 14.788
+  }
+ },
+ "48452": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000099/asset.usda",
+  "role": "free",
+  "scale": 0.5022,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 3.356,
+   "link_1": 13.213
+  }
+ },
+ "objaverse_5290072182ff4d518ea10c074201c5d8": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000105/asset.usda",
+  "role": "free",
+  "scale": 0.0093,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.008
+  }
+ },
+ "3830": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000115/asset.usda",
+  "role": "free",
+  "scale": 0.0661,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider translation_lid | link_1 free bottle_body",
+  "mass": {
+   "link_0": 0.001,
+   "link_1": 0.007
+  }
+ },
+ "9032": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000125/asset.usda",
+  "role": "mounted",
+  "scale": 1.1588,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 static door_frame | link_1 slider translation_door",
+  "mass": {
+   "link_0": 18.548,
+   "link_1": 43.528
+  }
+ },
+ "45384": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000128/asset.usda",
+  "role": "free",
+  "scale": 0.8201,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 1.775,
+   "link_1": 26.86
+  }
+ },
+ "objaverse_482c5168f1694911b597c81f3d0c73b1": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000129/asset.usda",
+  "role": "free",
+  "scale": 0.004,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 39.836
+  }
+ },
+ "objaverse_267f8027512e4016844c4ef38ca40262": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000150/asset.usda",
+  "role": "free",
+  "scale": 0.01,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 248.307
+  }
+ },
+ "objaverse_41fa8e131cdd42b1bf371a620e312f22": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000151/asset.usda",
+  "role": "free",
+  "scale": 0.9382,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 458.379
+  }
+ },
+ "objaverse_4d7f3c58a09c4a899e68ad837edd2b6b": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-000-a01/runtime/builds/build_0000152/asset.usda",
+  "role": "free",
+  "scale": 0.0104,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 373.047
+  }
+ },
+ "objaverse_8c121413fdb642788e25ce6d4a22cd17": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000001/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 49098238.902
+  }
+ },
+ "ycb_mustard_bottle": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000010/asset.usda",
+  "role": "free",
+  "scale": 0.7838,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.142
+  }
+ },
+ "objaverse_885ae84e85ef401ba0f7a07a81adbb06": {
+  "category": "Cup",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000013/asset.usda",
+  "role": "free",
+  "scale": 0.0002,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.046
+  }
+ },
+ "objaverse_7823190220bf43c5a4a9ee28e07b19f1": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000033/asset.usda",
+  "role": "free",
+  "scale": 0.0001,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.004
+  }
+ },
+ "15030": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000039/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 hinge rotation_bar | link_1 free lamp_base | link_2 hinge head",
+  "mass": {
+   "link_0": 1.003,
+   "link_1": 4.263,
+   "link_2": 2.802
+  }
+ },
+ "objaverse_dda99212e94c44cea83e958e03b7c205": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000053/asset.usda",
+  "role": "free",
+  "scale": 0.1632,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.973
+  }
+ },
+ "objaverse_632fe78818124555b147c81fd423577b": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000056/asset.usda",
+  "role": "free",
+  "scale": 0.0525,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.034
+  }
+ },
+ "objaverse_5b8a34ec3e9d4d15bf7d868ff576c9b0": {
+  "category": "Vase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000059/asset.usda",
+  "role": "free",
+  "scale": 0.0064,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.14
+  }
+ },
+ "103556": {
+  "category": "Toaster",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000069/asset.usda",
+  "role": "free",
+  "scale": 0.2911,
+  "joints": 4,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.004658356837412431,
+   "joint_3": 0.0
+  },
+  "semantics": "link_0 hinge knob | link_1 hinge knob | link_2 slider slider | link_3 slider slider | link_4 free toaster_body",
+  "mass": {
+   "link_0": 0.005,
+   "link_1": 0.005,
+   "link_2": 0.009,
+   "link_3": 0.009,
+   "link_4": 1.492
+  }
+ },
+ "objaverse_8170cf1409924abc9c3fc8becccdd36e": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000071/asset.usda",
+  "role": "free",
+  "scale": 0.0028,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.004
+  }
+ },
+ "9912": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000075/asset.usda",
+  "role": "free",
+  "scale": 0.322,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 free laptop_base | link_1 hinge screen",
+  "mass": {
+   "link_0": 0.385,
+   "link_1": 0.233
+  }
+ },
+ "11304": {
+  "category": "Refrigerator",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000079/asset.usda",
+  "role": "free",
+  "scale": 0.9442,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge door | link_1 hinge door | link_2 heavy refrigerator_body",
+  "mass": {
+   "link_0": 36.346,
+   "link_1": 14.396,
+   "link_2": 57.616
+  }
+ },
+ "8983": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000084/asset.usda",
+  "role": "mounted",
+  "scale": 0.1142,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 static door_frame | link_1 hinge rotation_door",
+  "mass": {
+   "link_0": 0.021,
+   "link_1": 0.013
+  }
+ },
+ "objaverse_933b943b67664ab692052bdceaf11f4e": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000085/asset.usda",
+  "role": "free",
+  "scale": 0.5997,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 11.617
+  }
+ },
+ "objaverse_99fc178ecc0943ae81454a3735e2eb5f": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-001-a01/runtime/builds/build_0000088/asset.usda",
+  "role": "free",
+  "scale": 0.0097,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 31.462
+  }
+ },
+ "objaverse_0a336eadc4fc48b4b12cac03162d5195": {
+  "category": "Can",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000004/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 12919797.444
+  }
+ },
+ "objaverse_99d6bc041c9d4f56ab414b771e14474c": {
+  "category": "Book",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000006/asset.usda",
+  "role": "free",
+  "scale": 0.4257,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.568
+  }
+ },
+ "objaverse_f9785251969c41a1b22bbbf319d42d08": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000014/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 2.156
+  }
+ },
+ "objaverse_828c8edf056d460faafa65870e8ffbf2": {
+  "category": "Bowl",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000016/asset.usda",
+  "role": "free",
+  "scale": 0.0192,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.479
+  }
+ },
+ "objaverse_cc812eaa7c9f4e81929d6697a03b22de": {
+  "category": "Vase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000017/asset.usda",
+  "role": "free",
+  "scale": 0.0069,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.21
+  }
+ },
+ "13062": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000018/asset.usda",
+  "role": "free",
+  "scale": 0.1884,
+  "joints": 104,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0,
+   "joint_13": 0.0,
+   "joint_14": 0.0,
+   "joint_15": 0.0,
+   "joint_16": 0.0,
+   "joint_17": 0.0,
+   "joint_18": 0.0,
+   "joint_19": 0.0,
+   "joint_20": 0.0,
+   "joint_21": 0.0,
+   "joint_22": 0.0,
+   "joint_23": 0.0,
+   "joint_24": 0.0,
+   "joint_25": 0.0,
+   "joint_26": 0.0,
+   "joint_27": 0.0,
+   "joint_28": 0.0,
+   "joint_29": 0.0,
+   "joint_30": 0.0,
+   "joint_31": 0.0,
+   "joint_32": 0.0,
+   "joint_33": 0.0,
+   "joint_34": 0.0,
+   "joint_35": 0.0,
+   "joint_36": 0.0,
+   "joint_37": 0.0,
+   "joint_38": 0.0,
+   "joint_39": 0.0,
+   "joint_40": 0.0,
+   "joint_41": 0.0,
+   "joint_42": 0.0,
+   "joint_43": 0.0,
+   "joint_44": 0.0,
+   "joint_45": 0.0,
+   "joint_46": 0.0,
+   "joint_47": 0.0,
+   "joint_48": 0.0,
+   "joint_49": 0.0,
+   "joint_50": 0.0,
+   "joint_51": 0.0,
+   "joint_52": 0.0,
+   "joint_53": 0.0,
+   "joint_54": 0.0,
+   "joint_55": 0.0,
+   "joint_56": 0.0,
+   "joint_57": 0.0,
+   "joint_58": 0.0,
+   "joint_59": 0.0,
+   "joint_60": 0.0,
+   "joint_61": 0.0,
+   "joint_62": 0.0,
+   "joint_63": 0.0,
+   "joint_64": 0.0,
+   "joint_65": 0.0,
+   "joint_66": 0.0,
+   "joint_67": 0.0,
+   "joint_68": 0.0,
+   "joint_69": 0.0,
+   "joint_70": 0.0,
+   "joint_71": 0.0,
+   "joint_72": 0.0,
+   "joint_73": 0.0,
+   "joint_74": 0.0,
+   "joint_75": 0.0,
+   "joint_76": 0.0,
+   "joint_77": 0.0,
+   "joint_78": 0.0,
+   "joint_79": 0.0,
+   "joint_80": 0.0,
+   "joint_81": 0.0,
+   "joint_82": 0.0,
+   "joint_83": 0.0,
+   "joint_84": 0.0,
+   "joint_85": 0.0,
+   "joint_86": 0.0,
+   "joint_87": 0.0,
+   "joint_88": 0.0,
+   "joint_89": 0.0,
+   "joint_90": 0.0,
+   "joint_91": 0.0,
+   "joint_92": 0.0,
+   "joint_93": 0.0,
+   "joint_94": 0.0,
+   "joint_95": 0.0,
+   "joint_96": 0.0,
+   "joint_97": 0.0,
+   "joint_98": 0.0,
+   "joint_99": 0.0,
+   "joint_100": 0.0,
+   "joint_101": 0.0,
+   "joint_102": 0.0,
+   "joint_103": 0.0,
+   "joint_104": 0.0
+  },
+  "semantics": "link_0 free keyboard_base | link_1 slider key | link_2 slider key | link_3 slider key | link_4 slider key | link_5 slider key | link_6 slider key | link_7 slider key | link_8 slider key | link_9 slider key | link_10 slider key | link_11 slider key | link_12 slider key | link_13 slider key | link_14 slider key | link_15 slider key | link_16 slider key | link_17 slider key | link_18 slider key | link_19 slider key | link_20 slider key | link_21 slider key | link_22 slider key | link_23 slider key | link_24 slider key | link_25 slider key | link_26 slider key | link_27 slider key | link_28 slider key | link_29 slider key | link_30 slider key | link_31 slider key | link_32 slider key | link_33 slider key | link_34 slider key | link_35 slider key | link_36 slider key | link_37 slider key | link_38 slider key | link_39 slider key | link_40 slider key | link_41 slider key | link_42 slider key | link_43 slider key | link_44 slider key | link_45 slider key | link_46 slider key | link_47 slider key | link_48 slider key | link_49 slider key | link_50 slider key | link_51 slider key | link_52 slider key | link_53 slider key | link_54 slider key | link_55 slider key | link_56 slider key | link_57 slider key | link_58 slider key | link_59 slider key | link_60 slider key | link_61 slider key | link_62 slider key | link_63 slider key | link_64 slider key | link_65 slider key | link_66 slider key | link_67 slider key | link_68 slider key | link_69 slider key | link_70 slider key | link_71 slider key | link_72 slider key | link_73 slider key | link_74 slider key | link_75 slider key | link_76 slider key | link_77 slider key | link_78 slider key | link_79 slider key | link_80 slider key | link_81 slider key | link_82 slider key | link_83 slider key | link_84 slider key | link_85 slider key | link_86 slider key | link_87 slider key | link_88 slider key | link_89 slider key | link_90 slider key | link_91 slider key | link_92 slider key | link_93 slider key | link_94 slider key | link_95 slider key | link_96 slider key | link_97 slider key | link_98 slider key | link_99 slider key | link_100 slider key | link_101 slider key | link_102 slider key | link_103 slider key | link_104 slider key",
+  "mass": {
+   "link_0": 0.296,
+   "link_1": 0.0,
+   "link_2": 0.001,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.0,
+   "link_14": 0.0,
+   "link_15": 0.001,
+   "link_16": 0.0,
+   "link_17": 0.001,
+   "link_18": 0.0,
+   "link_19": 0.0,
+   "link_20": 0.0,
+   "link_21": 0.0,
+   "link_22": 0.0,
+   "link_23": 0.0,
+   "link_24": 0.0,
+   "link_25": 0.0,
+   "link_26": 0.0,
+   "link_27": 0.0,
+   "link_28": 0.0,
+   "link_29": 0.0,
+   "link_30": 0.0,
+   "link_31": 0.0,
+   "link_32": 0.0,
+   "link_33": 0.0,
+   "link_34": 0.0,
+   "link_35": 0.001,
+   "link_36": 0.0,
+   "link_37": 0.0,
+   "link_38": 0.0,
+   "link_39": 0.0,
+   "link_40": 0.0,
+   "link_41": 0.0,
+   "link_42": 0.001,
+   "link_43": 0.001,
+   "link_44": 0.0,
+   "link_45": 0.0,
+   "link_46": 0.0,
+   "link_47": 0.001,
+   "link_48": 0.0,
+   "link_49": 0.0,
+   "link_50": 0.001,
+   "link_51": 0.0,
+   "link_52": 0.0,
+   "link_53": 0.0,
+   "link_54": 0.0,
+   "link_55": 0.0,
+   "link_56": 0.0,
+   "link_57": 0.0,
+   "link_58": 0.0,
+   "link_59": 0.0,
+   "link_60": 0.0,
+   "link_61": 0.001,
+   "link_62": 0.0,
+   "link_63": 0.0,
+   "link_64": 0.0,
+   "link_65": 0.0,
+   "link_66": 0.0,
+   "link_67": 0.0,
+   "link_68": 0.0,
+   "link_69": 0.0,
+   "link_70": 0.0,
+   "link_71": 0.0,
+   "link_72": 0.0,
+   "link_73": 0.0,
+   "link_74": 0.0,
+   "link_75": 0.0,
+   "link_76": 0.0,
+   "link_77": 0.0,
+   "link_78": 0.0,
+   "link_79": 0.0,
+   "link_80": 0.0,
+   "link_81": 0.0,
+   "link_82": 0.0,
+   "link_83": 0.0,
+   "link_84": 0.0,
+   "link_85": 0.002,
+   "link_86": 0.0,
+   "link_87": 0.0,
+   "link_88": 0.0,
+   "link_89": 0.0,
+   "link_90": 0.0,
+   "link_91": 0.0,
+   "link_92": 0.0,
+   "link_93": 0.0,
+   "link_94": 0.0,
+   "link_95": 0.0,
+   "link_96": 0.0,
+   "link_97": 0.001,
+   "link_98": 0.001,
+   "link_99": 0.001,
+   "link_100": 0.001,
+   "link_101": 0.001,
+   "link_102": 0.001,
+   "link_103": 0.0,
+   "link_104": 0.0
+  }
+ },
+ "5088": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000022/asset.usda",
+  "role": "free",
+  "scale": 0.2496,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 0.581,
+   "link_1": 0.569
+  }
+ },
+ "8903": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000024/asset.usda",
+  "role": "mounted",
+  "scale": 0.1101,
+  "joints": 2,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 static door_frame | link_1 hinge rotation_door | link_2 hinge rotation_door",
+  "mass": {
+   "link_0": 0.017,
+   "link_1": 0.0,
+   "link_2": 0.028
+  }
+ },
+ "4586": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000026/asset.usda",
+  "role": "free",
+  "scale": 0.2138,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 0.299,
+   "link_1": 0.012
+  }
+ },
+ "15423": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000029/asset.usda",
+  "role": "free",
+  "scale": 0.1033,
+  "joints": 3,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0
+  },
+  "semantics": "link_0 free lamp_base | link_1 hinge head | link_2 hinge rotation_bar | link_3 hinge rotation_bar",
+  "mass": {
+   "link_0": 0.001,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0
+  }
+ },
+ "102272": {
+  "category": "Mouse",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000030/asset.usda",
+  "role": "free",
+  "scale": 0.0154,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 hinge wheel | link_3 free mouse_body",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.001
+  }
+ },
+ "objaverse_ad397ce44cc548618367d58c69e3400a": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000035/asset.usda",
+  "role": "free",
+  "scale": 0.3504,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 9.19
+  }
+ },
+ "7366": {
+  "category": "Microwave",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000040/asset.usda",
+  "role": "free",
+  "scale": 0.2793,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 hinge rotation_tray | link_1 hinge door | link_2 slider button | link_3 heavy microwave_body",
+  "mass": {
+   "link_0": 0.065,
+   "link_1": 0.322,
+   "link_2": 0.0,
+   "link_3": 5.864
+  }
+ },
+ "11141": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000045/asset.usda",
+  "role": "free",
+  "scale": 0.3391,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 free laptop_base | link_1 hinge screen",
+  "mass": {
+   "link_0": 1.067,
+   "link_1": 0.814
+  }
+ },
+ "101943": {
+  "category": "Oven",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000052/asset.usda",
+  "role": "free",
+  "scale": 0.5048,
+  "joints": 8,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0
+  },
+  "semantics": "link_0 hinge door | link_1 hinge knob | link_2 hinge knob | link_3 hinge knob | link_4 hinge knob | link_5 hinge knob | link_6 hinge knob | link_7 hinge knob | link_8 heavy oven_body",
+  "mass": {
+   "link_0": 0.662,
+   "link_1": 0.005,
+   "link_2": 0.005,
+   "link_3": 0.005,
+   "link_4": 0.005,
+   "link_5": 0.005,
+   "link_6": 0.005,
+   "link_7": 0.005,
+   "link_8": 12.231
+  }
+ },
+ "objaverse_349f07ecd7704df6b4e7112037f72af2": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000062/asset.usda",
+  "role": "free",
+  "scale": 0.0075,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 146.419
+  }
+ },
+ "objaverse_c0ca5a0aa9a048b0adfd33864f738718": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000072/asset.usda",
+  "role": "free",
+  "scale": 0.7091,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 102.529
+  }
+ },
+ "objaverse_ebb890feb03e4053b93dfd3dbad8089b": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000073/asset.usda",
+  "role": "free",
+  "scale": 0.0473,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 44.982
+  }
+ },
+ "102290": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000094/asset.usda",
+  "role": "free",
+  "scale": 0.0159,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge wheel | link_1 hinge ball | link_2 free mouse_body",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0
+  }
+ },
+ "101403": {
+  "category": "Mouse",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-002-a01/runtime/builds/build_0000095/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 hinge wheel | link_3 free mouse_body",
+  "mass": {
+   "link_0": 0.056,
+   "link_1": 0.055,
+   "link_2": 0.107,
+   "link_3": 1.985
+  }
+ },
+ "objaverse_c738846e5ebb4363ad1d284c3e814a7c": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000006/asset.usda",
+  "role": "free",
+  "scale": 0.0017,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 141.176
+  }
+ },
+ "47645": {
+  "category": "Suitcase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000013/asset.usda",
+  "role": "free",
+  "scale": 0.4381,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_lid | link_1 heavy box_body",
+  "mass": {
+   "link_0": 1.51,
+   "link_1": 5.926
+  }
+ },
+ "101698": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000031/asset.usda",
+  "role": "free",
+  "scale": 0.133,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 free pen_body",
+  "mass": {
+   "link_0": 0.003,
+   "link_1": 0.013
+  }
+ },
+ "102060": {
+  "category": "Oven",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000034/asset.usda",
+  "role": "free",
+  "scale": 0.4876,
+  "joints": 6,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0
+  },
+  "semantics": "link_0 hinge knob | link_1 hinge knob | link_2 hinge knob | link_3 hinge knob | link_4 hinge knob | link_5 hinge knob | link_6 heavy oven_body",
+  "mass": {
+   "link_0": 0.013,
+   "link_1": 0.013,
+   "link_2": 0.013,
+   "link_3": 0.013,
+   "link_4": 0.013,
+   "link_5": 0.013,
+   "link_6": 33.904
+  }
+ },
+ "objaverse_160d40d975f94edfa5eb6e6f6a4201ee": {
+  "category": "Box",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000036/asset.usda",
+  "role": "free",
+  "scale": 0.0048,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.081
+  }
+ },
+ "objaverse_3fd793a9686b42a48f2e774ca49c7ef9": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000041/asset.usda",
+  "role": "free",
+  "scale": 0.0646,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.524
+  }
+ },
+ "103916": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000063/asset.usda",
+  "role": "free",
+  "scale": 0.106,
+  "joints": 4,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 slider button | link_3 slider translation_lid | link_4 free phone_base",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.031,
+   "link_4": 0.014
+  }
+ },
+ "4571": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000075/asset.usda",
+  "role": "free",
+  "scale": 0.2482,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 0.549,
+   "link_1": 0.024
+  }
+ },
+ "47701": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000076/asset.usda",
+  "role": "free",
+  "scale": 0.9436,
+  "joints": 4,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 hinge rotation_door | link_2 hinge rotation_door | link_3 hinge rotation_door | link_4 heavy furniture_body",
+  "mass": {
+   "link_0": 3.625,
+   "link_1": 3.629,
+   "link_2": 2.904,
+   "link_3": 2.899,
+   "link_4": 48.041
+  }
+ },
+ "4533": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000077/asset.usda",
+  "role": "free",
+  "scale": 1.5501,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 184.361,
+   "link_1": 12.272
+  }
+ },
+ "22339": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000078/asset.usda",
+  "role": "free",
+  "scale": 0.7466,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 0.727,
+   "link_1": 9.713
+  }
+ },
+ "8997": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000087/asset.usda",
+  "role": "mounted",
+  "scale": 0.797,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 hinge rotation_door | link_2 static door_frame",
+  "mass": {
+   "link_0": 10.939,
+   "link_1": 9.886,
+   "link_2": 0.652
+  }
+ },
+ "48876": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000088/asset.usda",
+  "role": "free",
+  "scale": 0.4455,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 slider drawer | link_2 slider drawer | link_3 heavy furniture_body",
+  "mass": {
+   "link_0": 2.086,
+   "link_1": 2.053,
+   "link_2": 1.368,
+   "link_3": 4.206
+  }
+ },
+ "48855": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000094/asset.usda",
+  "role": "free",
+  "scale": 0.6869,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 hinge rotation_door | link_2 hinge rotation_door | link_3 heavy furniture_body",
+  "mass": {
+   "link_0": 5.245,
+   "link_1": 0.54,
+   "link_2": 0.524,
+   "link_3": 18.088
+  }
+ },
+ "9070": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000104/asset.usda",
+  "role": "mounted",
+  "scale": 1.7818,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 static door_frame",
+  "mass": {
+   "link_0": 11.674,
+   "link_1": 163.57
+  }
+ },
+ "objaverse_18c9781b883846fc9eaab6b2cfa8a654": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000109/asset.usda",
+  "role": "free",
+  "scale": 0.5305,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 314.74
+  }
+ },
+ "27619": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000123/asset.usda",
+  "role": "free",
+  "scale": 0.5325,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 slider drawer | link_2 heavy furniture_body",
+  "mass": {
+   "link_0": 1.013,
+   "link_1": 1.013,
+   "link_2": 4.889
+  }
+ },
+ "47235": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000124/asset.usda",
+  "role": "free",
+  "scale": 0.7035,
+  "joints": 6,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 slider drawer | link_2 slider drawer | link_3 slider drawer | link_4 slider drawer | link_5 slider drawer | link_6 heavy furniture_body",
+  "mass": {
+   "link_0": 2.697,
+   "link_1": 2.7,
+   "link_2": 2.005,
+   "link_3": 2.697,
+   "link_4": 2.7,
+   "link_5": 2.005,
+   "link_6": 7.399
+  }
+ },
+ "20985": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000125/asset.usda",
+  "role": "free",
+  "scale": 1.0015,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 heavy furniture_body | link_1 slider drawer",
+  "mass": {
+   "link_0": 65.57,
+   "link_1": 1.078
+  }
+ },
+ "22241": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000130/asset.usda",
+  "role": "free",
+  "scale": 0.9901,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 6.598,
+   "link_1": 41.27
+  }
+ },
+ "objaverse_525b9ac74fcd4c67a53a529f8aff4121": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-003-a01/runtime/builds/build_0000131/asset.usda",
+  "role": "free",
+  "scale": 0.404,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 181.383
+  }
+ },
+ "11691": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000001/asset.usda",
+  "role": "free",
+  "scale": 0.2361,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 free laptop_base | link_1 hinge screen",
+  "mass": {
+   "link_0": 0.248,
+   "link_1": 0.237
+  }
+ },
+ "objaverse_956a47ccc1a54a40a8711f3852d54433": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000002/asset.usda",
+  "role": "free",
+  "scale": 0.0018,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 484.557
+  }
+ },
+ "objaverse_9ec63e9176d540cc8a2dea1cf2c1a908": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000021/asset.usda",
+  "role": "free",
+  "scale": 0.0541,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.239
+  }
+ },
+ "100129": {
+  "category": "Box",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000042/asset.usda",
+  "role": "free",
+  "scale": 0.1474,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge rotation_lid | link_1 hinge rotation_lid | link_2 free box_body",
+  "mass": {
+   "link_0": 0.009,
+   "link_1": 0.009,
+   "link_2": 0.131
+  }
+ },
+ "objaverse_87d8dfe0014f4eb08a478118153257a7": {
+  "category": "Box",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000047/asset.usda",
+  "role": "free",
+  "scale": 0.9474,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 54.371
+  }
+ },
+ "48253": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000048/asset.usda",
+  "role": "free",
+  "scale": 0.7354,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 slider drawer | link_2 slider drawer | link_3 heavy furniture_body",
+  "mass": {
+   "link_0": 9.436,
+   "link_1": 9.23,
+   "link_2": 5.867,
+   "link_3": 20.386
+  }
+ },
+ "102940": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000050/asset.usda",
+  "role": "free",
+  "scale": 0.0742,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 free pen_body",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.005
+  }
+ },
+ "45623": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000051/asset.usda",
+  "role": "free",
+  "scale": 0.5033,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 1.191,
+   "link_1": 12.376
+  }
+ },
+ "8936": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000056/asset.usda",
+  "role": "mounted",
+  "scale": 1.3001,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 hinge rotation_door | link_2 static door_frame",
+  "mass": {
+   "link_0": 0.007,
+   "link_1": 0.007,
+   "link_2": 51.081
+  }
+ },
+ "103813": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000058/asset.usda",
+  "role": "free",
+  "scale": 0.0613,
+  "joints": 7,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 slider button | link_3 slider button | link_4 slider button | link_5 slider button | link_6 slider button | link_7 free phone_base",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.009
+  }
+ },
+ "11406": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000060/asset.usda",
+  "role": "free",
+  "scale": 0.3329,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 free laptop_base | link_1 hinge screen",
+  "mass": {
+   "link_0": 1.166,
+   "link_1": 0.409
+  }
+ },
+ "27189": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000083/asset.usda",
+  "role": "free",
+  "scale": 0.9306,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 10.992,
+   "link_1": 114.006
+  }
+ },
+ "46172": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000090/asset.usda",
+  "role": "free",
+  "scale": 1.4813,
+  "joints": 11,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0
+  },
+  "semantics": "link_0 heavy furniture_body | link_1 slider drawer | link_2 slider drawer | link_3 slider drawer | link_4 slider drawer | link_5 slider drawer | link_6 slider drawer | link_7 slider drawer | link_8 slider drawer | link_9 slider drawer | link_10 slider drawer | link_11 slider drawer",
+  "mass": {
+   "link_0": 226.925,
+   "link_1": 30.42,
+   "link_2": 30.418,
+   "link_3": 30.578,
+   "link_4": 30.416,
+   "link_5": 30.418,
+   "link_6": 30.419,
+   "link_7": 30.418,
+   "link_8": 30.418,
+   "link_9": 30.42,
+   "link_10": 44.878,
+   "link_11": 30.419
+  }
+ },
+ "objaverse_326616aa3a3e47ca8be774684ea792b5": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000110/asset.usda",
+  "role": "free",
+  "scale": 0.0676,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.316
+  }
+ },
+ "20453": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-004-a01/runtime/builds/build_0000113/asset.usda",
+  "role": "free",
+  "scale": 0.7872,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 1.017,
+   "link_1": 13.356
+  }
+ },
+ "103285": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-009-a01/runtime/builds/build_0000003/asset.usda",
+  "role": "free",
+  "scale": 0.0616,
+  "joints": 13,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 slider button | link_3 slider button | link_4 slider button | link_5 slider button | link_6 slider button | link_7 slider button | link_8 slider button | link_9 slider button | link_10 slider button | link_11 slider button | link_12 slider button | link_13 free phone_base",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.026
+  }
+ },
+ "objaverse_45a7e7a2e2404d118ee66d59559de5f1": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-009-a01/runtime/builds/build_0000004/asset.usda",
+  "role": "free",
+  "scale": 0.0056,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.316
+  }
+ },
+ "objaverse_d71e48b8398e4fd5b4f0aacf812a7758": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-009-a01/runtime/builds/build_0000006/asset.usda",
+  "role": "free",
+  "scale": 0.6702,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 301.042
+  }
+ },
+ "100837": {
+  "category": "Suitcase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-009-a01/runtime/builds/build_0000012/asset.usda",
+  "role": "free",
+  "scale": 0.4694,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider translation_handle | link_1 hinge wheel | link_2 hinge wheel | link_3 free suitcase_body",
+  "mass": {
+   "link_0": 0.082,
+   "link_1": 0.003,
+   "link_2": 0.017,
+   "link_3": 3.611
+  }
+ },
+ "45323": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-009-a01/runtime/builds/build_0000015/asset.usda",
+  "role": "free",
+  "scale": 0.5108,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 heavy furniture_body",
+  "mass": {
+   "link_0": 1.27,
+   "link_1": 12.297
+  }
+ },
+ "objaverse_16930ec31f5342a08e1233eaae01b2c9": {
+  "category": "Box",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-009-a01/runtime/builds/build_0000031/asset.usda",
+  "role": "free",
+  "scale": 0.1436,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 6.579
+  }
+ },
+ "103634": {
+  "category": "TrashCan",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-006-a01/runtime/builds/build_0000020/asset.usda",
+  "role": "free",
+  "scale": 0.1588,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 hinge lid | link_1 hinge wheel | link_2 hinge wheel | link_3 free trashcan_body",
+  "mass": {
+   "link_0": 0.01,
+   "link_1": 0.012,
+   "link_2": 0.012,
+   "link_3": 0.137
+  }
+ },
+ "objaverse_104ac40ef3ad4dac8079a11548c470e7": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-006-a01/runtime/builds/build_0000035/asset.usda",
+  "role": "free",
+  "scale": 0.3947,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 93.572
+  }
+ },
+ "103917": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-006-a01/runtime/builds/build_0000037/asset.usda",
+  "role": "free",
+  "scale": 0.0811,
+  "joints": 19,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0,
+   "joint_13": 0.0,
+   "joint_14": 0.0,
+   "joint_15": 0.0,
+   "joint_16": 0.0,
+   "joint_17": 0.0,
+   "joint_18": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 slider button | link_3 slider button | link_4 slider button | link_5 slider button | link_6 slider button | link_7 slider button | link_8 slider button | link_9 slider button | link_10 slider button | link_11 slider button | link_12 slider button | link_13 slider button | link_14 slider button | link_15 slider button | link_16 slider button | link_17 slider button | link_18 slider button | link_19 free phone_base",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.0,
+   "link_14": 0.0,
+   "link_15": 0.0,
+   "link_16": 0.0,
+   "link_17": 0.0,
+   "link_18": 0.0,
+   "link_19": 0.052
+  }
+ },
+ "46480": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-006-a01/runtime/builds/build_0000061/asset.usda",
+  "role": "free",
+  "scale": 1.7032,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 hinge rotation_door | link_2 heavy furniture_body",
+  "mass": {
+   "link_0": 11.62,
+   "link_1": 11.476,
+   "link_2": 205.833
+  }
+ },
+ "100426": {
+  "category": "Box",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-006-a01/runtime/builds/build_0000073/asset.usda",
+  "role": "free",
+  "scale": 0.2673,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge rotation_lid | link_1 hinge rotation_lid | link_2 free box_body",
+  "mass": {
+   "link_0": 0.051,
+   "link_1": 0.102,
+   "link_2": 0.372
+  }
+ },
+ "7290": {
+  "category": "Oven",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-002-a01/runtime/builds/build_0000023/asset.usda",
+  "role": "free",
+  "scale": 0.4179,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge door | link_1 free oven_body",
+  "mass": {
+   "link_0": 0.944,
+   "link_1": 23.306
+  }
+ },
+ "11854": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-002-a01/runtime/builds/build_0000026/asset.usda",
+  "role": "free",
+  "scale": 0.2432,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge screen | link_1 free laptop_base",
+  "mass": {
+   "link_0": 0.364,
+   "link_1": 0.248
+  }
+ },
+ "16434": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-002-a01/runtime/builds/build_0000029/asset.usda",
+  "role": "free",
+  "scale": 0.3981,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge toggle_button | link_1 free lamp_base",
+  "mass": {
+   "link_0": 0.001,
+   "link_1": 0.246
+  }
+ },
+ "103347": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-002-a01/runtime/builds/build_0000034/asset.usda",
+  "role": "free",
+  "scale": 0.065,
+  "joints": 19,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0,
+   "joint_13": 0.0,
+   "joint_14": 0.0,
+   "joint_15": 0.0,
+   "joint_16": 0.0,
+   "joint_17": 0.0,
+   "joint_18": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 slider button | link_2 slider button | link_3 slider button | link_4 slider button | link_5 slider button | link_6 slider button | link_7 slider button | link_8 slider button | link_9 slider button | link_10 slider button | link_11 slider button | link_12 slider button | link_13 slider button | link_14 slider button | link_15 slider button | link_16 slider button | link_17 slider button | link_18 slider button | link_19 free phone_base",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.0,
+   "link_14": 0.0,
+   "link_15": 0.0,
+   "link_16": 0.0,
+   "link_17": 0.0,
+   "link_18": 0.0,
+   "link_19": 0.013
+  }
+ },
+ "102714": {
+  "category": "Kettle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-010-a01/runtime/builds/build_0000002/asset.usda",
+  "role": "free",
+  "scale": 0.1481,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 slider lid | link_1 hinge lever | link_2 free kettle_body",
+  "mass": {
+   "link_0": 0.001,
+   "link_1": 0.001,
+   "link_2": 0.354
+  }
+ },
+ "objaverse_bc5c4aa995ad4bf5837b30a859d64f72": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-010-a01/runtime/builds/build_0000009/asset.usda",
+  "role": "free",
+  "scale": 0.0019,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 158.582
+  }
+ },
+ "objaverse_44d7675cc83d45149c6a48f95c891bcb": {
+  "category": "Kettle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-010-a01/runtime/builds/build_0000012/asset.usda",
+  "role": "free",
+  "scale": 0.0869,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 2.029
+  }
+ },
+ "47632": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-010-a01/runtime/builds/build_0000024/asset.usda",
+  "role": "free",
+  "scale": 0.7884,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 heavy furniture_body | link_1 hinge rotation_door",
+  "mass": {
+   "link_0": 39.728,
+   "link_1": 7.259
+  }
+ },
+ "9148": {
+  "category": "Door",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-010-a01/runtime/builds/build_0000025/asset.usda",
+  "role": "mounted",
+  "scale": 1.3232,
+  "joints": 2,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 static door_frame | link_1 hinge rotation_door | link_2 hinge rotation_door",
+  "mass": {
+   "link_0": 0.582,
+   "link_1": 6.83,
+   "link_2": 6.833
+  }
+ },
+ "objaverse_c61227cac7224b86b43c53ac2a2b6ec7": {
+  "category": "Book",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000004/asset.usda",
+  "role": "free",
+  "scale": 0.0001,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.16
+  }
+ },
+ "objaverse_200a6976e0a94c1f9c2ec4f64e0f3272": {
+  "category": "Box",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000009/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 2486.727
+  }
+ },
+ "objaverse_00e242aa87fb4bd98c15c0ab5bf9bd00": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000010/asset.usda",
+  "role": "free",
+  "scale": 0.1983,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 2.044
+  }
+ },
+ "12605": {
+  "category": "Dishwasher",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000011/asset.usda",
+  "role": "free",
+  "scale": 0.5814,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_door | link_1 heavy dishwasher_body",
+  "mass": {
+   "link_0": 12.497,
+   "link_1": 7.458
+  }
+ },
+ "objaverse_c3a124b08ab440cfb4f2bdc5b72b8144": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000020/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.211
+  }
+ },
+ "objaverse_43de4d030ae94667bd8b8a478dd371ac": {
+  "category": "Mouse",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000023/asset.usda",
+  "role": "free",
+  "scale": 0.0001,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.024
+  }
+ },
+ "objaverse_072d0468bb97447ab1ca7e3edea25f1f": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000025/asset.usda",
+  "role": "free",
+  "scale": 0.0884,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.457
+  }
+ },
+ "objaverse_b37db59c7cce46b2a3e40969e6797117": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000029/asset.usda",
+  "role": "free",
+  "scale": 0.0001,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 18.803
+  }
+ },
+ "objaverse_5b15b893b16743358a87221d599d0aa2": {
+  "category": "Mouse",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000035/asset.usda",
+  "role": "free",
+  "scale": 0.0004,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.007
+  }
+ },
+ "14127": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-004-a01/runtime/builds/build_0000042/asset.usda",
+  "role": "free",
+  "scale": 0.1125,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 free lamp_base | link_1 hinge head",
+  "mass": {
+   "link_0": 0.119,
+   "link_1": 0.005
+  }
+ },
+ "objaverse_78b49c06cbaa4ba19365b9864bbc8845": {
+  "category": "Box",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000003/asset.usda",
+  "role": "free",
+  "scale": 0.4925,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 61.044
+  }
+ },
+ "objaverse_ef6a417648f544f091abdac3c1619681": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000008/asset.usda",
+  "role": "free",
+  "scale": 0.0192,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.34
+  }
+ },
+ "objaverse_71853da424aa4b208e14f6cf430339ae": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000021/asset.usda",
+  "role": "free",
+  "scale": 1.495,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 52.525
+  }
+ },
+ "objaverse_48de5fd3726d4792a474cb9781549155": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000055/asset.usda",
+  "role": "free",
+  "scale": 0.0056,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.148
+  }
+ },
+ "objaverse_15d6d94735e14e73964deb7ffb8a4354": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000056/asset.usda",
+  "role": "free",
+  "scale": 1.5293,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 2.435
+  }
+ },
+ "46130": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000065/asset.usda",
+  "role": "free",
+  "scale": 0.7411,
+  "joints": 3,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0
+  },
+  "semantics": "link_0 slider drawer | link_1 slider drawer | link_2 slider drawer | link_3 heavy furniture_body",
+  "mass": {
+   "link_0": 9.968,
+   "link_1": 9.863,
+   "link_2": 6.483,
+   "link_3": 20.386
+  }
+ },
+ "101735": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000075/asset.usda",
+  "role": "free",
+  "scale": 0.0671,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider button | link_1 free pen_body",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.003
+  }
+ },
+ "4094": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000081/asset.usda",
+  "role": "free",
+  "scale": 0.3626,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge rotation_screen | link_1 free display_base",
+  "mass": {
+   "link_0": 1.142,
+   "link_1": 0.339
+  }
+ },
+ "objaverse_d78c0bfaf7e2448cbd98a485ab079ad2": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000091/asset.usda",
+  "role": "free",
+  "scale": 0.0132,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.131
+  }
+ },
+ "objaverse_f7f99449b896488fa6d468e70518b21d": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000098/asset.usda",
+  "role": "free",
+  "scale": 0.0725,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 133.481
+  }
+ },
+ "19898": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000102/asset.usda",
+  "role": "free",
+  "scale": 0.6801,
+  "joints": 8,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0
+  },
+  "semantics": "link_0 hinge door | link_1 slider drawer | link_2 slider drawer | link_3 slider drawer | link_4 hinge door | link_5 slider drawer | link_6 slider drawer | link_7 slider drawer | link_8 heavy furniture_body",
+  "mass": {
+   "link_0": 0.029,
+   "link_1": 0.506,
+   "link_2": 0.512,
+   "link_3": 0.507,
+   "link_4": 0.303,
+   "link_5": 0.268,
+   "link_6": 0.268,
+   "link_7": 0.268,
+   "link_8": 27.41
+  }
+ },
+ "objaverse_caaf76f4506f4b01a2dffb553bae9342": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000109/asset.usda",
+  "role": "free",
+  "scale": 0.2307,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 54.395
+  }
+ },
+ "objaverse_21e9c031f3e74612891befaad6e228d3": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000144/asset.usda",
+  "role": "free",
+  "scale": 0.0253,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 1355.227
+  }
+ },
+ "objaverse_1582bd8176654bb98871b8c20ae94a72": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000153/asset.usda",
+  "role": "free",
+  "scale": 0.0005,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 54.088
+  }
+ },
+ "objaverse_796b03afe6604fa0891ebc06dc0e03f1": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000157/asset.usda",
+  "role": "free",
+  "scale": 1.0546,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 2.445
+  }
+ },
+ "objaverse_5b86aa664756441d82a4a9d9bd32ed92": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000158/asset.usda",
+  "role": "free",
+  "scale": 0.0009,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 25.241
+  }
+ },
+ "objaverse_70cdd83b6330428cb51b92a4aa775019": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-001-a01/runtime/builds/build_0000160/asset.usda",
+  "role": "free",
+  "scale": 0.0023,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 428.327
+  }
+ },
+ "objaverse_c4a455b25c7d4883878d0be82f602752": {
+  "category": "Cup",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000004/asset.usda",
+  "role": "free",
+  "scale": 0.0059,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.017
+  }
+ },
+ "11075": {
+  "category": "Laptop",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000016/asset.usda",
+  "role": "free",
+  "scale": 0.3208,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge screen | link_1 free laptop_base",
+  "mass": {
+   "link_0": 0.578,
+   "link_1": 0.793
+  }
+ },
+ "objaverse_c5c009d8f7e6473c8eea32cbf5bab14e": {
+  "category": "Bottle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000035/asset.usda",
+  "role": "free",
+  "scale": 0.0654,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 1.282
+  }
+ },
+ "objaverse_5ef8564938fe4de39fac93c3fd496015": {
+  "category": "Vase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000036/asset.usda",
+  "role": "free",
+  "scale": 0.2595,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 6.214
+  }
+ },
+ "objaverse_0c55bd8e29384070a72c33ef744d11be": {
+  "category": "Kettle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000041/asset.usda",
+  "role": "free",
+  "scale": 0.0031,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 1.478
+  }
+ },
+ "14422": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000045/asset.usda",
+  "role": "free",
+  "scale": 0.0727,
+  "joints": 3,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0
+  },
+  "semantics": "link_0 free lamp_base | link_1 hinge head | link_2 hinge rotation_bar | link_3 hinge rotation_bar",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0
+  }
+ },
+ "objaverse_9769f517844d45dab438ec17d32cb668": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000064/asset.usda",
+  "role": "free",
+  "scale": 0.0054,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.0
+  }
+ },
+ "objaverse_9ff1333690904e8db55023e3abb275c4": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000070/asset.usda",
+  "role": "free",
+  "scale": 0.0058,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 1.183
+  }
+ },
+ "objaverse_e736a1e7cdcb48a5a4f2ca4100d52d28": {
+  "category": "Tray",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-007-a01/runtime/builds/build_0000087/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 321709800.625
+  }
+ },
+ "7310": {
+  "category": "Microwave",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-005-a01/runtime/builds/build_0000002/asset.usda",
+  "role": "free",
+  "scale": 0.3752,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge door | link_1 heavy microwave_body",
+  "mass": {
+   "link_0": 0.567,
+   "link_1": 26.399
+  }
+ },
+ "objaverse_844c8bc92944471ca525e78dc97da253": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a02/runtime/builds/build_0000006/asset.usda",
+  "role": "free",
+  "scale": 0.6455,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 131.406
+  }
+ },
+ "objaverse_5979a6cd55854243abbd5554d309f073": {
+  "category": "Chair",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-003-a02/runtime/builds/build_0000008/asset.usda",
+  "role": "free",
+  "scale": 0.0049,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 14.125
+  }
+ },
+ "12592": {
+  "category": "Dishwasher",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-007-a01/runtime/builds/build_0000005/asset.usda",
+  "role": "free",
+  "scale": 0.5419,
+  "joints": 1,
+  "init_q": {
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 heavy dishwasher_body | link_1 hinge rotation_door",
+  "mass": {
+   "link_0": 4.261,
+   "link_1": 3.157
+  }
+ },
+ "102761": {
+  "category": "Kettle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-007-a01/runtime/builds/build_0000013/asset.usda",
+  "role": "free",
+  "scale": 0.1224,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 slider lid | link_1 free kettle_body",
+  "mass": {
+   "link_0": 0.026,
+   "link_1": 0.252
+  }
+ },
+ "47466": {
+  "category": "StorageFurniture",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-single-007-a01/runtime/builds/build_0000015/asset.usda",
+  "role": "free",
+  "scale": 0.2854,
+  "joints": 10,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0
+  },
+  "semantics": "link_0 heavy furniture_body | link_1 slider drawer | link_2 slider drawer | link_3 slider drawer | link_4 slider drawer | link_5 slider drawer | link_6 slider drawer | link_7 slider drawer | link_8 slider drawer | link_9 slider drawer | link_10 slider drawer",
+  "mass": {
+   "link_0": 0.513,
+   "link_1": 0.032,
+   "link_2": 0.032,
+   "link_3": 0.034,
+   "link_4": 0.034,
+   "link_5": 0.032,
+   "link_6": 0.032,
+   "link_7": 0.032,
+   "link_8": 0.032,
+   "link_9": 0.032,
+   "link_10": 0.032
+  }
+ },
+ "14977": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000034/asset.usda",
+  "role": "free",
+  "scale": 0.1821,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge toggle_button | link_1 hinge head | link_2 free lamp_base",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.016,
+   "link_2": 0.069
+  }
+ },
+ "objaverse_57cd9f1e47634f4d90c0ac2d0247f73d": {
+  "category": "Kettle",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000038/asset.usda",
+  "role": "free",
+  "scale": 0.4493,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.524
+  }
+ },
+ "objaverse_af389b9c83c146dd88c3f91246f1fb97": {
+  "category": "Suitcase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000047/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 434.254
+  }
+ },
+ "12999": {
+  "category": "Keyboard",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000049/asset.usda",
+  "role": "free",
+  "scale": 0.0754,
+  "joints": 110,
+  "init_q": {
+   "joint_1": 0.0,
+   "joint_2": 0.0,
+   "joint_3": 0.0,
+   "joint_4": 0.0,
+   "joint_5": 0.0,
+   "joint_6": 0.0,
+   "joint_7": 0.0,
+   "joint_8": 0.0,
+   "joint_9": 0.0,
+   "joint_10": 0.0,
+   "joint_11": 0.0,
+   "joint_12": 0.0,
+   "joint_13": 0.0,
+   "joint_14": 0.0,
+   "joint_15": 0.0,
+   "joint_16": 0.0,
+   "joint_17": 0.0,
+   "joint_18": 0.0,
+   "joint_19": 0.0,
+   "joint_20": 0.0,
+   "joint_21": 0.0,
+   "joint_22": 0.0,
+   "joint_23": 0.0,
+   "joint_24": 0.0,
+   "joint_25": 0.0,
+   "joint_26": 0.0,
+   "joint_27": 0.0,
+   "joint_28": 0.0,
+   "joint_29": 0.0,
+   "joint_30": 0.0,
+   "joint_31": 0.0,
+   "joint_32": 0.0,
+   "joint_33": 0.0,
+   "joint_34": 0.0,
+   "joint_35": 0.0,
+   "joint_36": 0.0,
+   "joint_37": 0.0,
+   "joint_38": 0.0,
+   "joint_39": 0.0,
+   "joint_40": 0.0,
+   "joint_41": 0.0,
+   "joint_42": 0.0,
+   "joint_43": 0.0,
+   "joint_44": 0.0,
+   "joint_45": 0.0,
+   "joint_46": 0.0,
+   "joint_47": 0.0,
+   "joint_48": 0.0,
+   "joint_49": 0.0,
+   "joint_50": 0.0,
+   "joint_51": 0.0,
+   "joint_52": 0.0,
+   "joint_53": 0.0,
+   "joint_54": 0.0,
+   "joint_55": 0.0,
+   "joint_56": 0.0,
+   "joint_57": 0.0,
+   "joint_58": 0.0,
+   "joint_59": 0.0,
+   "joint_60": 0.0,
+   "joint_61": 0.0,
+   "joint_62": 0.0,
+   "joint_63": 0.0,
+   "joint_64": 0.0,
+   "joint_65": 0.0,
+   "joint_66": 0.0,
+   "joint_67": 0.0,
+   "joint_68": 0.0,
+   "joint_69": 0.0,
+   "joint_70": 0.0,
+   "joint_71": 0.0,
+   "joint_72": 0.0,
+   "joint_73": 0.0,
+   "joint_74": 0.0,
+   "joint_75": 0.0,
+   "joint_76": 0.0,
+   "joint_77": 0.0,
+   "joint_78": 0.0,
+   "joint_79": 0.0,
+   "joint_80": 0.0,
+   "joint_81": 0.0,
+   "joint_82": 0.0,
+   "joint_83": 0.0,
+   "joint_84": 0.0,
+   "joint_85": 0.0,
+   "joint_86": 0.0,
+   "joint_87": 0.0,
+   "joint_88": 0.0,
+   "joint_89": 0.0,
+   "joint_90": 0.0,
+   "joint_91": 0.0,
+   "joint_92": 0.0,
+   "joint_93": 0.0,
+   "joint_94": 0.0,
+   "joint_95": 0.0,
+   "joint_96": 0.0,
+   "joint_97": 0.0,
+   "joint_98": 0.0,
+   "joint_99": 0.0,
+   "joint_100": 0.0,
+   "joint_101": 0.0,
+   "joint_102": 0.0,
+   "joint_103": 0.0,
+   "joint_104": 0.0,
+   "joint_105": 0.0,
+   "joint_106": 0.0,
+   "joint_107": 0.0,
+   "joint_108": 0.0,
+   "joint_109": 0.0,
+   "joint_110": 0.0
+  },
+  "semantics": "link_0 free keyboard_base | link_1 slider key | link_2 slider key | link_3 slider key | link_4 slider key | link_5 slider key | link_6 slider key | link_7 slider key | link_8 slider key | link_9 slider key | link_10 slider key | link_11 slider key | link_12 slider key | link_13 slider key | link_14 slider key | link_15 slider key | link_16 slider key | link_17 slider key | link_18 slider key | link_19 slider key | link_20 slider key | link_21 slider key | link_22 slider key | link_23 slider key | link_24 slider key | link_25 slider key | link_26 slider key | link_27 slider key | link_28 slider key | link_29 slider key | link_30 slider key | link_31 slider key | link_32 slider key | link_33 slider key | link_34 slider key | link_35 slider key | link_36 slider key | link_37 slider key | link_38 slider key | link_39 slider key | link_40 slider key | link_41 slider key | link_42 slider key | link_43 slider key | link_44 slider key | link_45 slider key | link_46 slider key | link_47 slider key | link_48 slider key | link_49 slider key | link_50 slider key | link_51 slider key | link_52 slider key | link_53 slider key | link_54 slider key | link_55 slider key | link_56 slider key | link_57 slider key | link_58 slider key | link_59 slider key | link_60 slider key | link_61 slider key | link_62 slider key | link_63 slider key | link_64 slider key | link_65 slider key | link_66 slider key | link_67 slider key | link_68 slider key | link_69 slider key | link_70 slider key | link_71 slider key | link_72 slider key | link_73 slider key | link_74 slider key | link_75 slider key | link_76 slider key | link_77 slider key | link_78 slider key | link_79 slider key | link_80 slider key | link_81 slider key | link_82 slider key | link_83 slider key | link_84 slider key | link_85 slider key | link_86 slider key | link_87 slider key | link_88 slider key | link_89 slider key | link_90 slider key | link_91 slider key | link_92 slider key | link_93 slider key | link_94 slider key | link_95 slider key | link_96 slider key | link_97 slider key | link_98 slider key | link_99 slider key | link_100 slider key | link_101 slider key | link_102 slider key | link_103 slider key | link_104 slider key | link_105 slider key | link_106 slider key | link_107 slider key | link_108 slider key | link_109 slider key | link_110 slider key",
+  "mass": {
+   "link_0": 0.006,
+   "link_1": 0.0,
+   "link_2": 0.0,
+   "link_3": 0.0,
+   "link_4": 0.0,
+   "link_5": 0.0,
+   "link_6": 0.0,
+   "link_7": 0.0,
+   "link_8": 0.0,
+   "link_9": 0.0,
+   "link_10": 0.0,
+   "link_11": 0.0,
+   "link_12": 0.0,
+   "link_13": 0.0,
+   "link_14": 0.0,
+   "link_15": 0.0,
+   "link_16": 0.0,
+   "link_17": 0.0,
+   "link_18": 0.0,
+   "link_19": 0.0,
+   "link_20": 0.0,
+   "link_21": 0.0,
+   "link_22": 0.0,
+   "link_23": 0.0,
+   "link_24": 0.0,
+   "link_25": 0.0,
+   "link_26": 0.0,
+   "link_27": 0.0,
+   "link_28": 0.0,
+   "link_29": 0.0,
+   "link_30": 0.0,
+   "link_31": 0.0,
+   "link_32": 0.0,
+   "link_33": 0.0,
+   "link_34": 0.0,
+   "link_35": 0.0,
+   "link_36": 0.0,
+   "link_37": 0.0,
+   "link_38": 0.0,
+   "link_39": 0.0,
+   "link_40": 0.0,
+   "link_41": 0.0,
+   "link_42": 0.0,
+   "link_43": 0.0,
+   "link_44": 0.0,
+   "link_45": 0.0,
+   "link_46": 0.0,
+   "link_47": 0.0,
+   "link_48": 0.0,
+   "link_49": 0.0,
+   "link_50": 0.0,
+   "link_51": 0.0,
+   "link_52": 0.0,
+   "link_53": 0.0,
+   "link_54": 0.0,
+   "link_55": 0.0,
+   "link_56": 0.0,
+   "link_57": 0.0,
+   "link_58": 0.0,
+   "link_59": 0.0,
+   "link_60": 0.0,
+   "link_61": 0.0,
+   "link_62": 0.0,
+   "link_63": 0.0,
+   "link_64": 0.0,
+   "link_65": 0.0,
+   "link_66": 0.0,
+   "link_67": 0.0,
+   "link_68": 0.0,
+   "link_69": 0.0,
+   "link_70": 0.0,
+   "link_71": 0.0,
+   "link_72": 0.0,
+   "link_73": 0.0,
+   "link_74": 0.0,
+   "link_75": 0.0,
+   "link_76": 0.0,
+   "link_77": 0.0,
+   "link_78": 0.0,
+   "link_79": 0.0,
+   "link_80": 0.0,
+   "link_81": 0.0,
+   "link_82": 0.0,
+   "link_83": 0.0,
+   "link_84": 0.0,
+   "link_85": 0.0,
+   "link_86": 0.0,
+   "link_87": 0.0,
+   "link_88": 0.0,
+   "link_89": 0.0,
+   "link_90": 0.0,
+   "link_91": 0.0,
+   "link_92": 0.0,
+   "link_93": 0.0,
+   "link_94": 0.0,
+   "link_95": 0.0,
+   "link_96": 0.0,
+   "link_97": 0.0,
+   "link_98": 0.0,
+   "link_99": 0.0,
+   "link_100": 0.0,
+   "link_101": 0.0,
+   "link_102": 0.0,
+   "link_103": 0.0,
+   "link_104": 0.0,
+   "link_105": 0.0,
+   "link_106": 0.0,
+   "link_107": 0.0,
+   "link_108": 0.0,
+   "link_109": 0.0,
+   "link_110": 0.0
+  }
+ },
+ "objaverse_fae08c03cc75437c811f50426a81ac30": {
+  "category": "Cup",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000050/asset.usda",
+  "role": "free",
+  "scale": 0.007,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.095
+  }
+ },
+ "objaverse_be0c2264afaa496f9d2c4f09c528f14f": {
+  "category": "Table",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000061/asset.usda",
+  "role": "free",
+  "scale": 0.0322,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 31.67
+  }
+ },
+ "objaverse_5ca52fd352f7419daaa2523bf586f64b": {
+  "category": "Suitcase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000093/asset.usda",
+  "role": "free",
+  "scale": 0.0064,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 4.971
+  }
+ },
+ "objaverse_bad5e04d290841779dad272897f384e1": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-006-a01/runtime/builds/build_0000103/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 36132484967.054
+  }
+ },
+ "objaverse_29119fd73cf44d70a4f038849a25dfb5": {
+  "category": "Cup",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000007/asset.usda",
+  "role": "free",
+  "scale": 0.0044,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.023
+  }
+ },
+ "objaverse_8b0f41f8b2dc475ca0083f381abc54bd": {
+  "category": "Pen",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000012/asset.usda",
+  "role": "free",
+  "scale": 0.0015,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.0
+  }
+ },
+ "7220": {
+  "category": "Oven",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000022/asset.usda",
+  "role": "free",
+  "scale": 0.4821,
+  "joints": 2,
+  "init_q": {
+   "joint_0": 0.0,
+   "joint_1": 0.0
+  },
+  "semantics": "link_0 hinge door | link_1 hinge door | link_2 heavy oven_body",
+  "mass": {
+   "link_0": 1.098,
+   "link_1": 0.57,
+   "link_2": 22.091
+  }
+ },
+ "objaverse_8a56cf63a204440592bc2c694dd63c91": {
+  "category": "Lamp",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000035/asset.usda",
+  "role": "free",
+  "scale": 1.0,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 1.213
+  }
+ },
+ "objaverse_76b5e2b5f6e6420aaf70fae98089015b": {
+  "category": "Phone",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000038/asset.usda",
+  "role": "free",
+  "scale": 0.112,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.007
+  }
+ },
+ "objaverse_672bf82f5d6843988b8dffbc4d2239cd": {
+  "category": "Display",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000047/asset.usda",
+  "role": "free",
+  "scale": 0.0119,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 5.911
+  }
+ },
+ "objaverse_7370199a9ce64332ad9f76a0e14273ca": {
+  "category": "Vase",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000048/asset.usda",
+  "role": "free",
+  "scale": 0.0365,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.119
+  }
+ },
+ "100446": {
+  "category": "Bucket",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000063/asset.usda",
+  "role": "free",
+  "scale": 0.0636,
+  "joints": 1,
+  "init_q": {
+   "joint_0": 0.0
+  },
+  "semantics": "link_0 hinge handle | link_1 free bucket_body",
+  "mass": {
+   "link_0": 0.0,
+   "link_1": 0.07
+  }
+ },
+ "objaverse_ee8294efa6344586a41efb8a8e05d88a": {
+  "category": "Cup",
+  "usd": "${AFFORDCRAFT_RUNS}/campaign/runs/exec013-scene-000-a01/runtime/builds/build_0000080/asset.usda",
+  "role": "free",
+  "scale": 0.0037,
+  "joints": 0,
+  "init_q": {},
+  "semantics": null,
+  "mass": {
+   "body": 0.013
+  }
+ }
+}

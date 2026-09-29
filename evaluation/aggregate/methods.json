@@ -1,0 +1,41 @@
+{
+ "schema": "affordcraft.external_aggregate_config.v1",
+ "description": "Run layout read by aggregate_external.py. Every run name is a directory relative to runs_root. A method run holds lane-*/cases/<source_id>/{result.json, timing.json, native_manifest.json}; a gate run is the --out directory of evaluation/gate/external_gate_pipeline.py and holds cases/<source_id>/case_result.json, optionally retry-bigmem/cases/ (big-memory re-gate) and clone-<name>/cases/ (clone lanes). Lists are in precedence order. extra_runs / extra_gates: the extension of a subset method to the remaining 1,800 inputs of the frozen 2,000-input manifest (full2000 track).",
+ "runs_root": "${AFFORDCRAFT_RUNS}/external",
+ "subset_inputs": "${AFFORDCRAFT_RUNS}/inputs/subset_200_inputs.json",
+ "full_manifest": "${AFFORDCRAFT_RUNS}/inputs/input_manifest_2000.jsonl",
+ "methods": {
+  "physx-anything-v0.1": {"run": "physx-anything/subset200", "gates": ["physx-anything/gates-subset200"], "device": "RTX 5090 32 GB, one lane per GPU"},
+  "pact-v0.1": {"run": "pact/subset200", "gates": ["pact/gates-subset200"], "device": "A100 80 GB (two lanes) with automatic Grounding-DINO + SAM part masks"},
+  "partcrafter-v0.1": {"run": "partcrafter/subset200", "gates": ["partcrafter/gates-subset200"], "device": "RTX 5090 32 GB, part count from a remote VLM"},
+  "trellis2-4b-v0.1": {"run": "trellis2/subset200", "gates": ["trellis2/gates-subset200", "trellis2/gates-subset200-first"], "device": "RTX 5090 32 GB"},
+  "articulate-anything-v0.1": {"run": "articulate-anything/subset200", "gates": ["articulate-anything/gates-subset200"], "device": "RTX 5090, remote VLM gemini-2.5-flash"},
+  "gpt6-astra-agent-v0.1": {"run": "gpt6-astra-agent/subset200", "gates": ["gpt6-astra-agent/gates-subset200"], "device": "RTX 5090, remote gpt-6-astra"}
+ },
+ "extra_runs": {
+  "physx-anything-v0.1": ["physx-anything/remaining1800", "physx-anything/remaining1800-helper"],
+  "trellis2-4b-v0.1": ["trellis2/remaining1800"],
+  "pact-v0.1": ["pact/remaining1800"],
+  "partcrafter-v0.1": ["partcrafter/remaining1800"]
+ },
+ "extra_gates": {
+  "physx-anything-v0.1": ["physx-anything/gates-remaining1800"],
+  "trellis2-4b-v0.1": ["trellis2/gates-remaining1800"],
+  "pact-v0.1": ["pact/gates-remaining1800"],
+  "partcrafter-v0.1": ["partcrafter/gates-remaining1800"]
+ },
+ "post_finalization_gates": ["partcrafter/gates-remaining1800", "articulate-anything/gates-subset200", "gpt6-astra-agent/gates-subset200"],
+ "physx_omni": {
+  "representation": [
+   ["representation-subset200", "physx-omni/representation-subset200/lane-*/native_representation/cases/*/native_representation_result.json"],
+   ["representation-subset200-shards", "physx-omni/representation-subset200-shards/shard-*/native_representation/cases/*/native_representation_result.json"],
+   ["representation-remaining", "physx-omni/representation-remaining/lane-*/native_representation/cases/*/native_representation_result.json"]
+  ],
+  "geometry": [
+   ["geometry-subset200", "physx-omni/geometry-subset200/lane-*/native_geometry*/cases/*/native_asset_result.json"],
+   ["geometry-full2000", "physx-omni/geometry-full2000/lane-*/native_geometry*/cases/*/native_asset_result.json"]
+  ],
+  "gates": ["physx-omni/gates-subset200", "physx-omni/gates-full2000"],
+  "capacity_lane_marker": "/lane-largest-gpu"
+ }
+}

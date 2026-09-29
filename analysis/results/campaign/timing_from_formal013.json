@@ -1,0 +1,86 @@
+{
+ "schema": "affordcraft.paper.timing_from_formal013.v1",
+ "created_utc": "2026-09-21T13:41:15Z",
+ "per_case_path": "${AFFORDCRAFT_RUNS}/main_campaign/final_results/exp1_per_case.jsonl",
+ "per_case_sha256": "c6e56c0e21629905c7c2b30c682c8c3fdd021e52b0a1bf1da94080185252a248",
+ "inputs": 2000,
+ "phases": {
+  "grounding": {
+   "n": 2000,
+   "median": 5.775225354998838,
+   "mean": 5.947609453665984
+  },
+  "retrieval": {
+   "n": 1767,
+   "median": 0.08796241199888755,
+   "mean": 0.10191820136576257
+  },
+  "multimodal_ranking": {
+   "n": 2347,
+   "median": 25.00317137100501,
+   "mean": 25.63630870736783
+  },
+  "asset_construction": {
+   "n": 4781,
+   "median": 93.61496419800096,
+   "mean": 225.72804434647165
+  },
+  "construction_physics": {
+   "n": 2316,
+   "median": 2.9084982279964606,
+   "mean": 5.415497726376828
+  },
+  "final_physics": {
+   "n": 1703,
+   "median": 2.808365751989186,
+   "mean": 5.473156338905082
+  },
+  "repair": {
+   "n": 3138,
+   "median": 5.846988642588258e-06,
+   "mean": 10.025283120290693
+  }
+ },
+ "groups": {
+  "perception": {
+   "n": 2000,
+   "median": 31.57063298848516,
+   "mean": 36.121862452668786
+  },
+  "adaptation": {
+   "n": 1767,
+   "median": 67.29979791498045,
+   "mean": 628.5597727515299
+  },
+  "validation": {
+   "n": 1712,
+   "median": 6.522271175505011,
+   "mean": 12.77048947397435
+  }
+ },
+ "e2e": {
+  "n": 2000,
+  "median": 84.9970214060013,
+  "mean": 602.3864745967829,
+  "p95_linear_interpolation": 2873.4587749640455
+ },
+ "attempts": 5874,
+ "attempts_with_a_repair": 179,
+ "repaired_attempt_status": {
+  "selected": 60,
+  "construction_physics_failed": 49,
+  "repair_not_exported": 70
+ },
+ "repair_calls": 3138,
+ "repair_calls_under_1s": 2959,
+ "phase_group": {
+  "grounding": "perception",
+  "retrieval": "perception",
+  "multimodal_ranking": "perception",
+  "asset_construction": "adaptation",
+  "repair": "adaptation",
+  "construction_physics": "validation",
+  "final_physics": "validation"
+ },
+ "note": "read-only recount of the main campaign's verified exp1 per-case records (same file hash as subset200_from_formal013.json); phase rows over every recorded execution of the phase, group rows per input over the inputs that reached the group, e2e over all inputs. Every statistic reproduces main_campaign.exp1.timing_seconds of evidence_v2_20260920-181120.json to 1e-6 (asserted by tables_appendix.py); this file adds the execution counts n and the repair-call counts."
+}

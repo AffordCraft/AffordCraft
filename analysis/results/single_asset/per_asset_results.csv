@@ -1,0 +1,11 @@
+asset_id,role,task_id,untrained_success,trained_success,denominator,trained_blocked,trained_raw_rate,wilson_95_low,wilson_95_high
+rigid_00_bottle,rigid,rigid_00_bottle__full_task_v0_85,0,5,20,0,0.25,0.11186170140766569,0.468700877618744
+rigid_compact_camera_9f360f3c,rigid,rigid_compact_camera_9f360f3c__push_to_region_v0_94,0,19,20,0,0.95,0.763868806553258,0.9911185511992047
+rigid_compact_clock_ddb96318,rigid,rigid_compact_clock_ddb96318__push_to_region_v0_94,0,14,20,0,0.7,0.4810271816464765,0.8545227551323956
+rigid_compact_display_67ea5509,rigid,rigid_compact_display_67ea5509__push_to_region_v0_94,0,14,20,0,0.7,0.4810271816464765,0.8545227551323956
+rigid_compact_box_cf109672,rigid,rigid_compact_box_cf109672__push_to_region_v0_94,0,6,20,0,0.3,0.1454772448676043,0.5189728183535235
+articulated_04_storage_46889,articulated,articulated_04_storage_46889__close_source_verified_v0_89,0,18,20,0,0.9,0.6989663547715128,0.9721335187862319
+articulated_01_microwave,articulated,articulated_01_microwave__source_correct_close_v0_105,1,8,20,2,0.4,0.21880653237281705,0.6134184992377469
+articulated_02_storage_45526,articulated,articulated_02_storage_45526__source_correct_close_v0_105,0,7,20,3,0.35,0.18119182410108206,0.5671457233147638
+articulated_03_storage_45638,articulated,articulated_03_storage_45638__source_correct_close_v0_105,0,3,20,0,0.15,0.052368745896216595,0.36041886474075696
+articulated_drawer_46236,articulated,articulated_drawer_46236__full_close_v0_120,0,20,20,0,1.0,0.8388748419471806,1.0

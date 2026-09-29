@@ -1,0 +1,1198 @@
+{
+  "action_contract": {
+    "action_chunk_length": 8,
+    "action_dim": 9,
+    "arm_target_normalization": "future arm target minus chunk-start measured proprio divided by frozen per-horizon uniform scales",
+    "arm_units": "rad",
+    "control_hz": 10,
+    "executed_prefix": 4,
+    "finger_target_range_m": [
+      0,
+      0.04
+    ],
+    "finger_units": "m",
+    "frame": "robot_joint_space",
+    "gripper_convention": "0 closed, 0.04 m each finger open; no attachment constraint",
+    "joint_names": [
+      "panda_joint1",
+      "panda_joint2",
+      "panda_joint3",
+      "panda_joint4",
+      "panda_joint5",
+      "panda_joint6",
+      "panda_joint7",
+      "panda_finger_joint1",
+      "panda_finger_joint2"
+    ],
+    "maximum_arm_reference_velocity_rad_s": 0.6,
+    "physics_hz": 60,
+    "proprio_dim": 9
+  },
+  "all_cases_retained": true,
+  "automated_tests": {
+    "failed": 0,
+    "passed": 51,
+    "skipped": 0
+  },
+  "by_asset": {
+    "articulated_01_microwave": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 2,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "robot_action_out_of_range": 10
+        },
+        "failures": 10,
+        "raw_success_rate": 0.4,
+        "successes": 8,
+        "wilson_95_ci": [
+          0.21880653237281705,
+          0.6134184992377469
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 2,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "forbidden_collision": 15,
+          "robot_action_out_of_range": 2
+        },
+        "failures": 17,
+        "raw_success_rate": 0.05,
+        "successes": 1,
+        "wilson_95_ci": [
+          0.008881448800795402,
+          0.23613119344674205
+        ]
+      }
+    },
+    "articulated_02_storage_45526": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 3,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "excessive_penetration": 2,
+          "forbidden_collision": 4,
+          "robot_action_out_of_range": 4
+        },
+        "failures": 10,
+        "raw_success_rate": 0.35,
+        "successes": 7,
+        "wilson_95_ci": [
+          0.18119182410108206,
+          0.5671457233147638
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 3,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "forbidden_collision": 1,
+          "robot_action_out_of_range": 16
+        },
+        "failures": 17,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "articulated_03_storage_45638": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "correct_operation_contact_missing": 6,
+          "excessive_penetration": 1,
+          "robot_action_out_of_range": 10
+        },
+        "failures": 17,
+        "raw_success_rate": 0.15,
+        "successes": 3,
+        "wilson_95_ci": [
+          0.052368745896216595,
+          0.36041886474075696
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "excessive_penetration": 6,
+          "robot_action_out_of_range": 14
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "articulated_04_storage_46889": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "excessive_penetration": 2
+        },
+        "failures": 2,
+        "raw_success_rate": 0.9,
+        "successes": 18,
+        "wilson_95_ci": [
+          0.6989663547715128,
+          0.9721335187862319
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "articulated_drawer_46236": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {},
+        "failures": 0,
+        "raw_success_rate": 1.0,
+        "successes": 20,
+        "wilson_95_ci": [
+          0.8388748419471806,
+          1.0
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "release_then_hold_clause_not_verified": 20,
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_00_bottle": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "final_goal_not_reached_or_not_stable": 15
+        },
+        "failures": 15,
+        "raw_success_rate": 0.25,
+        "successes": 5,
+        "wilson_95_ci": [
+          0.11186170140766569,
+          0.468700877618744
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_box_cf109672": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "correct_operation_contact_missing": 1,
+          "excessive_penetration": 5,
+          "final_goal_not_reached_or_not_stable": 7,
+          "object_dropped": 1
+        },
+        "failures": 14,
+        "raw_success_rate": 0.3,
+        "successes": 6,
+        "wilson_95_ci": [
+          0.1454772448676043,
+          0.5189728183535235
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_camera_9f360f3c": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "final_goal_not_reached_or_not_stable": 1
+        },
+        "failures": 1,
+        "raw_success_rate": 0.95,
+        "successes": 19,
+        "wilson_95_ci": [
+          0.763868806553258,
+          0.9911185511992047
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_clock_ddb96318": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "excessive_penetration": 1,
+          "final_goal_not_reached_or_not_stable": 5
+        },
+        "failures": 6,
+        "raw_success_rate": 0.7,
+        "successes": 14,
+        "wilson_95_ci": [
+          0.4810271816464765,
+          0.8545227551323956
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_display_67ea5509": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "final_goal_not_reached_or_not_stable": 6
+        },
+        "failures": 6,
+        "raw_success_rate": 0.7,
+        "successes": 14,
+        "wilson_95_ci": [
+          0.4810271816464765,
+          0.8545227551323956
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    }
+  },
+  "by_role": {
+    "articulated": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 5,
+        "denominator": 100,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "correct_operation_contact_missing": 6,
+          "excessive_penetration": 5,
+          "forbidden_collision": 4,
+          "robot_action_out_of_range": 24
+        },
+        "failures": 39,
+        "raw_success_rate": 0.56,
+        "successes": 56,
+        "wilson_95_ci": [
+          0.4622810465167699,
+          0.6532797336983921
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 5,
+        "denominator": 100,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "excessive_penetration": 6,
+          "forbidden_collision": 16,
+          "release_then_hold_clause_not_verified": 20,
+          "robot_action_out_of_range": 72
+        },
+        "failures": 94,
+        "raw_success_rate": 0.01,
+        "successes": 1,
+        "wilson_95_ci": [
+          0.0017674320641406505,
+          0.054486196178705315
+        ]
+      }
+    },
+    "rigid": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 100,
+        "failure_reasons": {
+          "correct_operation_contact_missing": 1,
+          "excessive_penetration": 6,
+          "final_goal_not_reached_or_not_stable": 34,
+          "object_dropped": 1
+        },
+        "failures": 42,
+        "raw_success_rate": 0.58,
+        "successes": 58,
+        "wilson_95_ci": [
+          0.4820648670304296,
+          0.6720161732564526
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 100,
+        "failure_reasons": {
+          "robot_action_out_of_range": 100
+        },
+        "failures": 100,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          3.469446951953614e-18,
+          0.03699349820698568
+        ]
+      }
+    }
+  },
+  "by_task": {
+    "articulated_01_microwave__source_correct_close_v0_105": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 2,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "robot_action_out_of_range": 10
+        },
+        "failures": 10,
+        "raw_success_rate": 0.4,
+        "successes": 8,
+        "wilson_95_ci": [
+          0.21880653237281705,
+          0.6134184992377469
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 2,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "forbidden_collision": 15,
+          "robot_action_out_of_range": 2
+        },
+        "failures": 17,
+        "raw_success_rate": 0.05,
+        "successes": 1,
+        "wilson_95_ci": [
+          0.008881448800795402,
+          0.23613119344674205
+        ]
+      }
+    },
+    "articulated_02_storage_45526__source_correct_close_v0_105": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 3,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "excessive_penetration": 2,
+          "forbidden_collision": 4,
+          "robot_action_out_of_range": 4
+        },
+        "failures": 10,
+        "raw_success_rate": 0.35,
+        "successes": 7,
+        "wilson_95_ci": [
+          0.18119182410108206,
+          0.5671457233147638
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 3,
+        "denominator": 20,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "forbidden_collision": 1,
+          "robot_action_out_of_range": 16
+        },
+        "failures": 17,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "articulated_03_storage_45638__source_correct_close_v0_105": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "correct_operation_contact_missing": 6,
+          "excessive_penetration": 1,
+          "robot_action_out_of_range": 10
+        },
+        "failures": 17,
+        "raw_success_rate": 0.15,
+        "successes": 3,
+        "wilson_95_ci": [
+          0.052368745896216595,
+          0.36041886474075696
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "excessive_penetration": 6,
+          "robot_action_out_of_range": 14
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "articulated_04_storage_46889__close_source_verified_v0_89": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "excessive_penetration": 2
+        },
+        "failures": 2,
+        "raw_success_rate": 0.9,
+        "successes": 18,
+        "wilson_95_ci": [
+          0.6989663547715128,
+          0.9721335187862319
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "articulated_drawer_46236__full_close_v0_120": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {},
+        "failures": 0,
+        "raw_success_rate": 1.0,
+        "successes": 20,
+        "wilson_95_ci": [
+          0.8388748419471806,
+          1.0
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "release_then_hold_clause_not_verified": 20,
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_00_bottle__full_task_v0_85": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "final_goal_not_reached_or_not_stable": 15
+        },
+        "failures": 15,
+        "raw_success_rate": 0.25,
+        "successes": 5,
+        "wilson_95_ci": [
+          0.11186170140766569,
+          0.468700877618744
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_box_cf109672__push_to_region_v0_94": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "correct_operation_contact_missing": 1,
+          "excessive_penetration": 5,
+          "final_goal_not_reached_or_not_stable": 7,
+          "object_dropped": 1
+        },
+        "failures": 14,
+        "raw_success_rate": 0.3,
+        "successes": 6,
+        "wilson_95_ci": [
+          0.1454772448676043,
+          0.5189728183535235
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_camera_9f360f3c__push_to_region_v0_94": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "final_goal_not_reached_or_not_stable": 1
+        },
+        "failures": 1,
+        "raw_success_rate": 0.95,
+        "successes": 19,
+        "wilson_95_ci": [
+          0.763868806553258,
+          0.9911185511992047
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_clock_ddb96318__push_to_region_v0_94": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "excessive_penetration": 1,
+          "final_goal_not_reached_or_not_stable": 5
+        },
+        "failures": 6,
+        "raw_success_rate": 0.7,
+        "successes": 14,
+        "wilson_95_ci": [
+          0.4810271816464765,
+          0.8545227551323956
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    },
+    "rigid_compact_display_67ea5509__push_to_region_v0_94": {
+      "trained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "final_goal_not_reached_or_not_stable": 6
+        },
+        "failures": 6,
+        "raw_success_rate": 0.7,
+        "successes": 14,
+        "wilson_95_ci": [
+          0.4810271816464765,
+          0.8545227551323956
+        ]
+      },
+      "untrained_vla": {
+        "blocked_or_not_evaluated": 0,
+        "denominator": 20,
+        "failure_reasons": {
+          "robot_action_out_of_range": 20
+        },
+        "failures": 20,
+        "raw_success_rate": 0.0,
+        "successes": 0,
+        "wilson_95_ci": [
+          0.0,
+          0.16112515805281938
+        ]
+      }
+    }
+  },
+  "by_variant": {
+    "trained_vla": {
+      "blocked_or_not_evaluated": 5,
+      "denominator": 200,
+      "evaluated_only_rate": 0.5846153846153846,
+      "failure_reasons": {
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+        "correct_operation_contact_missing": 7,
+        "excessive_penetration": 11,
+        "final_goal_not_reached_or_not_stable": 34,
+        "forbidden_collision": 4,
+        "object_dropped": 1,
+        "robot_action_out_of_range": 24
+      },
+      "failures": 81,
+      "initial_state_or_infrastructure_blocked": 5,
+      "quality_adjusted_denominator": 195,
+      "quality_adjusted_rate": 0.5846153846153846,
+      "quality_adjusted_wilson_95_ci": [
+        0.5144667975157386,
+        0.6514945678640933
+      ],
+      "quality_adjustment_definition": "exclude independently blocked initial states only; raw 200 retained",
+      "raw_denominator": 200,
+      "raw_success_rate": 0.57,
+      "successes": 114,
+      "wilson_95_ci": [
+        0.5007048776415268,
+        0.6366567766656557
+      ]
+    },
+    "untrained_vla": {
+      "blocked_or_not_evaluated": 5,
+      "denominator": 200,
+      "evaluated_only_rate": 0.005128205128205128,
+      "failure_reasons": {
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+        "excessive_penetration": 6,
+        "forbidden_collision": 16,
+        "release_then_hold_clause_not_verified": 20,
+        "robot_action_out_of_range": 172
+      },
+      "failures": 194,
+      "initial_state_or_infrastructure_blocked": 5,
+      "quality_adjusted_denominator": 195,
+      "quality_adjusted_rate": 0.005128205128205128,
+      "quality_adjusted_wilson_95_ci": [
+        0.0009058284432263645,
+        0.028471640698969368
+      ],
+      "quality_adjustment_definition": "exclude independently blocked initial states only; raw 200 retained",
+      "raw_denominator": 200,
+      "raw_success_rate": 0.005,
+      "successes": 1,
+      "wilson_95_ci": [
+        0.0008831687156009814,
+        0.02777370439789293
+      ]
+    }
+  },
+  "changes_from_historical": {
+    "v0.161": {
+      "absolute_percentage_points": 53.99999999999999,
+      "relative_improvement": 17.999999999999996,
+      "relative_improvement_reason": null
+    },
+    "v0.164": {
+      "absolute_percentage_points": 45.49999999999999,
+      "relative_improvement": 3.956521739130434,
+      "relative_improvement_reason": null
+    },
+    "v0.165": {
+      "absolute_percentage_points": 29.499999999999993,
+      "relative_improvement": 1.0727272727272723,
+      "relative_improvement_reason": null
+    },
+    "v0.166": {
+      "absolute_percentage_points": 11.499999999999993,
+      "relative_improvement": 0.25274725274725257,
+      "relative_improvement_reason": null
+    }
+  },
+  "exp2_relation_evaluation": "not_in_scope",
+  "final_checkpoint_rule": "step_032000 only; no checkpoint selection on heldout",
+  "fixed_initial_state_blocks": [
+    {
+      "asset_id": "articulated_01_microwave",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'"
+      ],
+      "heldout_index": 0,
+      "model_variant": "untrained_vla",
+      "seed": 133060001
+    },
+    {
+      "asset_id": "articulated_01_microwave",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'"
+      ],
+      "heldout_index": 19,
+      "model_variant": "untrained_vla",
+      "seed": 133060020
+    },
+    {
+      "asset_id": "articulated_02_storage_45526",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'"
+      ],
+      "heldout_index": 3,
+      "model_variant": "untrained_vla",
+      "seed": 133070004
+    },
+    {
+      "asset_id": "articulated_02_storage_45526",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'"
+      ],
+      "heldout_index": 7,
+      "model_variant": "untrained_vla",
+      "seed": 133070008
+    },
+    {
+      "asset_id": "articulated_02_storage_45526",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/untrained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'"
+      ],
+      "heldout_index": 13,
+      "model_variant": "untrained_vla",
+      "seed": 133070014
+    },
+    {
+      "asset_id": "articulated_01_microwave",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'"
+      ],
+      "heldout_index": 0,
+      "model_variant": "trained_vla",
+      "seed": 133060001
+    },
+    {
+      "asset_id": "articulated_01_microwave",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'"
+      ],
+      "heldout_index": 19,
+      "model_variant": "trained_vla",
+      "seed": 133060020
+    },
+    {
+      "asset_id": "articulated_02_storage_45526",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'"
+      ],
+      "heldout_index": 3,
+      "model_variant": "trained_vla",
+      "seed": 133070004
+    },
+    {
+      "asset_id": "articulated_02_storage_45526",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'"
+      ],
+      "heldout_index": 7,
+      "model_variant": "trained_vla",
+      "seed": 133070008
+    },
+    {
+      "asset_id": "articulated_02_storage_45526",
+      "failure_reasons": [
+        "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'"
+      ],
+      "heldout_index": 13,
+      "model_variant": "trained_vla",
+      "seed": 133070014
+    }
+  ],
+  "goal_met": false,
+  "goal_requires_raw_120_of_200": true,
+  "goal_success_rate": 0.6,
+  "historical_baselines": {
+    "v0.161": {
+      "metrics": {
+        "blocked_or_not_evaluated": 5,
+        "denominator": 200,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-161/evaluation-retry-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-161/evaluation-retry-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-161/evaluation-retry-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-161/evaluation-retry-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-161/evaluation-retry-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "correct_operation_contact_missing": 165,
+          "final_goal_not_reached_or_not_stable": 8,
+          "forbidden_collision": 16,
+          "release_then_hold_clause_not_verified": 14
+        },
+        "failures": 189,
+        "raw_success_rate": 0.03,
+        "successes": 6,
+        "wilson_95_ci": [
+          0.013820314340111346,
+          0.06389429245451925
+        ]
+      },
+      "source": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-161/evaluation-retry-001/independent_delivery/summary.json",
+      "source_sha256": "ba4e26c91e7bf505db6d142397ae70cf1cbebff157c7a1dca7ff550038ff9f16"
+    },
+    "v0.164": {
+      "metrics": {
+        "blocked_or_not_evaluated": 5,
+        "denominator": 200,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-164/per-horizon-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-164/per-horizon-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-164/per-horizon-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-164/per-horizon-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-164/per-horizon-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "correct_operation_contact_missing": 44,
+          "final_goal_not_reached_or_not_stable": 8,
+          "final_hold_duration_short": 1,
+          "forbidden_collision": 119,
+          "release_then_hold_clause_not_verified": 12
+        },
+        "failures": 172,
+        "raw_success_rate": 0.115,
+        "successes": 23,
+        "wilson_95_ci": [
+          0.07786373232561955,
+          0.16664716898487572
+        ]
+      },
+      "source": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-164/per-horizon-training-001/execution-001/independent_delivery_retry_002/summary.json",
+      "source_sha256": "c518d571648c00a4094fab8425099035c7b8d18ffc741224bcaf3a91ffcbca57"
+    },
+    "v0.165": {
+      "metrics": {
+        "blocked_or_not_evaluated": 5,
+        "denominator": 200,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-165/action-critical-temporal-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-165/action-critical-temporal-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-165/action-critical-temporal-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-165/action-critical-temporal-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-165/action-critical-temporal-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "correct_operation_contact_missing": 106,
+          "excessive_penetration": 4,
+          "final_goal_not_reached_or_not_stable": 14,
+          "final_hold_duration_short": 2,
+          "forbidden_collision": 11,
+          "release_then_hold_clause_not_verified": 10,
+          "robot_action_out_of_range": 3
+        },
+        "failures": 140,
+        "raw_success_rate": 0.275,
+        "successes": 55,
+        "wilson_95_ci": [
+          0.21779700329307355,
+          0.34068339357669647
+        ]
+      },
+      "source": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-165/action-critical-temporal-training-001/execution-001/independent_delivery_001/summary.json",
+      "source_sha256": "891132516a62dcdb1e27c56cf2aee2adc10e41e04f69c32ab7d4555e9d56bbb2"
+    },
+    "v0.166": {
+      "metrics": {
+        "blocked_or_not_evaluated": 5,
+        "denominator": 200,
+        "failure_reasons": {
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-166/recurrent-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_000/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-166/recurrent-training-001/execution-001/evaluation/trained_vla/gpu_6/assets/articulated_01_microwave/worker/episodes/articulated_01_microwave/episode_019/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-166/recurrent-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_003/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-166/recurrent-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_007/episode/case_result.json'": 1,
+          "FileNotFoundError:[Errno 2] No such file or directory: '${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-166/recurrent-training-001/execution-001/evaluation/trained_vla/gpu_7/assets/articulated_02_storage_45526/worker/episodes/articulated_02_storage_45526/episode_013/episode/case_result.json'": 1,
+          "correct_operation_contact_missing": 17,
+          "excessive_penetration": 19,
+          "final_goal_not_reached_or_not_stable": 46,
+          "final_hold_duration_short": 3,
+          "forbidden_collision": 15,
+          "release_then_hold_clause_not_verified": 9,
+          "robot_action_out_of_range": 4
+        },
+        "failures": 104,
+        "raw_success_rate": 0.455,
+        "successes": 91,
+        "wilson_95_ci": [
+          0.387482193098835,
+          0.524213886275119
+        ]
+      },
+      "source": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-166/recurrent-training-001/execution-001/independent_delivery_001/summary.json",
+      "source_sha256": "68e8fa97725da7b593448c7352091619d3c8a1b95a585ec66af400f24b0d7fc9"
+    }
+  },
+  "history_hash_verified_files": 272110,
+  "history_unchanged": true,
+  "horizon_arm_scale_rad": [
+    0.06,
+    0.17,
+    0.3,
+    0.4,
+    0.48,
+    0.55,
+    0.62,
+    0.68
+  ],
+  "independent_report_valid": true,
+  "method_id": "exp3_complete_robot_task_oft_feedback_denoising_v0_167",
+  "model_inputs": [
+    "current raw Isaac RGB processed by same official processor",
+    "current measured nine robot joint positions",
+    "same frozen instruction",
+    "learned internal memory from preceding allowed observations only"
+  ],
+  "no_scripted_teacher_inference": true,
+  "official_commit": "e4287e94541f459edc4feabc4e181f537cd569a8",
+  "official_repository": "https://github.com/moojink/openvla-oft",
+  "oracle_gap": "not_measured",
+  "paired_change": {
+    "absolute_percentage_points": 56.49999999999999,
+    "relative_improvement": 112.99999999999999,
+    "relative_improvement_reason": null
+  },
+  "phase_timings": {
+    "paired_verifier_execution_receipt": {
+      "runtime_seconds": 315.2869937720243,
+      "source": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/paired_verifier_execution_receipt.json",
+      "source_sha256": "40f100acea267ad476fce6800b6760eda977ee44751caaf135a1a51645506f45",
+      "subprocess_returncode": 0
+    },
+    "training_execution_receipt": {
+      "runtime_seconds": 1045.454929472995,
+      "source": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/training_execution_receipt.json",
+      "source_sha256": "13f238a91b39d4399596b90ce73d8df2744f04196194e01b2d8e7c143e4cdf95",
+      "subprocess_returncode": 0
+    },
+    "training_verifier_execution_receipt": {
+      "runtime_seconds": 5.006574566010386,
+      "source": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/training_verifier_execution_receipt.json",
+      "source_sha256": "684fe9505916267216f9bd78b3be2c253b598f357d0a4251325646f5b1f56e9d",
+      "subprocess_returncode": 0
+    }
+  },
+  "raw_video_count": 780,
+  "relative_improvement_from_zero_baseline": null,
+  "repeated_test_not_unseen_generalization": true,
+  "resource_trace": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/resources.jsonl",
+  "robot_control_status": "simulated_robot_only",
+  "robot_real_world": "not_evaluated",
+  "robot_task_success": null,
+  "source_dataset_sha256": "0c1858d956ab115b655ca7fd49b9db31bc6ba6cf0453b4ff202ad07d74cd2d31",
+  "storage_bytes": 7760368432,
+  "teacher_upper_bound": "1000 success-only training episodes; no matched heldout teacher rate measured, not a VLA result",
+  "training": {
+    "augmentation_contract": "Arm proprio only: seeded independent correlated .005 rad noise, probability .75 per sequence; RGB and original records immutable. Supervised desired positions come only from successful teacher labels, projected through each registered uniform horizon envelope; projected fraction is logged. No teacher action is an input.",
+    "augmentation_not_counted_as_new_successes": true,
+    "backbone_frozen": true,
+    "base_checkpoint": "${AFFORDCRAFT_MODELS}/openvla_oft_libero_spatial_source_snapshot_v0_117",
+    "checkpoint_manifest": {
+      "base_checkpoint": "${AFFORDCRAFT_MODELS}/openvla_oft_libero_spatial_source_snapshot_v0_117",
+      "checkpoint_inventory_sha256": "4b9b1c25ae8d399c3f7fd158242dc83d82c7ac6a510f4555d3c1a8984e0a3776",
+      "checkpoint_reload_passed": true,
+      "completed_steps": 32000,
+      "dataset_manifest_sha256": "0c1858d956ab115b655ca7fd49b9db31bc6ba6cf0453b4ff202ad07d74cd2d31",
+      "feature_cache_manifest_sha256": "a353828581582b38a78c012f532ffc90d73f8ea3a84057e7587e017de7835d6a",
+      "final_adapter": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/training/adapter_final.safetensors",
+      "final_adapter_sha256": "b8415c10a5e62f0ae7331a5ce22d7632455ed5895a9d432d70573f3d1d9b00f8",
+      "fixed_final_checkpoint_not_heldout_selected": true,
+      "initial_adapter": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/training/adapter_initial.safetensors",
+      "initial_adapter_sha256": "4f0284bc3fb40f09f7d951198546d730f8edc67c1f037a1648bc65fbaba72a32",
+      "robot_control_status": "simulated_robot_only",
+      "robot_real_world": "not_evaluated",
+      "robot_task_success": null,
+      "training_code_sha256": "a59f064b6f2393aa2c59c034957f0e9fd6f5f1844850cf400f9319f79ed24459"
+    },
+    "episodes": 1000,
+    "execution": {
+      "command": [
+        "${OPENVLA_OFT_PYTHON}",
+        "${AFFORDCRAFT_REPO}/policy/single_asset/tools/train_exp3_oft_feedback_v0_167.py",
+        "--configuration",
+        "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/training_configuration.json",
+        "--output",
+        "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-167/feedback-denoising-training-001/execution-001/training"
+      ],
+      "cuda_version": "12.8",
+      "gpu_name": "NVIDIA GeForce RTX 5090",
+      "peak_memory_bytes": 250299904,
+      "python_version": "3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]",
+      "robot_control_status": "simulated_robot_only",
+      "robot_real_world": "not_evaluated",
+      "robot_task_success": null,
+      "runtime_seconds": 1039.282048508001,
+      "scripted_actions_at_inference": false,
+      "status": "training_completed_in_process",
+      "steps": 32000,
+      "torch_version": "2.8.0+cu128"
+    },
+    "feature_cache_manifest_sha256": "a353828581582b38a78c012f532ffc90d73f8ea3a84057e7587e017de7835d6a",
+    "feature_cache_reused_from": "${AFFORDCRAFT_RUNS}/exp3-complete-robot-tasks-v0-166/recurrent-training-001/execution-001/features/manifest.json",
+    "frames": 245954,
+    "heldout_used": false,
+    "last_log": {
+      "action_loss": 0.011865491978824139,
+      "arm_delta_mae_rad": 0.0029064982663840055,
+      "augmentation": {
+        "augmented_sequences": 15,
+        "maximum_added_proprio_noise_rad": 0.0207566749304533,
+        "projected_targets": 15,
+        "valid_targets": 8230
+      },
+      "finger_target_mae_m": 5.353130063667777e-07,
+      "gradient_norm": 0.24816666543483734,
+      "heldout_used": false,
+      "learning_rate": 3.000000065058427e-05,
+      "loss": 0.013770942576229572,
+      "peak_memory_bytes": 250299904,
+      "query_overlap_loss_rad": 0.0020853900350630283,
+      "runtime_seconds": 0.03186792298220098,
+      "step": 32000,
+      "temporal_loss": 0.006787646561861038,
+      "training_episode_count": 16
+    },
+    "learned_component": "feedback-aware recurrent robot proprio/action head",
+    "mean_last_1000_loss": 0.012571677554398775,
+    "original_trajectories_not_rewritten": true,
+    "proprio_normalization": "training-only per-joint mean/std; std floor .1 rad arm and .01 m fingers; identical saved buffers for both variants",
+    "steps": 32000
+  },
+  "v0160_comparison_note": "v0.160 weights have valid paired task evaluation in v0.161; v0.160 infrastructure-blocked output is not a second task rate"
+}

@@ -1,0 +1,2626 @@
+{
+ "description": "237 annotated instances used only for scoring (same-category match at IoU >= 0.5); never given to the pipeline",
+ "objects": 237,
+ "images": [
+  {
+   "scene_id": "scene_001_coco_000000555009",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.53356,
+      0.003493,
+      0.98058,
+      0.454933
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.14536,
+      0.022693,
+      0.52732,
+      0.492773
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.00168,
+      0.282773,
+      0.32528,
+      0.873787
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.0,
+      0.55904,
+      0.32808,
+      0.870853
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.33998,
+      0.56512,
+      0.70804,
+      0.74296
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Cup",
+     "bbox_normalized": [
+      0.75882,
+      0.40392,
+      0.852,
+      0.624213
+     ]
+    },
+    {
+     "object_id": "6",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.9,
+      0.301067,
+      0.99194,
+      0.59784
+     ]
+    },
+    {
+     "object_id": "7",
+     "category": "Mouse",
+     "bbox_normalized": [
+      0.78506,
+      0.72112,
+      0.90364,
+      0.870187
+     ]
+    },
+    {
+     "object_id": "8",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.94588,
+      0.32,
+      0.99976,
+      0.654907
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_002_coco_000000030213",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Refrigerator",
+     "bbox_normalized": [
+      0.765906,
+      0.24853,
+      0.993484,
+      0.785457
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.477187,
+      0.742116,
+      0.891172,
+      0.989866
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Table",
+     "bbox_normalized": [
+      0.250812,
+      0.485746,
+      0.642313,
+      1.0
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.033187,
+      0.430178,
+      0.274938,
+      0.682428
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Sink",
+     "bbox_normalized": [
+      0.585031,
+      0.368196,
+      0.737359,
+      0.517884
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_003_coco_000000172595",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.032734,
+      0.094833,
+      0.366109,
+      1.0
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.545063,
+      0.053722,
+      0.727531,
+      0.450417
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.356875,
+      0.08875,
+      0.525734,
+      0.398944
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Backpack",
+     "bbox_normalized": [
+      0.341781,
+      0.538139,
+      0.502047,
+      0.793639
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Display",
+     "bbox_normalized": [
+      0.895531,
+      0.015722,
+      0.999891,
+      0.334583
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Display",
+     "bbox_normalized": [
+      0.749578,
+      0.006361,
+      0.872188,
+      0.204111
+     ]
+    },
+    {
+     "object_id": "6",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.396188,
+      0.394861,
+      0.56825,
+      0.575417
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_004_coco_000000348481",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.490453,
+      0.049438,
+      0.932016,
+      0.366292
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Book",
+     "bbox_normalized": [
+      0.267031,
+      0.090458,
+      0.472469,
+      0.370813
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Remote",
+     "bbox_normalized": [
+      0.014438,
+      0.761625,
+      0.121594,
+      0.976604
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Mouse",
+     "bbox_normalized": [
+      0.756156,
+      0.370938,
+      0.908953,
+      0.535021
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Book",
+     "bbox_normalized": [
+      0.22075,
+      0.73625,
+      0.317922,
+      0.913083
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Phone",
+     "bbox_normalized": [
+      0.751078,
+      0.579854,
+      0.81625,
+      0.750042
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_005_coco_000000121506",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Umbrella",
+     "bbox_normalized": [
+      0.15281,
+      0.098186,
+      0.946062,
+      0.419542
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Bench",
+     "bbox_normalized": [
+      0.031324,
+      0.693725,
+      0.684559,
+      0.98232
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Table",
+     "bbox_normalized": [
+      0.040327,
+      0.701356,
+      0.673562,
+      0.967288
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.648954,
+      0.777712,
+      0.8925,
+      0.963562
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Bench",
+     "bbox_normalized": [
+      0.031454,
+      0.732582,
+      0.226961,
+      0.930343
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.031095,
+      0.738644,
+      0.32902,
+      0.943301
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_006_coco_000000026564",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.3955,
+      0.211502,
+      0.632125,
+      0.625704
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.337313,
+      0.629507,
+      0.641641,
+      0.766901
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.680922,
+      0.456174,
+      0.904953,
+      0.706526
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.866031,
+      0.563451,
+      0.953344,
+      0.830117
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Book",
+     "bbox_normalized": [
+      0.078984,
+      0.686761,
+      0.272453,
+      0.816338
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_007_coco_000000516916",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.141719,
+      0.412,
+      0.462094,
+      0.877604
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.705406,
+      0.455917,
+      0.998969,
+      0.819146
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Display",
+     "bbox_normalized": [
+      0.004437,
+      0.145771,
+      0.238625,
+      0.407042
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.577703,
+      0.190312,
+      0.844594,
+      0.503375
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Display",
+     "bbox_normalized": [
+      0.441875,
+      0.161104,
+      0.658578,
+      0.391354
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.227531,
+      0.175271,
+      0.401125,
+      0.386521
+     ]
+    },
+    {
+     "object_id": "6",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.347313,
+      0.418563,
+      0.604031,
+      0.561729
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_008_coco_000000370478",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Bed",
+     "bbox_normalized": [
+      0.0,
+      0.353354,
+      0.171531,
+      1.0
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Suitcase",
+     "bbox_normalized": [
+      0.598313,
+      0.325833,
+      0.805625,
+      0.835958
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Backpack",
+     "bbox_normalized": [
+      0.375563,
+      0.322479,
+      0.608,
+      0.739187
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.134828,
+      0.492125,
+      0.389328,
+      0.838208
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_009_coco_000000371677",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.175922,
+      0.164604,
+      0.54475,
+      0.483542
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.556297,
+      0.16425,
+      0.915813,
+      0.4845
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.0,
+      0.211333,
+      0.313078,
+      0.658583
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Cup",
+     "bbox_normalized": [
+      0.478016,
+      0.489438,
+      0.650984,
+      0.775479
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.546063,
+      0.689896,
+      0.771906,
+      0.849437
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.331328,
+      0.692979,
+      0.542594,
+      0.861208
+     ]
+    },
+    {
+     "object_id": "6",
+     "category": "Doll",
+     "bbox_normalized": [
+      0.456156,
+      0.0,
+      0.580703,
+      0.191729
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_010_coco_000000226171",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.384297,
+      0.01225,
+      0.92975,
+      0.508125
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.425516,
+      0.579896,
+      1.0,
+      0.80675
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.078328,
+      0.295438,
+      0.355609,
+      0.596937
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Cup",
+     "bbox_normalized": [
+      0.082594,
+      0.594292,
+      0.231672,
+      0.828562
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.3175,
+      0.319167,
+      0.396875,
+      0.677646
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_011_coco_000000091615",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.702859,
+      0.333012,
+      0.958469,
+      0.874729
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Microwave",
+     "bbox_normalized": [
+      0.740672,
+      0.086376,
+      0.974594,
+      0.287247
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Sink",
+     "bbox_normalized": [
+      0.123266,
+      0.565553,
+      0.365016,
+      0.763882
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Display",
+     "bbox_normalized": [
+      0.131312,
+      0.102682,
+      0.234281,
+      0.273482
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_012_coco_000000182202",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.242531,
+      0.0,
+      0.998781,
+      0.81587
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Table",
+     "bbox_normalized": [
+      0.0,
+      0.072727,
+      1.0,
+      0.984416
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Phone",
+     "bbox_normalized": [
+      0.090578,
+      0.267429,
+      0.520453,
+      0.874156
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.377484,
+      0.001714,
+      1.0,
+      0.23826
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_013_coco_000000435003",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.367453,
+      0.450867,
+      1.0,
+      0.988665
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.0,
+      0.44719,
+      0.380828,
+      0.840445
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Display",
+     "bbox_normalized": [
+      0.26825,
+      0.255667,
+      0.524125,
+      0.612365
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Display",
+     "bbox_normalized": [
+      0.522672,
+      0.300515,
+      0.664328,
+      0.578337
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.39325,
+      0.569719,
+      0.632141,
+      0.675457
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.086953,
+      0.630796,
+      0.314859,
+      0.772365
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_014_coco_000000442323",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.337812,
+      0.311979,
+      0.584187,
+      0.619833
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Bed",
+     "bbox_normalized": [
+      0.680906,
+      0.80225,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.692422,
+      0.452229,
+      0.927172,
+      0.780646
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Suitcase",
+     "bbox_normalized": [
+      0.001953,
+      0.672729,
+      0.0565,
+      0.987021
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_015_coco_000000301421",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.382047,
+      0.656604,
+      0.779641,
+      0.973044
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.439297,
+      0.126393,
+      0.674687,
+      0.423044
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.008609,
+      0.673115,
+      0.285531,
+      0.984941
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.876531,
+      0.457354,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.212547,
+      0.549321,
+      0.399313,
+      0.699649
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_016_coco_000000387098",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.370344,
+      0.050625,
+      0.732953,
+      0.383271
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.063406,
+      0.063583,
+      0.377313,
+      0.463583
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.428094,
+      0.350562,
+      0.768547,
+      0.757312
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.470219,
+      0.584417,
+      0.724719,
+      0.708021
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Cup",
+     "bbox_normalized": [
+      0.066391,
+      0.434292,
+      0.179891,
+      0.580146
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.345859,
+      0.363875,
+      0.414797,
+      0.648792
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_017_coco_000000246308",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.472354,
+      0.589578,
+      0.813146,
+      0.773438
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.227708,
+      0.638203,
+      0.500375,
+      0.838203
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.242688,
+      0.907859,
+      0.650187,
+      0.991016
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.058438,
+      0.880047,
+      0.227375,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_018_coco_000000195918",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.057672,
+      0.276519,
+      0.379,
+      0.646121
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.469641,
+      0.284743,
+      0.756641,
+      0.582477
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.0,
+      0.883995,
+      0.290625,
+      1.0
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.825922,
+      0.440818,
+      0.999266,
+      0.780514
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.154797,
+      0.68764,
+      0.419281,
+      0.791005
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_019_coco_000000472678",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.219672,
+      0.305917,
+      0.499484,
+      0.599479
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.477406,
+      0.319646,
+      0.748453,
+      0.605063
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Book",
+     "bbox_normalized": [
+      0.170094,
+      0.748,
+      0.548594,
+      0.860979
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.929031,
+      0.763437,
+      0.998391,
+      0.987104
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.235578,
+      0.693396,
+      0.483547,
+      0.74675
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_020_coco_000000189820",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.573922,
+      0.316136,
+      0.967063,
+      0.965597
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.132047,
+      0.798173,
+      0.429156,
+      0.98829
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Display",
+     "bbox_normalized": [
+      0.297687,
+      0.19192,
+      0.429328,
+      0.420632
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Book",
+     "bbox_normalized": [
+      0.031625,
+      0.594028,
+      0.229422,
+      0.739087
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Book",
+     "bbox_normalized": [
+      0.048188,
+      0.39185,
+      0.137313,
+      0.630632
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_021_coco_000000024610",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.104844,
+      0.591396,
+      0.345156,
+      1.0
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Backpack",
+     "bbox_normalized": [
+      0.812312,
+      0.629208,
+      0.951688,
+      0.841479
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Book",
+     "bbox_normalized": [
+      0.514797,
+      0.767083,
+      0.663391,
+      0.884187
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Book",
+     "bbox_normalized": [
+      0.511719,
+      0.668583,
+      0.663687,
+      0.753917
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.037922,
+      0.514229,
+      0.226766,
+      0.668438
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_022_coco_000000346638",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.510563,
+      0.0,
+      0.968313,
+      0.589083
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.200563,
+      0.633708,
+      0.736516,
+      0.905625
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.721875,
+      0.153021,
+      0.878859,
+      0.906833
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Mouse",
+     "bbox_normalized": [
+      0.133969,
+      0.808146,
+      0.430531,
+      0.976104
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_023_coco_000000385719",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.582422,
+      0.146057,
+      0.844063,
+      0.492138
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.18775,
+      0.214917,
+      0.395766,
+      0.496247
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.398547,
+      0.492114,
+      0.620781,
+      0.739857
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.072109,
+      0.666888,
+      0.378203,
+      0.740713
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.290125,
+      0.792494,
+      0.586078,
+      0.852019
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_024_coco_000000225757",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.25216,
+      0.131771,
+      0.5941,
+      0.496458
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.63866,
+      0.111335,
+      0.96252,
+      0.531962
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.1761,
+      0.634523,
+      0.54638,
+      0.818392
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.62986,
+      0.62951,
+      0.95056,
+      0.965095
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Display",
+     "bbox_normalized": [
+      0.0015,
+      0.164578,
+      0.15826,
+      0.474632
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_025_coco_000000555972",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Vase",
+     "bbox_normalized": [
+      0.20375,
+      0.456187,
+      0.549333,
+      1.0
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Table",
+     "bbox_normalized": [
+      0.522188,
+      0.693031,
+      1.0,
+      0.926234
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.54025,
+      0.893625,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_026_coco_000000159791",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Refrigerator",
+     "bbox_normalized": [
+      0.2196,
+      0.003387,
+      0.8277,
+      0.98312
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.00168,
+      0.784267,
+      0.24944,
+      1.0
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.0472,
+      0.656187,
+      0.24102,
+      0.941573
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.07402,
+      0.51688,
+      0.22012,
+      0.64416
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_027_coco_000000529568",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Table",
+     "bbox_normalized": [
+      0.0,
+      0.667109,
+      0.478875,
+      0.985812
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Sink",
+     "bbox_normalized": [
+      0.60525,
+      0.60225,
+      0.943812,
+      0.746063
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.272667,
+      0.620219,
+      0.485396,
+      0.833703
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_028_coco_000000203580",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Umbrella",
+     "bbox_normalized": [
+      0.493266,
+      0.132201,
+      0.902578,
+      0.329953
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Bench",
+     "bbox_normalized": [
+      0.521547,
+      0.51377,
+      0.861953,
+      0.762787
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Table",
+     "bbox_normalized": [
+      0.531031,
+      0.53096,
+      0.85875,
+      0.628407
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_029_coco_000000255165",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.559484,
+      0.495438,
+      0.773625,
+      0.755229
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.0,
+      0.597375,
+      0.2545,
+      0.889521
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Display",
+     "bbox_normalized": [
+      0.342141,
+      0.499021,
+      0.546063,
+      0.71925
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Display",
+     "bbox_normalized": [
+      0.297547,
+      0.139813,
+      0.432094,
+      0.324667
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.311125,
+      0.840521,
+      0.577562,
+      0.922417
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.338766,
+      0.784271,
+      0.579781,
+      0.849438
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_030_coco_000000001993",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Bed",
+     "bbox_normalized": [
+      0.404578,
+      0.465179,
+      0.960703,
+      0.988759
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Table",
+     "bbox_normalized": [
+      6.3e-05,
+      0.599308,
+      0.241297,
+      1.0
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.170656,
+      0.597757,
+      0.356031,
+      0.975274
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_031_coco_000000237928",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Refrigerator",
+     "bbox_normalized": [
+      0.626258,
+      0.137641,
+      0.947265,
+      0.832016
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.003457,
+      0.538594,
+      0.251794,
+      0.925281
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Microwave",
+     "bbox_normalized": [
+      0.168162,
+      0.372766,
+      0.446105,
+      0.487906
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_032_coco_000000547144",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.242156,
+      0.326458,
+      0.472531,
+      0.595521
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.042141,
+      0.467417,
+      0.239328,
+      0.748313
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Display",
+     "bbox_normalized": [
+      0.672906,
+      0.292583,
+      0.863484,
+      0.535937
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.246609,
+      0.579792,
+      0.518656,
+      0.724187
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.709734,
+      0.528188,
+      0.927859,
+      0.631083
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_033_coco_000000360951",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.205281,
+      0.074848,
+      0.585344,
+      0.480258
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.617703,
+      0.357307,
+      0.925062,
+      0.712365
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.175812,
+      0.718946,
+      0.509375,
+      0.855293
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.240813,
+      0.531194,
+      0.422563,
+      0.606511
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_034_coco_000000060449",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.088,
+      0.535344,
+      0.541854,
+      0.735859
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.757354,
+      0.796969,
+      0.998542,
+      1.0
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Table",
+     "bbox_normalized": [
+      0.0,
+      0.657594,
+      0.544583,
+      0.771328
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.000354,
+      0.815312,
+      0.086417,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_035_coco_000000437898",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.53225,
+      0.462927,
+      0.841109,
+      0.988759
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Refrigerator",
+     "bbox_normalized": [
+      0.365828,
+      0.285386,
+      0.610219,
+      0.887635
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Sink",
+     "bbox_normalized": [
+      0.00175,
+      0.578665,
+      0.192563,
+      0.729953
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_036_coco_000000038576",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.159041,
+      0.058797,
+      0.647443,
+      0.454141
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.095365,
+      0.589922,
+      0.978219,
+      0.804219
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Mouse",
+     "bbox_normalized": [
+      0.492534,
+      0.79775,
+      0.755228,
+      0.957297
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_037_coco_000000429598",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Refrigerator",
+     "bbox_normalized": [
+      0.0,
+      0.224104,
+      0.298984,
+      0.989875
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.51375,
+      0.380125,
+      0.76825,
+      0.66275
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Sink",
+     "bbox_normalized": [
+      0.772047,
+      0.601958,
+      1.0,
+      0.74925
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_038_coco_000000148620",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.44494,
+      0.164053,
+      0.85786,
+      0.52808
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.05394,
+      0.37528,
+      0.39438,
+      0.739333
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.44128,
+      0.60872,
+      0.84564,
+      0.749653
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_039_coco_000000513688",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Table",
+     "bbox_normalized": [
+      0.354547,
+      0.158437,
+      1.0,
+      0.981813
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.021906,
+      0.065167,
+      0.615172,
+      0.99775
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.587844,
+      0.176792,
+      0.9375,
+      0.532667
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_040_coco_000000372466",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.275594,
+      0.000222,
+      0.999156,
+      0.346972
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Mouse",
+     "bbox_normalized": [
+      0.032844,
+      0.322639,
+      0.482828,
+      0.606944
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.0,
+      0.2,
+      0.246484,
+      0.438194
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.540266,
+      0.135944,
+      0.849531,
+      0.284778
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_041_coco_000000051738",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Bed",
+     "bbox_normalized": [
+      0.21284,
+      0.313067,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.20738,
+      0.43272,
+      0.43454,
+      0.58552
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Suitcase",
+     "bbox_normalized": [
+      0.00318,
+      0.552133,
+      0.10772,
+      0.74896
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_042_coco_000000047769",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.76854,
+      0.629227,
+      0.97922,
+      0.982027
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.63174,
+      0.729493,
+      0.7743,
+      0.984347
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.44154,
+      0.70952,
+      0.57574,
+      0.944507
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Table",
+     "bbox_normalized": [
+      0.40178,
+      0.940187,
+      0.62584,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_043_coco_000000041872",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Bed",
+     "bbox_normalized": [
+      0.0015,
+      0.505235,
+      0.417328,
+      0.84007
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.512312,
+      0.599624,
+      0.675188,
+      0.865352
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Display",
+     "bbox_normalized": [
+      0.818187,
+      0.2073,
+      0.940844,
+      0.414038
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_044_coco_000000365387",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Bed",
+     "bbox_normalized": [
+      0.517453,
+      0.550659,
+      0.965906,
+      0.981812
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Toilet",
+     "bbox_normalized": [
+      0.189234,
+      0.525788,
+      0.431813,
+      0.906612
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Sink",
+     "bbox_normalized": [
+      0.424391,
+      0.265788,
+      0.582281,
+      0.504753
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_045_coco_000000178469",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.143359,
+      0.179438,
+      0.846609,
+      0.956464
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.206906,
+      0.653934,
+      0.776641,
+      0.806745
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Cup",
+     "bbox_normalized": [
+      0.140375,
+      0.322037,
+      0.223078,
+      0.621077
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Cup",
+     "bbox_normalized": [
+      0.720219,
+      0.381311,
+      0.848344,
+      0.598033
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_046_coco_000000549674",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Display",
+     "bbox_normalized": [
+      0.508766,
+      0.017937,
+      0.972687,
+      0.7035
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Display",
+     "bbox_normalized": [
+      0.053812,
+      0.065021,
+      0.492719,
+      0.560542
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.089703,
+      0.722896,
+      0.718969,
+      0.954229
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Cup",
+     "bbox_normalized": [
+      0.496109,
+      0.5495,
+      0.596125,
+      0.714313
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_047_coco_000000488075",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.647656,
+      0.523708,
+      0.937922,
+      0.937583
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.158703,
+      0.824646,
+      0.329516,
+      1.0
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Refrigerator",
+     "bbox_normalized": [
+      0.367719,
+      0.245188,
+      0.417844,
+      0.668104
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Bowl",
+     "bbox_normalized": [
+      0.783938,
+      0.888417,
+      0.965703,
+      0.999542
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.902391,
+      0.677479,
+      1.0,
+      0.925917
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_048_coco_000000419653",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Table",
+     "bbox_normalized": [
+      0.476469,
+      0.451771,
+      0.972359,
+      0.872938
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Bowl",
+     "bbox_normalized": [
+      0.317563,
+      0.811938,
+      0.574328,
+      0.996625
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Bowl",
+     "bbox_normalized": [
+      0.255656,
+      0.66875,
+      0.456234,
+      0.842458
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Display",
+     "bbox_normalized": [
+      0.862328,
+      0.024854,
+      1.0,
+      0.258208
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.001688,
+      0.085083,
+      0.075672,
+      0.405708
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.001688,
+      0.399104,
+      0.070625,
+      0.735417
+     ]
+    },
+    {
+     "object_id": "6",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.413406,
+      0.357437,
+      0.536266,
+      0.608313
+     ]
+    },
+    {
+     "object_id": "7",
+     "category": "Microwave",
+     "bbox_normalized": [
+      0.071156,
+      0.284396,
+      0.181922,
+      0.443833
+     ]
+    },
+    {
+     "object_id": "8",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.445109,
+      0.473521,
+      0.556734,
+      0.785562
+     ]
+    },
+    {
+     "object_id": "9",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.534094,
+      0.459062,
+      0.593844,
+      0.720958
+     ]
+    },
+    {
+     "object_id": "10",
+     "category": "Bottle",
+     "bbox_normalized": [
+      0.127375,
+      0.603708,
+      0.203156,
+      0.782604
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_049_coco_000000480122",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Table",
+     "bbox_normalized": [
+      0.009016,
+      0.573203,
+      0.957203,
+      0.987609
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Oven",
+     "bbox_normalized": [
+      0.002594,
+      0.425547,
+      0.228578,
+      0.809953
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.7455,
+      0.658781,
+      0.986484,
+      0.983109
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.577672,
+      0.779859,
+      0.7855,
+      1.0
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Refrigerator",
+     "bbox_normalized": [
+      0.389219,
+      0.410187,
+      0.526156,
+      0.610703
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.094375,
+      0.615734,
+      0.296625,
+      0.755062
+     ]
+    },
+    {
+     "object_id": "6",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.742266,
+      0.530156,
+      0.897938,
+      0.840016
+     ]
+    },
+    {
+     "object_id": "7",
+     "category": "Sink",
+     "bbox_normalized": [
+      0.184344,
+      0.423391,
+      0.373781,
+      0.525531
+     ]
+    },
+    {
+     "object_id": "8",
+     "category": "Bowl",
+     "bbox_normalized": [
+      0.407219,
+      0.635359,
+      0.581047,
+      0.739297
+     ]
+    }
+   ]
+  },
+  {
+   "scene_id": "scene_050_coco_000000248314",
+   "objects": [
+    {
+     "object_id": "0",
+     "category": "Laptop",
+     "bbox_normalized": [
+      0.0,
+      0.017229,
+      0.559438,
+      0.684646
+     ]
+    },
+    {
+     "object_id": "1",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.699437,
+      0.00225,
+      0.996063,
+      0.680896
+     ]
+    },
+    {
+     "object_id": "2",
+     "category": "Keyboard",
+     "bbox_normalized": [
+      0.183703,
+      0.265167,
+      0.488766,
+      0.59775
+     ]
+    },
+    {
+     "object_id": "3",
+     "category": "Chair",
+     "bbox_normalized": [
+      0.841141,
+      0.754771,
+      1.0,
+      0.999646
+     ]
+    },
+    {
+     "object_id": "4",
+     "category": "Bowl",
+     "bbox_normalized": [
+      0.35925,
+      0.620875,
+      0.522125,
+      0.797896
+     ]
+    },
+    {
+     "object_id": "5",
+     "category": "Mouse",
+     "bbox_normalized": [
+      0.350562,
+      0.80225,
+      0.528875,
+      0.966333
+     ]
+    }
+   ]
+  }
+ ]
+}
