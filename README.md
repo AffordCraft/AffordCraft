@@ -193,7 +193,7 @@ If you find AffordCraft useful, please cite:
 
 The asset library draws on [PartNet-Mobility](https://arxiv.org/abs/2003.08515) (SAPIEN), [Objaverse](https://objaverse.allenai.org/) (objects released under CC BY), [Google Scanned Objects](https://arxiv.org/abs/2204.11918) and the [YCB object set](https://arxiv.org/abs/1502.03143); the input photographs come from [Open Images](https://storage.googleapis.com/openimages/web/index.html) and [COCO](https://cocodataset.org/). The pipeline uses [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) for grounding, selection and object detection, [DINOv2](https://github.com/facebookresearch/dinov2) for retrieval ([CLIP](https://github.com/openai/CLIP) in the encoder-replacement study), [CoACD](https://github.com/SarahWeiii/CoACD) for convex decomposition, [OpenUSD](https://openusd.org/) for export, and [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim) for the physical gate and the manipulation studies, whose action heads build on frozen [OpenVLA-OFT](https://github.com/moojink/openvla-oft) features. We thank the authors of PhysX-Anything, PhysX-Omni, PAct, PartCrafter, TRELLIS.2, Articulate-Anything and GPT6-real2sim for releasing the code we compare against ([baselines/](baselines/README.md)).
 
-For questions, please open an issue or email the corresponding author, [Yongchao Chen](mailto:yongchaochen12@gmail.com).
+For questions, please open an issue or email the corresponding author, [Yongchao Chen](mailto:chenyongchao@mail.tsinghua.edu.cn).
 
 ## ⚖️ License
 
