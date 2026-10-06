@@ -32,7 +32,7 @@ abstract: >-
   and the part to operate, selects a matching entry from a library of articulated
   assets, and fits it to the image while keeping its parts and joints intact.
 preferred-citation:
-  type: generic
+  type: article
   title: "AffordCraft: Scalable Construction of Task-Ready Simulation Assets from Single Images"
   authors:
     - family-names: Yang
@@ -44,4 +44,6 @@ preferred-citation:
     - family-names: Chen
       given-names: Yongchao
   year: 2026
-  url: "https://affordcraft.github.io/"
+  journal: "arXiv preprint arXiv:2610.06643"
+  doi: "10.48550/arXiv.2610.06643"
+  url: "https://arxiv.org/abs/2610.06643"

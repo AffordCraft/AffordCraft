@@ -182,10 +182,13 @@ If you find AffordCraft useful, please cite:
 
 ```bibtex
 @misc{yang2026affordcraft,
-  title        = {AffordCraft: Scalable Construction of Task-Ready Simulation Assets from Single Images},
-  author       = {Yang, Haoyun and Zhou, Xueyang and Xie, Ziyi and Chen, Yongchao},
-  year         = {2026},
-  howpublished = {\url{https://affordcraft.github.io/}}
+  title         = {{AffordCraft}: Scalable Construction of Task-Ready Simulation Assets from Single Images},
+  author        = {Yang, Haoyun and Zhou, Xueyang and Xie, Ziyi and Chen, Yongchao},
+  year          = {2026},
+  eprint        = {2610.06643},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2610.06643}
 }
 ```
 
